@@ -11,8 +11,14 @@ Dedup strategy:
 Field precedence on merge (per docs_research/RACE_SOURCES_RESEARCH.md):
  - iRace wins for price / registration status / registration URL.
  - VBM / VnExpress win for distances / terrain.
- - Name/province/location/organizer prefer VBM, then VnExpress, then iRace.
+ - Name/province/location/organizer/imageUrl/description prefer VBM, then
+   VnExpress, then iRace (falling back to whichever source has a non-empty
+   value otherwise).
  - `sources` are the union of every contributing source's SourceRef.
+
+`raceStatus` is intentionally not merged here - it is pure "startDate vs.
+today" computation with no per-source opinion, so pipeline/main.py sets it on
+the final race list right before writing output.
 """
 from __future__ import annotations
 
@@ -117,6 +123,8 @@ def _merge_group(group: list[Race]) -> Race:
     location = _pick(group, _NAME_PRIORITY, "location")
     organizer = _pick(group, _NAME_PRIORITY, "organizer")
     image_url = _pick(group, _NAME_PRIORITY, "imageUrl")
+    description = _pick(group, _NAME_PRIORITY, "description")
+    results = _pick(group, _NAME_PRIORITY, "results")
 
     terrain = _pick(group, _DISTANCE_PRIORITY, "terrain")
     distances = _pick(group, _DISTANCE_PRIORITY, "distances")
@@ -151,6 +159,8 @@ def _merge_group(group: list[Race]) -> Race:
         organizer=organizer,
         registrationUrl=reg_url,
         imageUrl=image_url,
+        description=description,
+        results=results,
         sources=sources,
         firstSeenAt=first_seen,
         lastUpdatedAt=last_updated,

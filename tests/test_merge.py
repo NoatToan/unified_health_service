@@ -100,3 +100,29 @@ def test_merge_field_precedence_irace_price_vbm_distances():
 
 def test_merge_empty_input():
     assert merge([]) == []
+
+
+def test_merge_prefers_vbm_image_and_description_over_irace():
+    vbm_race = _race("Cà Mau Marathon", "2026-11-15", "vbm")
+    vbm_race = vbm_race.model_copy(
+        update={"imageUrl": "https://bestmarathon.vn/img.jpg", "description": "Mô tả từ VBM."}
+    )
+    irace_race = _race("Cà Mau Marathon", "2026-11-15", "irace")
+    irace_race = irace_race.model_copy(
+        update={"imageUrl": "https://ticket.irace.vn/img.png", "description": "Mô tả từ iRace."}
+    )
+
+    [merged] = merge([irace_race, vbm_race])
+
+    assert merged.imageUrl == "https://bestmarathon.vn/img.jpg"
+    assert merged.description == "Mô tả từ VBM."
+
+
+def test_merge_falls_back_to_any_source_when_priority_sources_lack_image():
+    irace_race = _race("Cà Mau Marathon", "2026-11-15", "irace")
+    irace_race = irace_race.model_copy(update={"imageUrl": "https://ticket.irace.vn/img.png"})
+    vnexpress_race = _race("Cà Mau Marathon", "2026-11-15", "vnexpress")  # no image
+
+    [merged] = merge([irace_race, vnexpress_race])
+
+    assert merged.imageUrl == "https://ticket.irace.vn/img.png"

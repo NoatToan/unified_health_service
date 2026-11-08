@@ -20,6 +20,10 @@ def test_scrape_irace_fixture_page1_only():
     assert nghe_an.priceFromVnd == 450_000
     assert nghe_an.registrationStatus == "open"
     assert nghe_an.registrationUrl == "https://ticket.irace.vn/nghe-an-legacy-marathon-2026"
+    # Listing-page card image is picked up directly - no extra request needed.
+    assert nghe_an.imageUrl == (
+        "https://w.irace.com.vn/m/o/photos/events/nghe-an-legacy-marathon-2026/6a4f6456ae3f4.png"
+    )
 
     closed = next(r for r in races if "Hai Phong Legacy" in r.name)
     assert closed.registrationStatus == "closed"

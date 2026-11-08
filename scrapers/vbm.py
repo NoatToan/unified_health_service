@@ -25,6 +25,7 @@ from scrapers.base import (
     make_id,
     now_iso,
     parse_dd_mm_yyyy,
+    truncate_text,
 )
 
 SOURCE_NAME = "vbm"
@@ -87,7 +88,25 @@ def _parse_article(article, seen_at: str) -> Race | None:
             continue
         distances.append(Distance(label=label, km=label_to_km(label)))
 
-    terrain = guess_terrain(name)
+    # Each row carries its own banner image (falls back to a generic SVG
+    # badge when the organizer hasn't supplied one yet - no <img> then), and a
+    # short one-line blurb, both already on the listing page - no need to
+    # fetch the detail page just for these.
+    banner_img = article.css_first(".banner img.banner-img")
+    image_url = (banner_img.attributes.get("src") or "").strip() or None if banner_img is not None else None
+
+    description = None
+    desc_p = article.css_first(".col-content p")
+    if desc_p is not None:
+        desc_text = " ".join(desc_p.text(strip=True).split())
+        if desc_text:
+            description = truncate_text(desc_text)
+
+    # VBM doesn't publish an explicit terrain field, so fall back to keyword
+    # detection - on the name first, then (since we already have it) the
+    # blurb, which often mentions "rừng"/"núi"/"jungle" for off-road races
+    # that the name alone wouldn't give away (e.g. "Cuc Phuong Jungle Paths").
+    terrain = guess_terrain(name, description=description)
 
     start_str = start.isoformat()
     return Race(
@@ -100,6 +119,8 @@ def _parse_article(article, seen_at: str) -> Race | None:
         distances=distances,
         organizer=organizer,
         registrationUrl=detail_url,
+        imageUrl=image_url,
+        description=description,
         sources=[SourceRef(name=SOURCE_NAME, url=detail_url or LISTING_URL, lastSeenAt=seen_at)],
         firstSeenAt=seen_at,
         lastUpdatedAt=seen_at,

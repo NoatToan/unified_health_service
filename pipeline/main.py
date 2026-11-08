@@ -16,14 +16,23 @@ from __future__ import annotations
 import copy
 import json
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from pydantic import ValidationError
 
 from pipeline.merge import merge
 from scrapers import finishers, irace, vbm, vnexpress
-from scrapers.base import PoliteClient, Race, now_iso
+from scrapers.base import (
+    PoliteClient,
+    Race,
+    compute_race_status,
+    extract_description,
+    extract_og_image,
+    is_probable_detail_url,
+    looks_like_trail,
+    now_iso,
+)
 
 SCHEMA_VERSION = 1
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -96,6 +105,78 @@ def run_scrapers(client: PoliteClient, previous: dict | None) -> tuple[list[Race
             )
 
     return all_races, source_reports
+
+
+def enrich_images_and_descriptions(client: PoliteClient, races: list[Race]) -> list[Race]:
+    """For races that still have no imageUrl or no description after merge
+    (i.e. no listing page already gave us one - see vnexpress/irace/vbm
+    scrapers), fetch the race's own detail page once - `registrationUrl`, or
+    else the first source URL that looks like a real race page rather than a
+    cart/checkout step - and fill in whatever's missing via
+    extract_og_image()/extract_description(). This is the one place that adds
+    an extra HTTP request per race; races that already have both fields from
+    their listing page are skipped entirely.
+
+    Best-effort: a failed/slow detail page just leaves the field as None, it
+    never fails the run (same philosophy as run_scrapers()).
+    """
+    enriched: list[Race] = []
+    for race in races:
+        if race.imageUrl and race.description:
+            enriched.append(race)
+            continue
+
+        detail_url = race.registrationUrl
+        if not is_probable_detail_url(detail_url):
+            detail_url = next(
+                (s.url for s in race.sources if is_probable_detail_url(s.url)), None
+            )
+        if not detail_url:
+            enriched.append(race)
+            continue
+
+        try:
+            html = client.get(detail_url).text
+        except Exception:  # noqa: BLE001 - one bad detail page must not fail the run
+            enriched.append(race)
+            continue
+
+        image_url = race.imageUrl or extract_og_image(html)
+        description = race.description or extract_description(html)
+        if image_url != race.imageUrl or description != race.description:
+            race = race.model_copy(update={"imageUrl": image_url, "description": description})
+        enriched.append(race)
+
+    return enriched
+
+
+def refine_terrain_from_description(races: list[Race]) -> list[Race]:
+    """A race's terrain is "road" either because a source said so explicitly
+    (VnExpress's label, Finishers' disciplines) or because nothing in the
+    scraper's own data hinted otherwise (iRace/VBM name-only guess). We can't
+    tell those two cases apart after merge, so this only ever upgrades the
+    generic default to "trail" when a description now mentions trail/jungle/
+    mountain keywords - it never downgrades a confident "road" call, and a
+    source's own explicit "Road" label would itself have to be wrong for this
+    to misfire, which is an acceptable, rare trade-off for catching cases like
+    an off-road race whose name alone didn't give it away.
+    """
+    refined = []
+    for race in races:
+        if race.terrain == "road" and race.description and looks_like_trail(race.description):
+            race = race.model_copy(update={"terrain": "trail"})
+        refined.append(race)
+    return refined
+
+
+def apply_race_status(races: list[Race], run_date: date) -> list[Race]:
+    """Stamp every race with "upcoming"/"past" based on startDate vs. the
+    crawl run's current date. Pure computation, recomputed every run.
+    """
+    return [
+        race.model_copy(update={"raceStatus": compute_race_status(race.startDate, run_date)})
+        for race in races
+    ]
 
 
 def _content_key(race: dict) -> dict:
@@ -174,25 +255,34 @@ def main() -> int:
     with PoliteClient() as client:
         raw_races, source_reports = run_scrapers(client, previous)
 
-    merged = merge(raw_races)
-    merged = reconcile_timestamps(merged, previous)
+        merged = merge(raw_races)
+        merged = reconcile_timestamps(merged, previous)
 
-    cutoff_date = (vn_now().date() - timedelta(days=1)).isoformat()
-    filtered = sorted(
-        (r for r in merged if r.startDate >= cutoff_date),
-        key=lambda r: (r.startDate, r.name),
-    )
-
-    new_count = len(filtered)
-    previous_count = len(previous.get("races", [])) if previous else 0
-
-    if exceeds_drop_threshold(previous_count, new_count):
-        print(
-            f"ERROR: race count dropped from {previous_count} to {new_count} "
-            f"(>{MAX_DROP_RATIO * 100:.0f}% drop) - refusing to overwrite latest.json",
-            file=sys.stderr,
+        cutoff_date = (vn_now().date() - timedelta(days=1)).isoformat()
+        filtered = sorted(
+            (r for r in merged if r.startDate >= cutoff_date),
+            key=lambda r: (r.startDate, r.name),
         )
-        return 1
+
+        new_count = len(filtered)
+        previous_count = len(previous.get("races", [])) if previous else 0
+
+        if exceeds_drop_threshold(previous_count, new_count):
+            print(
+                f"ERROR: race count dropped from {previous_count} to {new_count} "
+                f"(>{MAX_DROP_RATIO * 100:.0f}% drop) - refusing to overwrite latest.json",
+                file=sys.stderr,
+            )
+            return 1
+
+        # One extra request per race that didn't already get an image/
+        # description from its listing page (see enrich_images_and_descriptions
+        # docstring) - done last, inside the same politeness-aware client, and
+        # only for the races that are actually about to be published.
+        filtered = enrich_images_and_descriptions(client, filtered)
+
+    filtered = refine_terrain_from_description(filtered)
+    filtered = apply_race_status(filtered, vn_now().date())
 
     output = {
         "schemaVersion": SCHEMA_VERSION,

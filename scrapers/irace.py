@@ -88,6 +88,11 @@ def _parse_card(card, seen_at: str) -> Race | None:
 
     terrain = guess_terrain(name)
 
+    # The listing page already carries a banner image per card, so we use it
+    # directly instead of fetching the detail page just for the image.
+    img_node = card.css_first(".card-img-wrap img")
+    image_url = (img_node.attributes.get("src") or "").strip() or None if img_node is not None else None
+
     start_str = start.isoformat()
     return Race(
         id=make_id(name, start_str),
@@ -99,6 +104,7 @@ def _parse_card(card, seen_at: str) -> Race | None:
         priceFromVnd=price_vnd,
         registrationStatus=status,
         registrationUrl=detail_url,
+        imageUrl=image_url,
         sources=[SourceRef(name=SOURCE_NAME, url=detail_url, lastSeenAt=seen_at)],
         firstSeenAt=seen_at,
         lastUpdatedAt=seen_at,

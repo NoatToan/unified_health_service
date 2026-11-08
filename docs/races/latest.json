@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T14:33:23Z",
+  "generatedAt": "2026-11-08T15:50:56Z",
   "sources": [
     {
       "name": "vnexpress",
@@ -66,16 +66,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/hanoi-marathon",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/9163decd-c026-4d21-8bf6-886c388f13cd/fr/243c17803a",
+      "description": "Standard Chartered Hanoi Marathon Heritage Race 2026 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "past",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/hanoi-marathon",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "standard-chartered-marathon-di-san-ha-noi-2026-11-08",
@@ -90,16 +93,19 @@
       "registrationStatus": "closed",
       "organizer": null,
       "registrationUrl": "https://ticket.irace.vn/standard-chartered-marathon-di-san-ha-noi-2026",
-      "imageUrl": null,
+      "imageUrl": "https://w.irace.com.vn/m/o/photos/events/standard-chartered-marathon-di-san-ha-noi-2026/69a5103cb3a17.png",
+      "description": "Standard Chartered đã có lịch sử lâu đời trong việc tổ chức các giải chạy marathon danh giá trên toàn thế giới kể từ năm 1997. Thương hiệu Standard Chartered Marathon nổi tiếng khắp trên thế giới vì sự tôn vinh sức bền, sự đoàn kết và theo đuổi sự xuất sắc, duy trì các tiêu chuẩn cao của cuộc đua quốc tế.",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/standard-chartered-marathon-di-san-ha-noi-2026",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:16Z"
+      "lastUpdatedAt": "2026-11-08T15:49:31Z"
     },
     {
       "id": "hanoi-marathon-heritage-race-2026-11-08",
@@ -139,16 +145,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": null,
-      "imageUrl": null,
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/09/07/Heritagejpg-1788768361.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=S-eONmjQXLhESG70Cvmp2Q&t=image",
+      "description": "Thông tin mới nhất về thời gian, địa điểm, số lượng Runner… của tất cả các giải chạy Marathon diễn ra trong năm ở Việt Nam.",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vnexpress",
           "url": "https://vnexpress.net/the-thao/marathon/lich-giai-chay",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:16Z"
+      "lastUpdatedAt": "2026-11-08T15:49:31Z"
     },
     {
       "id": "lam-dong-trail-2026-11-08",
@@ -194,16 +203,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/lam-dong-trail",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/9ac1abc5-bcc5-42ca-af5a-9a6a7bf9230f/fr/35d4d47614",
+      "description": "Lâm Dông Trail 2026 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/lam-dong-trail",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "ca-mau-marathon-petrovietnam-2026-11-15",
@@ -249,26 +261,29 @@
       "registrationStatus": "closed",
       "organizer": null,
       "registrationUrl": "https://ticket.irace.vn/giai-marathon-ca-mau-2026",
-      "imageUrl": null,
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/09/07/Camaujpg-1788781997.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=gmJzLyKSr7s-EfWYVuR45g&t=image",
+      "description": "Giải dự kiến tổ chức ngày 15/11/2026 tại Cà Mau. Dải cự ly theo lịch giải: 2–42K — danh sách cự ly chính xác s",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vnexpress",
           "url": "https://vnexpress.net/the-thao/marathon/lich-giai-chay",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/giai-marathon-ca-mau-2026",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/ca-mau-marathon-cup-petrovietnam-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "ironman-70-3-phu-quoc-2026-11-15",
@@ -290,16 +305,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/ironman-70-3-phu-quoc",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/59cec53d-10bf-4841-ad7b-79d19ef1dc56/fr/f8f46f8eaa",
+      "description": "Ironman 70.3 Phu Quoc 2026 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/ironman-70-3-phu-quoc",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "quang-truc-half-marathon-2026-11-15",
@@ -340,15 +358,18 @@
       "organizer": null,
       "registrationUrl": "https://bestmarathon.vn/race-info/quang-truc-half-marathon-2026/",
       "imageUrl": null,
+      "description": "QUẢNG TRỰC HALF MARATHON 2026 — \"Nối nhịp biên cương\" — tổ chức ngày 15/11/2026 tại xã Quảng Trực, tỉnh Lâm Đồ",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/quang-truc-half-marathon-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "trang-an-marathon-2026-11-15",
@@ -388,26 +409,29 @@
       "registrationStatus": "closed",
       "organizer": "vu media jsc (vrace) + sở vhtt ninh bình",
       "registrationUrl": "https://ticket.irace.vn/trang-an-marathon-2026",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/TAM15.11.26.jpg",
+      "description": "Trang An Marathon 2026 chính thức trở lại với mùa giải thứ 6 với vị thế đặc biệt - giải chạy có quy mô lớn nhấ",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vnexpress",
           "url": "https://vnexpress.net/the-thao/marathon/lich-giai-chay",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/trang-an-marathon-2026",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/trang-an-marathon-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "tri-ton-cross-country-2026-11-15",
@@ -448,15 +472,18 @@
       "organizer": null,
       "registrationUrl": "https://bestmarathon.vn/race-info/tri-ton-cross-country-2026/",
       "imageUrl": null,
+      "description": "TRI TÔN CROSS COUNTRY 2026 tổ chức ngày 15/11/2026 tại Quảng trường đi bộ Tri Tôn, tỉnh An Giang. Giải mở bốn",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/tri-ton-cross-country-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "quoc-te-vi-da-lat-xanh-2026-11-22",
@@ -497,15 +524,18 @@
       "organizer": null,
       "registrationUrl": "https://bestmarathon.vn/race-info/giai-chay-quoc-te-vi-da-lat-xanh-2026/",
       "imageUrl": null,
+      "description": "GIẢI CHẠY QUỐC TẾ VÌ ĐÀ LẠT XANH 2026 — tên chính thức \"COOL RACE 1.5°C - DALAT 2026\" — tổ chức ngày 22/11/202",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/giai-chay-quoc-te-vi-da-lat-xanh-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "giai-marathon-quoc-te-di-san-ha-long-2026-11-22",
@@ -520,16 +550,19 @@
       "registrationStatus": "closed",
       "organizer": null,
       "registrationUrl": "https://ticket.irace.vn/giai-marathon-quoc-te-di-san-ha-long-2026",
-      "imageUrl": null,
+      "imageUrl": "https://w.irace.com.vn/m/o/photos/events/2026/01/12/event-giai-marathon-quoc-te-di-san-ha-long-2026-banner.jpeg",
+      "description": "Một trong những giải chạy đáng mơ ước nhất thế giới",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/giai-marathon-quoc-te-di-san-ha-long-2026",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:16Z"
+      "lastUpdatedAt": "2026-11-08T15:49:31Z"
     },
     {
       "id": "halong-bay-heritage-marathon-2026-11-22",
@@ -569,26 +602,29 @@
       "registrationStatus": "unknown",
       "organizer": "halong bay heritage marathon org.",
       "registrationUrl": "https://bestmarathon.vn/race-info/halong-bay-heritage-marathon-2026/",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/HBH.jpg",
+      "description": "Giải Marathon quốc tế Vịnh Hạ Long – được World Athletics trao nhãn hiệu Label Road Race, chạy qua di sản thiê",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vnexpress",
           "url": "https://vnexpress.net/the-thao/marathon/lich-giai-chay",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/halong-bay-heritage-marathon-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         },
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/halong-bay-heritage-marathon",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "ultra-trail-cao-bang-2026-11-29",
@@ -640,21 +676,24 @@
       "registrationStatus": "closed",
       "organizer": "race jungle (đường đua mới jsc)",
       "registrationUrl": "https://ticket.irace.vn/ultra-trail-cao-bang-2026",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/UTC.jpg",
+      "description": "Giải Ultra Trail lần thứ 5 tại Cao Bằng – chạy qua rừng sâu mùa thu với lá vàng rực rỡ và thác Bản Giốc",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/ultra-trail-cao-bang-2026",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/ultra-trail-cao-bang-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "vnexpress-marathon-hanoi-midnight-2026-11-29",
@@ -694,26 +733,29 @@
       "registrationStatus": "open",
       "organizer": null,
       "registrationUrl": "https://ticket.irace.vn/vnexpress-marathon-hanoi-midnight-2026",
-      "imageUrl": null,
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/09/07/KVHaNoijpg-1788756727.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=Fm5B_cytqxlCnV9hBNguQg&t=image",
+      "description": "Giải dự kiến tổ chức ngày 29/11/2026 tại Hà Nội. Dải cự ly theo lịch giải: 5–42K — danh sách cự ly chính xác s",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vnexpress",
           "url": "https://vnexpress.net/the-thao/marathon/lich-giai-chay",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/vnexpress-marathon-hanoi-midnight-2026",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/vnexpress-marathon-hanoi-midnight-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "vung-tau-city-trail-2026-11-29",
@@ -747,21 +789,24 @@
       "registrationStatus": "open",
       "organizer": "vietnam mtb series",
       "registrationUrl": "https://ticket.irace.vn/vung-tau-city-trail-2026",
-      "imageUrl": null,
+      "imageUrl": "https://w.irace.com.vn/m/o/photos/events/vung-tau-city-trail-2026/6aaa1ee35df02.png",
+      "description": "VUNG TAU CITY TRAIL 2026 — \"Run with Giants\" — tổ chức ngày 29/11/2026 tại thành phố Vũng Tàu, xuất phát và về",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/vung-tau-city-trail-2026",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/vung-tau-city-trail-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "yen-tu-heritage-marathon-2026-11-29",
@@ -807,16 +852,19 @@
       "registrationStatus": "unknown",
       "organizer": "great race solution + hội nhà báo quảng ninh",
       "registrationUrl": "https://bestmarathon.vn/race-info/yen-tu-heritage-marathon-2026/",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/YTHM29.11.26.jpg",
+      "description": "Giải chạy bộ kết hợp du lịch di sản tại Yên Tử, Quảng Ninh – khám phá khu di tích Phật giáo nghìn năm tuổi",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/yen-tu-heritage-marathon-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "dong-nai-marathon-truong-tuoi-group-2026-11-29",
@@ -862,21 +910,24 @@
       "registrationStatus": "closed",
       "organizer": "báo & ptth đồng nai + tập đoàn trường tươi",
       "registrationUrl": "https://ticket.irace.vn/dong-nai-marathon-truong-tuoi-group-cup-bao-va-phat-thanh-truyen-hinh-dong-nai",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/DNMTTG29.11.26.jpg",
+      "description": "Giải đấu của Báo và Phát thanh, Truyền hình Đồng Nai.",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/dong-nai-marathon-truong-tuoi-group-cup-bao-va-phat-thanh-truyen-hinh-dong-nai",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/dong-nai-marathon-truong-tuoi-group-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "nghe-an-legacy-marathon-2026-12-06",
@@ -916,21 +967,24 @@
       "registrationStatus": "open",
       "organizer": "legacy marathon (zaha vietnam)",
       "registrationUrl": "https://ticket.irace.vn/nghe-an-legacy-marathon-2026",
-      "imageUrl": null,
+      "imageUrl": "https://w.irace.com.vn/m/o/photos/events/nghe-an-legacy-marathon-2026/6a4f6456ae3f4.png",
+      "description": "NGHỆ AN LEGACY MARATHON 2026 tổ chức ngày 06/12/2026 tại Quảng trường Bình Minh, Cửa Lò, Nghệ An. Giải mở bốn",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/nghe-an-legacy-marathon-2026",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/nghe-an-legacy-marathon-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "techcombank-hcmc-international-marathon-2026-12-06",
@@ -970,21 +1024,24 @@
       "registrationStatus": "unknown",
       "organizer": "sunrise events vietnam (pulse active)",
       "registrationUrl": "https://bestmarathon.vn/race-info/techcombank-hcmc-international-marathon-2026/",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/TCB.jpg",
+      "description": "Thông tin chi tiết giải chạy TECHCOMBANK HCMC INTERNATIONAL MARATHON, ngày 06/12/2026, HỒ CHÍ MINH, cự ly 5KM, 10KM, 21KM, 42KM. Đăng ký, kết quả, fanpage và",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vnexpress",
           "url": "https://vnexpress.net/the-thao/marathon/lich-giai-chay",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/techcombank-hcmc-international-marathon-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "thanh-hoa-marathon-2026-12-06",
@@ -1025,15 +1082,18 @@
       "organizer": null,
       "registrationUrl": "https://bestmarathon.vn/race-info/thanh-hoa-marathon-2026/",
       "imageUrl": null,
+      "description": "Giải dự kiến tổ chức ngày 06/12/2026 tại Thanh Hoá. Dải cự ly theo lịch giải: 5–42K — danh sách cự ly chính xá",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/thanh-hoa-marathon-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "dinh-lap-eco-trail-2026-12-06",
@@ -1067,16 +1127,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://bestmarathon.vn/race-info/dinh-lap-eco-trail-2026/",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/DLE.jpg",
+      "description": "[Cần xác nhận] Giải chạy địa hình tại Đình Lập, Lạng Sơn.",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/dinh-lap-eco-trail-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "nha-trang-night-run-2026-12-12",
@@ -1111,15 +1174,18 @@
       "organizer": null,
       "registrationUrl": "https://bestmarathon.vn/race-info/nha-trang-night-run-2026/",
       "imageUrl": null,
+      "description": "NHA TRANG NIGHT RUN 2026 — tên đầy đủ \"Nha Trang Night Run Sanest, Sanvinest – BKH 2026\" — tổ chức tối 12/12/2",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/nha-trang-night-run-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "prenn-trail-summit-2026-12-13",
@@ -1177,16 +1243,19 @@
       "registrationStatus": "unknown",
       "organizer": "unique events & media (urs) + sở vhttdl lâm đồng",
       "registrationUrl": "https://bestmarathon.vn/race-info/prenn-trail-summit-2026/",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/PTS.jpg",
+      "description": "Thông tin chi tiết giải chạy PRENN TRAIL SUMMIT, ngày 13/12/2026, ĐÀ LẠT, LÂM ĐỒNG, cự ly 3KM, 10KM, 25KM, 55KM, 103KM, 187KM, 250KM. Đăng ký, kết quả, fanpag",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/prenn-trail-summit-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "can-tho-heritage-marathon-2026-12-20",
@@ -1226,21 +1295,24 @@
       "registrationStatus": "unknown",
       "organizer": "dha vietnam",
       "registrationUrl": "https://bestmarathon.vn/race-info/can-tho-heritage-marathon-2026/",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/CTH.jpg",
+      "description": "[Ngày tạm - chờ công bố] Marathon di sản tại Cần Thơ.",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/can-tho-heritage-marathon-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         },
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/can-tho-marathon",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "vnexpress-marathon-hai-phong-2026-12-20",
@@ -1280,16 +1352,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/vnexpress-marathon-hai-phong",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/d661973c-8fed-41db-88f4-b53540c7282c/fr/5b624d7173",
+      "description": "VnExpress Marathon Hai Phong 2026 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/vnexpress-marathon-hai-phong",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "cuc-phuong-jungle-paths-2026-12-27",
@@ -1298,7 +1373,7 @@
       "endDate": null,
       "province": "Ninh Bình",
       "location": "Ninh Bình",
-      "terrain": "road",
+      "terrain": "trail",
       "distances": [
         {
           "label": "10km",
@@ -1335,16 +1410,19 @@
       "registrationStatus": "unknown",
       "organizer": "race jungle (new race jsc)",
       "registrationUrl": "https://bestmarathon.vn/race-info/cuc-phuong-jungle-paths-2026/",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/CPJ.jpg",
+      "description": "Thông tin chi tiết giải chạy CUC PHUONG JUNGLE PATHS, ngày 27/12/2026, Ninh Bình, cự ly 10KM, 25KM, 42KM, 75KM, 100KM. Đăng ký, kết quả, fanpage và link liên",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/cuc-phuong-jungle-paths-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "eco-trail-dinh-lap-2026-12-27",
@@ -1378,16 +1456,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/dinh-lap-eco-trail",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/0871e905-b059-4a2b-bc6f-c7fdc61f8e76/fr/38a7e311bf",
+      "description": "Éco-Trail Dinh Lap 2026 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/dinh-lap-eco-trail",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "son-tra-city-trail-2026-12-27",
@@ -1427,21 +1508,24 @@
       "registrationStatus": "open",
       "organizer": null,
       "registrationUrl": "https://ticket.irace.vn/son-tra-city-trail-2026",
-      "imageUrl": null,
+      "imageUrl": "https://w.irace.com.vn/m/o/photos/events/son-tra-city-trail-2026/6a8f9d1362f84.png",
+      "description": "SƠN TRÀ CITY TRAIL 2026 tổ chức ngày 27/12/2026 trên bán đảo Sơn Trà, Đà Nẵng. Giải mở bốn cự ly: 5km, 10km, 2",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/son-tra-city-trail-2026",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/son-tra-city-trail-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "vnexpress-marathon-hai-phong-2026-12-27",
@@ -1481,26 +1565,29 @@
       "registrationStatus": "open",
       "organizer": null,
       "registrationUrl": "https://ticket.irace.vn/vnexpress-marathon-hai-phong-2026",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/VM.jpg",
+      "description": "VNEXPRESS MARATHON HAI PHONG 2026 - GIẢI ĐẤU CỦA NHỮNG PR!",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vnexpress",
           "url": "https://vnexpress.net/the-thao/marathon/lich-giai-chay",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/vnexpress-marathon-hai-phong-2026",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/vnexpress-marathon-hai-phong-2026/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "bac-ninh-legacy-marathon-2027-01-10",
@@ -1540,21 +1627,24 @@
       "registrationStatus": "open",
       "organizer": "legacy marathon (zaha vietnam)",
       "registrationUrl": "https://ticket.irace.vn/bac-ninh-legacy-marathon-2027",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/BNL.jpg",
+      "description": "BẮC NINH LEGACY MARATHON 2027 tổ chức ngày 10/01/2027 tại Quảng trường Trung tâm Văn hóa Kinh Bắc, Bắc Ninh, x",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/bac-ninh-legacy-marathon-2027",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         },
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/bac-ninh-legacy-marathon-2027/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "ho-chi-minh-city-marathon-2027-01-10",
@@ -1588,16 +1678,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/ho-chi-minh-city-marathon",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/710a0691-b817-4e42-88ee-18e492edc47e/fr/7864ae0974",
+      "description": "Marathon de Ho Chi Minh City 2027 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/ho-chi-minh-city-marathon",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "vietnam-highlands-trail-by-utmb-2027-01-10",
@@ -1644,15 +1737,18 @@
       "organizer": "nexus sport events",
       "registrationUrl": "https://bestmarathon.vn/race-info/vietnam-highlands-trail-by-utmb-2027/",
       "imageUrl": null,
+      "description": "VIETNAM HIGHLANDS TRAIL BY UTMB 2027 diễn ra 08–10/01/2027 tại Đà Lạt, Lâm Đồng — lần đầu tiên Việt Nam đăng c",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/vietnam-highlands-trail-by-utmb-2027/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "vietnam-trail-marathon-2027-01-16",
@@ -1699,15 +1795,18 @@
       "organizer": null,
       "registrationUrl": "https://bestmarathon.vn/race-info/vietnam-trail-marathon-2027/",
       "imageUrl": null,
+      "description": "Giải dự kiến tổ chức ngày 16/01/2027 tại Mộc Châu, Sơn La. Dải cự ly theo lịch giải: 5–70K — danh sách cự ly c",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/vietnam-trail-marathon-2027/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "hcmc-marathon-2027-01-17",
@@ -1754,15 +1853,18 @@
       "organizer": null,
       "registrationUrl": "https://bestmarathon.vn/race-info/hcmc-marathon-2027/",
       "imageUrl": null,
+      "description": "HCMC MARATHON 2027 tổ chức ngày 17/01/2027, xuất phát và về đích tại Công viên 30/4, đường Lê Duẩn, phường Sài",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/hcmc-marathon-2027/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "dat-thep-city-trail-2027-01-24",
@@ -1803,15 +1905,18 @@
       "organizer": "vietnam mtb series",
       "registrationUrl": "https://bestmarathon.vn/race-info/dat-thep-city-trail-2027/",
       "imageUrl": null,
+      "description": "ĐẤT THÉP CITY TRAIL 2027 tổ chức ngày 24/01/2027 tại Địa đạo Củ Chi, phường Tân An Hội, TP Hồ Chí Minh, xuất p",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/dat-thep-city-trail-2027/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "vietnam-trail-marathon-2027-01-30",
@@ -1857,16 +1962,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/vietnam-trail-marathon",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/077672f4-84dd-4c55-911c-d8c139e1987d/fr/4695a9a43a",
+      "description": "Vietnam Trail Marathon 2027 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/vietnam-trail-marathon",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "bac-son-marathon-na-nhem-festival-2027-02-21",
@@ -1906,16 +2014,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://bestmarathon.vn/race-info/bac-son-marathon-na-nhem-festival-2027/",
-      "imageUrl": null,
+      "imageUrl": "https://anh.bestmarathon.vn/raceLogo/BSM.jpg",
+      "description": "🏃‍♂️ BẮC SƠN MARATHON 2027 – Chạy giữa lễ hội Ná Nhèm. Giải chạy không chỉ là thử thách thể lực mà còn là h",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/bac-son-marathon-na-nhem-festival-2027/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "mang-den-lala-trail-2027-03-07",
@@ -1930,16 +2041,19 @@
       "registrationStatus": "open",
       "organizer": null,
       "registrationUrl": "https://ticket.irace.vn/mang-den-lala-trail-2027",
-      "imageUrl": null,
+      "imageUrl": "https://w.irace.com.vn/m/o/photos/events/mang-den-lala-trail-2027/6ab5e24b8bf2c.jpeg",
+      "description": "Ở Măng Đen Lala Trail 2027, chúng mình mong bạn không chỉ mải miết đếm những dặm đường. Lần này, hãy thử thả chậm bước chân và cảm nhận một hành trình vươn mình như cây lá. Đi từ tầng đất thấp hiền hòa, chạm vào thảm rêu xanh, ngước lên tán lá mờ sương và hít một hơi thật sâu ngắm nhìn bầu trời tự do.",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/mang-den-lala-trail-2027",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:16Z"
+      "lastUpdatedAt": "2026-11-08T15:49:31Z"
     },
     {
       "id": "vietnam-ultra-marathon-2027-03-13",
@@ -1985,16 +2099,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/vietnam-ultra-marathon",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/554a236c-21cf-4bc0-b82e-90262ef0fc88/fr/966bdc490e",
+      "description": "Vietnam Ultra Marathon 2027 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/vietnam-ultra-marathon",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "da-nang-international-marathon-2027-03-21",
@@ -2028,16 +2145,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/da-nang-international-marathon",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/7377e799-315f-44da-ab7e-b1e4627584de/fr/6cf7aa1012",
+      "description": "Danang International Marathon 2027 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/da-nang-international-marathon",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "giai-sieu-marathon-dia-hinh-dalat-ultra-trail-2027-03-21",
@@ -2052,16 +2172,19 @@
       "registrationStatus": "open",
       "organizer": null,
       "registrationUrl": "https://ticket.irace.vn/dalat-ultra-trail-2027",
-      "imageUrl": null,
+      "imageUrl": "https://w.irace.com.vn/m/giai-sieu-marathon-dia-hinh-dalat-ultra-trail-2027/banner-23-10-2000x1046---dalat-ultra-trail-02.jpg",
+      "description": "Khởi nguồn từ hành trình \"It is U\" mang dấu ấn của riêng bạn, giờ đây tất cả đã đan kết thành một khối gắn bó không thể tách rời.",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "irace",
           "url": "https://ticket.irace.vn/dalat-ultra-trail-2027",
-          "lastSeenAt": "2026-11-08T14:32:59Z"
+          "lastSeenAt": "2026-11-08T15:49:31Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:16Z",
-      "lastUpdatedAt": "2026-11-08T14:32:16Z"
+      "lastUpdatedAt": "2026-11-08T15:49:31Z"
     },
     {
       "id": "tien-phong-marathon-vo-dich-quoc-gia-2027-03-21",
@@ -2102,15 +2225,18 @@
       "organizer": null,
       "registrationUrl": "https://bestmarathon.vn/race-info/tien-phong-marathon-vo-dich-quoc-gia-2027/",
       "imageUrl": null,
+      "description": "Giải dự kiến tổ chức ngày 21/03/2027 tại Bắc Ninh. Dải cự ly theo lịch giải: 5–42K — danh sách cự ly chính xác",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "vbm",
           "url": "https://bestmarathon.vn/race-info/tien-phong-marathon-vo-dich-quoc-gia-2027/",
-          "lastSeenAt": "2026-11-08T14:33:22Z"
+          "lastSeenAt": "2026-11-08T15:49:54Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:54Z"
     },
     {
       "id": "raid-vietnam-2027-04-18",
@@ -2132,16 +2258,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/raid-vietnam",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/e0cfb939-98bd-4d30-a627-240be42b28e6/fr/ad009b3950",
+      "description": "Raid Vietnam 2027 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/raid-vietnam",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "vnexpress-marathon-quy-nhon-2027-04-18",
@@ -2181,16 +2310,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/vnexpress-marathon-quy-nhon",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/5ff885ee-6167-4039-9f2c-bdcf26889cd8/fr/ab9ab1e5c9",
+      "description": "VnExpress Marathon Quy Nhon 2027 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/vnexpress-marathon-quy-nhon",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "ironman-70-3-vietnam-2027-05-09",
@@ -2212,16 +2344,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/ironman-70-3-vietnam",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/0934ad38-a4d4-419c-94c6-01a1f239cb47/fr/b02aa4275e",
+      "description": "Ironman 70.3 du Vietnam 2027 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/ironman-70-3-vietnam",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "vietnam-mountain-marathon-2027-09-17",
@@ -2273,16 +2408,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/vietnam-mountain-marathon",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/474f531a-fcf8-404d-9478-932277f9f529/fr/ffb4eef166",
+      "description": "Vietnam Mountain Marathon 2027 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/vietnam-mountain-marathon",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "techcombank-hanoi-international-marathon-2027-10-03",
@@ -2322,16 +2460,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/techcombank-hanoi-international-marathon",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/43238ccc-8536-4a70-862b-de7cbcb83453/fr/c6af730348",
+      "description": "Techcombank Hanoi International Marathon 2027 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/techcombank-hanoi-international-marathon",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "vietnam-airlines-run-for-love-2027-10-09",
@@ -2365,16 +2506,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/run-for-love",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/bb9cd3bc-4ecc-43fe-9ea2-7035837c35dc/fr/08958df968",
+      "description": "Vietnam Airlines - Run For Love 2027 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/run-for-love",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "dat-sen-hong-marathon-2027-10-11",
@@ -2414,16 +2558,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/dat-sen-hong-marathon",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/7b04e2e1-dfd9-4cf8-b023-6dfdab4ea43c/fr/cfcc2b064e",
+      "description": "Dat Sen Hong Marathon 2027 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/dat-sen-hong-marathon",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     },
     {
       "id": "vietnam-jungle-marathon-2027-10-16",
@@ -2463,16 +2610,19 @@
       "registrationStatus": "unknown",
       "organizer": null,
       "registrationUrl": "https://www.finishers.com/event/vietnam-jungle-marathon",
-      "imageUrl": null,
+      "imageUrl": "https://www.finishers.com/og/v4/events/4eea78f1-4c74-463b-a914-73575faf9df1/fr/c6aebc9bd2",
+      "description": "Vietnam Jungle Marathon 2027 : retrouve ici toutes les informations pratiques de la course : histoire, parcours, inscription, dossards, résultats !",
+      "raceStatus": "upcoming",
+      "results": null,
       "sources": [
         {
           "name": "finishers",
           "url": "https://www.finishers.com/event/vietnam-jungle-marathon",
-          "lastSeenAt": "2026-11-08T14:33:23Z"
+          "lastSeenAt": "2026-11-08T15:49:55Z"
         }
       ],
       "firstSeenAt": "2026-11-08T14:32:40Z",
-      "lastUpdatedAt": "2026-11-08T14:32:40Z"
+      "lastUpdatedAt": "2026-11-08T15:49:55Z"
     }
   ]
 }

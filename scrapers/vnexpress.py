@@ -84,6 +84,11 @@ def _parse_item(item, year: int, seen_at: str) -> Race | None:
             continue
         distances.append(Distance(label=label, km=label_to_km(label)))
 
+    # The listing page already carries a banner thumbnail per item, so we use
+    # it directly instead of fetching a detail page just for the image.
+    thumb_img = item.css_first(".thumb-art img")
+    image_url = (thumb_img.attributes.get("src") or "").strip() or None if thumb_img is not None else None
+
     start_str = start.isoformat()
     return Race(
         id=make_id(name, start_str),
@@ -93,6 +98,7 @@ def _parse_item(item, year: int, seen_at: str) -> Race | None:
         location=province,
         terrain=terrain,
         distances=distances,
+        imageUrl=image_url,
         sources=[SourceRef(name=SOURCE_NAME, url=LISTING_URL, lastSeenAt=seen_at)],
         firstSeenAt=seen_at,
         lastUpdatedAt=seen_at,
