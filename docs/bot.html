@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UnifiedHealthRaceBot — crawler info</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+    line-height: 1.55;
+  }
+  code { background: rgba(127,127,127,0.15); border-radius: 6px; padding: 0.15rem 0.4rem; }
+  ul { padding-left: 1.3rem; }
+</style>
+</head>
+<body>
+  <h1>UnifiedHealthRaceBot</h1>
+  <p>
+    This page is the contact/identification target referenced by this crawler's
+    User-Agent string:
+  </p>
+  <p><code>UnifiedHealthRaceBot/1.0 (+https://noattoan.github.io/unified_health_service/bot.html)</code></p>
+
+  <h2>What this bot does</h2>
+  <ul>
+    <li>Runs once a day (around 03:00 Vietnam time) via a scheduled GitHub Actions job.</li>
+    <li>Checks and obeys each site's <code>robots.txt</code> before fetching anything.</li>
+    <li>Fetches a small, fixed set of public race-calendar pages (currently: VnExpress's
+      "Lịch giải chạy", the iRace ticket portal's marathon category, Vietnam's Best
+      Marathons' race-info page, and Finishers.com's Vietnam destination page).</li>
+    <li>Sends one request at a time per site, with a multi-second delay between requests,
+      and retries at most once on server errors.</li>
+    <li>Extracts only factual race data: name, date, location, distances, price, and a
+      registration link — never images, articles, or personal data.</li>
+    <li>Never logs in, never touches checkout/registration/payment endpoints, and never
+      bypasses CAPTCHAs or anti-bot protections.</li>
+    <li>Publishes the result as a public JSON file at
+      <code>/races/latest.json</code> in this repository, for a companion running/health
+      app to display a merged race calendar.</li>
+  </ul>
+
+  <h2>Source code</h2>
+  <p>
+    This crawler is fully open about what it does — see
+    <a href="https://github.com/NoatToan/unified_health_service">github.com/NoatToan/unified_health_service</a>
+    for the scraper source code, the data schema, and the GitHub Actions workflow
+    that runs it.
+  </p>
+
+  <h2>Opt out / contact</h2>
+  <p>
+    If you maintain one of the sites this bot visits and would like it to stop,
+    or crawl less frequently, please open an issue on the GitHub repository above,
+    or add a <code>Disallow</code> rule for <code>UnifiedHealthRaceBot</code> in your
+    <code>robots.txt</code> — it is checked and honored before every run.
+  </p>
+</body>
+</html>

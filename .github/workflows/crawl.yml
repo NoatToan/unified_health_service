@@ -1,0 +1,36 @@
+name: Crawl race sources
+
+on:
+  schedule:
+    - cron: "0 20 * * *" # 03:00 Vietnam time (UTC+7)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - run: python -m pipeline.main
+
+      - name: Commit and push docs/ if changed
+        run: |
+          git config user.name "race-bot"
+          git config user.email "race-bot@users.noreply.github.com"
+          git add docs/
+          git diff --cached --quiet || (git commit -m "races: $(date -u +%F)" && git push)
