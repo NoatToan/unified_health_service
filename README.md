@@ -115,7 +115,13 @@ catches cases like iRace appending "Powered by PUMA" to a name VnExpress/VBM rep
 more plainly. When the same race comes from multiple sources, fields are merged with
 fixed precedence:
 
-- **iRace** wins for `priceFromVnd`, `registrationStatus`, `registrationUrl`.
+- **`priceFromVnd`** is `min(distances[].priceVnd)` across the merged race's own distances
+  (skipping `null`/`0`), computed *after* merging - not copied from whichever single source
+  happened to advertise a "from" price, since that source isn't necessarily the one that ends
+  up winning `distances`. Only falls back to **iRace**'s advertised price when no distance
+  has a price at all (true for every scraper today - none publish a per-distance breakdown
+  yet, so this is a no-op in practice until one does).
+- **iRace** wins for `registrationStatus`, `registrationUrl`.
 - **VBM** / **VnExpress** win for `distances`, `terrain`, `imageUrl` and `description`
   (falling back to whichever source has a non-empty value when neither has one).
 - `sources[]` is the union of every contributing source.

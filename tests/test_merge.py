@@ -126,3 +126,58 @@ def test_merge_falls_back_to_any_source_when_priority_sources_lack_image():
     [merged] = merge([irace_race, vnexpress_race])
 
     assert merged.imageUrl == "https://ticket.irace.vn/img.png"
+
+
+# --------------------------------------------------------------------------- #
+# priceFromVnd = min(distances[].priceVnd), not whichever source advertised it
+# --------------------------------------------------------------------------- #
+
+def test_merge_price_from_vnd_is_min_of_distance_prices_when_available():
+    irace_race = _race("Cà Mau Marathon", "2026-11-15", "irace", price=450_000, status="open")
+    vbm_race = _race(
+        "Cà Mau Marathon",
+        "2026-11-15",
+        "vbm",
+        distances=[
+            Distance(label="5km", km=5.0, priceVnd=300_000),
+            Distance(label="42km", km=42.195, priceVnd=500_000),
+        ],
+    )
+
+    [merged] = merge([irace_race, vbm_race])
+
+    # VBM wins `distances`, and its cheapest package (300_000) undercuts
+    # iRace's advertised "from" price (450_000) - the computed min must win,
+    # not the now-stale advertised figure.
+    assert merged.priceFromVnd == 300_000
+
+
+def test_merge_price_from_vnd_skips_null_and_zero_distance_prices():
+    vbm_race = _race(
+        "Cà Mau Marathon",
+        "2026-11-15",
+        "vbm",
+        distances=[
+            Distance(label="5km", km=5.0, priceVnd=None),
+            Distance(label="10km", km=10.0, priceVnd=0),
+            Distance(label="42km", km=42.195, priceVnd=500_000),
+        ],
+    )
+
+    [merged] = merge([vbm_race])
+
+    assert merged.priceFromVnd == 500_000
+
+
+def test_merge_price_from_vnd_falls_back_to_advertised_price_when_no_distance_has_one():
+    irace_race = _race("Cà Mau Marathon", "2026-11-15", "irace", price=450_000, status="open")
+    vbm_race = _race(
+        "Cà Mau Marathon",
+        "2026-11-15",
+        "vbm",
+        distances=[Distance(label="42km", km=42.195)],  # no priceVnd (today's reality)
+    )
+
+    [merged] = merge([irace_race, vbm_race])
+
+    assert merged.priceFromVnd == 450_000

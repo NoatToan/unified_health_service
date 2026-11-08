@@ -9,7 +9,15 @@ Dedup strategy:
     VnExpress/VBM report cleanly).
 
 Field precedence on merge (per docs_research/RACE_SOURCES_RESEARCH.md):
- - iRace wins for price / registration status / registration URL.
+ - `priceFromVnd` is the min of the merged race's `distances[].priceVnd`
+   (skipping null/0 entries) whenever at least one distance carries a price;
+   only when none do (the case for every current scraper - none of them
+   publish a per-distance price breakdown yet) does it fall back to iRace's
+   own advertised "from" price. This matters once a race's distances can
+   come from a source other than the one that originally advertised the
+   price: copying that source's figure directly could leave it stale/wrong
+   after a cheaper distance package is merged in from elsewhere.
+ - iRace wins for registration status / registration URL.
  - VBM / VnExpress win for distances / terrain.
  - Name/province/location/organizer/imageUrl/description prefer VBM, then
    VnExpress, then iRace (falling back to whichever source has a non-empty
@@ -116,6 +124,14 @@ def _pick(group: list[Race], priority: list[str], field: str):
     return getattr(group[0], field)
 
 
+def _price_from_distances(distances: list) -> int | None:
+    """min(distances[].priceVnd), skipping null/0 entries. None if no
+    distance carries a usable price.
+    """
+    prices = [d.priceVnd for d in distances if d.priceVnd]
+    return min(prices) if prices else None
+
+
 def _merge_group(group: list[Race]) -> Race:
     name = _pick(group, _NAME_PRIORITY, "name")
     start_date = group[0].startDate
@@ -129,7 +145,12 @@ def _merge_group(group: list[Race]) -> Race:
     terrain = _pick(group, _DISTANCE_PRIORITY, "terrain")
     distances = _pick(group, _DISTANCE_PRIORITY, "distances")
 
-    price_from = _pick(group, _PRICE_PRIORITY, "priceFromVnd")
+    # Compute from the merged race's own distances first (see module
+    # docstring); only fall back to a source's advertised "from" price when
+    # no distance actually carries a price yet.
+    price_from = _price_from_distances(distances or []) or _pick(
+        group, _PRICE_PRIORITY, "priceFromVnd"
+    )
     reg_status = _pick(group, _PRICE_PRIORITY, "registrationStatus")
     reg_url = _pick(group, _PRICE_PRIORITY, "registrationUrl")
 
