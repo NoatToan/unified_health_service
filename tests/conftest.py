@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json as _json
 from pathlib import Path
 
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
@@ -8,6 +9,9 @@ FIXTURES_DIR = Path(__file__).parent / "fixtures"
 class FakeResponse:
     def __init__(self, text: str):
         self.text = text
+
+    def json(self):
+        return _json.loads(self.text)
 
 
 class FakeClient:

@@ -38,6 +38,15 @@
       publish date, a short snippet, and an image URL only. It never republishes full
       article text, and every item always links back to the original source as the only
       way to read the full article.</li>
+    <li>Also fetches a small, fixed set of running-brand storefronts' public category
+      listing pages once a day (currently: PUMA Vietnam's running shoes/apparel/accessories
+      sections and Salomon Vietnam's running shoes/apparel/accessories collections) — name,
+      brand, category, price (if publicly listed), a short factual description written in
+      this project's own words, image URL(s), available color variants where the source
+      exposes them, and the brand's own product page link. This is a reference catalog,
+      never a store: it never reproduces marketing copy beyond basic facts, never touches a
+      cart/checkout/payment endpoint, and every item always links back to the brand's own
+      product page as the only way to actually buy it.</li>
     <li>Sends one request at a time per site, with a multi-second delay between requests,
       and retries at most once on server errors.</li>
     <li>Extracts only factual race data: name, date, location, distances, price, and a
@@ -45,9 +54,9 @@
     <li>Never logs in, never touches checkout/registration/payment endpoints, and never
       bypasses CAPTCHAs or anti-bot protections.</li>
     <li>Publishes the result as public JSON files at
-      <code>/races/latest.json</code> and <code>/news/latest.json</code> in this
-      repository, for a companion running/health app to display a merged race calendar
-      and a news feed.</li>
+      <code>/races/latest.json</code>, <code>/news/latest.json</code>, and
+      <code>/gear/latest.json</code> in this repository, for a companion running/health app
+      to display a merged race calendar, a news feed, and a reference gear catalog.</li>
   </ul>
 
   <h2>Source code</h2>

@@ -36,6 +36,11 @@ jobs:
         continue-on-error: true
         run: python -m pipeline.news_main
 
+      - name: Crawl gear
+        id: gear
+        continue-on-error: true
+        run: python -m pipeline.gear_main
+
       - name: Commit and push docs/ if changed
         if: always()
         run: |
@@ -47,7 +52,7 @@ jobs:
       - name: Fail job if either crawl failed
         if: always()
         run: |
-          if [ "${{ steps.races.outcome }}" != "success" ] || [ "${{ steps.news.outcome }}" != "success" ]; then
-            echo "races: ${{ steps.races.outcome }}, news: ${{ steps.news.outcome }}"
+          if [ "${{ steps.races.outcome }}" != "success" ] || [ "${{ steps.news.outcome }}" != "success" ] || [ "${{ steps.gear.outcome }}" != "success" ]; then
+            echo "races: ${{ steps.races.outcome }}, news: ${{ steps.news.outcome }}, gear: ${{ steps.gear.outcome }}"
             exit 1
           fi
