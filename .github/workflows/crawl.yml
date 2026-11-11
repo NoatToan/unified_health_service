@@ -1,4 +1,4 @@
-name: Crawl race sources
+name: Crawl race + news sources
 
 on:
   schedule:
@@ -26,11 +26,28 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python -m pipeline.main
+      - name: Crawl races
+        id: races
+        continue-on-error: true
+        run: python -m pipeline.main
+
+      - name: Crawl news
+        id: news
+        continue-on-error: true
+        run: python -m pipeline.news_main
 
       - name: Commit and push docs/ if changed
+        if: always()
         run: |
           git config user.name "race-bot"
           git config user.email "race-bot@users.noreply.github.com"
           git add docs/
-          git diff --cached --quiet || (git commit -m "races: $(date -u +%F)" && git push)
+          git diff --cached --quiet || (git commit -m "races+news: $(date -u +%F)" && git push)
+
+      - name: Fail job if either crawl failed
+        if: always()
+        run: |
+          if [ "${{ steps.races.outcome }}" != "success" ] || [ "${{ steps.news.outcome }}" != "success" ]; then
+            echo "races: ${{ steps.races.outcome }}, news: ${{ steps.news.outcome }}"
+            exit 1
+          fi

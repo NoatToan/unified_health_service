@@ -32,15 +32,22 @@
     <li>Fetches a small, fixed set of public race-calendar pages (currently: VnExpress's
       "Lịch giải chạy", the iRace ticket portal's marathon category, Vietnam's Best
       Marathons' race-info page, and Finishers.com's Vietnam destination page).</li>
+    <li>Also fetches a small, fixed set of Vietnamese running news/knowledge sources once
+      a day (currently: VnExpress's "Thông tin chạy bộ" section, Tuổi Trẻ Online's
+      "marathon" tag page, and VNRUN's public RSS feed) — headline, source, link,
+      publish date, a short snippet, and an image URL only. It never republishes full
+      article text, and every item always links back to the original source as the only
+      way to read the full article.</li>
     <li>Sends one request at a time per site, with a multi-second delay between requests,
       and retries at most once on server errors.</li>
     <li>Extracts only factual race data: name, date, location, distances, price, and a
       registration link — never images, articles, or personal data.</li>
     <li>Never logs in, never touches checkout/registration/payment endpoints, and never
       bypasses CAPTCHAs or anti-bot protections.</li>
-    <li>Publishes the result as a public JSON file at
-      <code>/races/latest.json</code> in this repository, for a companion running/health
-      app to display a merged race calendar.</li>
+    <li>Publishes the result as public JSON files at
+      <code>/races/latest.json</code> and <code>/news/latest.json</code> in this
+      repository, for a companion running/health app to display a merged race calendar
+      and a news feed.</li>
   </ul>
 
   <h2>Source code</h2>

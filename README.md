@@ -161,6 +161,71 @@ If a reliable, per-race-discoverable VN results source turns up later, `results`
 in the schema and `pipeline/merge.py` already passes it through - only a new scraper/enrichment
 step would be needed, no schema migration.
 
+## News feed (running news/knowledge content)
+
+A second, independent pipeline crawls Vietnamese-language running **news and knowledge
+content** (race recaps, training tips, gear, event write-ups) - not race listings, that's
+the pipeline above. It publishes:
+
+```
+https://noattoan.github.io/unified_health_service/news/latest.json
+```
+
+This is a **metadata/snippet aggregator, not a full-text republisher**: every item keeps
+`sourceUrl` as the only way to read the full article, and `summary` is always a short
+best-effort excerpt (never the full article body). See
+`docs_research/NEWS_SOURCES_RESEARCH.md` for the source research behind this pipeline
+(RSS vs. scrape decisions, sample item shapes, what was held back for v2 and why).
+
+Top level of `news/latest.json`:
+
+```json
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-11T04:17:39Z",
+  "sources": [
+    { "name": "vnexpress", "ok": true, "count": 15, "error": null }
+  ],
+  "items": [ /* NewsItem objects, sorted by publishedAt, newest first */ ]
+}
+```
+
+One news item:
+
+```json
+{
+  "id": "vnexpress-nguoi-phu-nu-dau-tien-chay-160-km-o-nam-cuc-5142970",
+  "title": "Người phụ nữ đầu tiên chạy 160 km ở Nam Cực",
+  "sourceName": "vnexpress",
+  "sourceUrl": "https://vnexpress.net/nguoi-phu-nu-dau-tien-chay-160-km-o-nam-cuc-5142970.html",
+  "publishedAt": "2026-11-11T00:00:00Z",
+  "summary": "Stephanie Case vượt qua gió mạnh và cái lạnh tới âm 35 độ C để trở thành người phụ nữ đầu tiên chạy 100 dặm (160,93 km) ở Nam Cực, với thành tích nhanh hơn kỷ lục cũ hơn 5 giờ.",
+  "imageUrl": "https://i1-thethao.vnecdn.net/2026/11/10/vdv-1794297436-7271-1794298028.png?w=900&h=540&q=100&dpr=1&fit=crop&s=6NnfxrNlvZOD7QAWmYKaRw",
+  "category": "event-recap"
+}
+```
+
+- `category`: `race-news | training-tips | gear | event-recap` - a best-effort keyword
+  heuristic (`scrapers/news_base.py:classify_category`), same spirit as the races
+  pipeline's `guess_terrain()`. It isn't a precise taxonomy (an opinion piece or
+  human-interest story with no matching keyword falls back to `race-news`) - acceptable
+  for a snippet aggregator.
+- `publishedAt`: always UTC. Sources that only publish a date (no time-of-day) are
+  stamped at `T00:00:00Z` for that date.
+- **Dedup is by exact `sourceUrl` match only** (`pipeline/news_main.py:dedupe_by_url`) -
+  unlike the races pipeline, there's no cross-source fuzzy name matching, since a news
+  article is a single page from a single publisher.
+- `id` is stable across runs: `sourceName + "-" + slugify(url's last path segment)`.
+- No dated snapshots (unlike `races/YYYY-MM-DD.json`) - not needed for v1.
+
+Sources (see `docs_research/NEWS_SOURCES_RESEARCH.md` for the full writeup):
+
+| Source | Type | What it contributes |
+|---|---|---|
+| [VnExpress "Thông tin chạy bộ"](https://vnexpress.net/the-thao/marathon/tin-tuc) | HTML scrape | Race announcements, training tips, gear, international running news |
+| [Tuổi Trẻ Online "marathon" tag](https://tuoitre.vn/marathon.html) | HTML scrape | Race recaps/results, runner stories |
+| [VNRUN](https://vnrun.com/feed/) | RSS feed | Gear reviews, training-tip articles |
+
 ## Running locally
 
 Requires Python 3.12+.
@@ -171,15 +236,22 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 python -m pipeline.main
+
+# News/knowledge-content pipeline (separate, independent of the races one above):
+python -m pipeline.news_main
 ```
 
-This fetches all sources live, merges/dedupes, validates with pydantic, and writes
-`docs/races/latest.json` (plus a dated snapshot if anything changed). It prints a
-summary of which sources succeeded/failed. If the total race count would drop more
-than 50% versus the previous `latest.json`, it refuses to overwrite it and exits
+`pipeline.main` fetches all race sources live, merges/dedupes, validates with pydantic,
+and writes `docs/races/latest.json` (plus a dated snapshot if anything changed). It
+prints a summary of which sources succeeded/failed. If the total race count would drop
+more than 50% versus the previous `latest.json`, it refuses to overwrite it and exits
 non-zero instead (a safety net against publishing a broken crawl).
 
-Run the test suite (uses saved HTML fixtures in `tests/fixtures/`, no network needed):
+`pipeline.news_main` fetches all news sources live, de-dupes by URL, sorts newest
+first, and writes `docs/news/latest.json`. Same safety-net philosophy: if every news
+source fails in the same run, it refuses to overwrite `latest.json` with an empty feed.
+
+Run the test suite (uses saved HTML/RSS fixtures in `tests/fixtures/`, no network needed):
 
 ```bash
 pytest
@@ -194,21 +266,33 @@ scrapers/
   irace.py          # Tier 1
   vbm.py            # Tier 1
   finishers.py       # Tier 2 (parses the page's __NEXT_DATA__ JSON)
+  news_base.py          # NewsItem model, category classifier, id/tracking-param helpers
+  vnexpress_news.py      # HTML scrape
+  tuoitre_news.py        # HTML scrape
+  vnrun_news.py           # RSS feed (feedparser)
 pipeline/
-  merge.py          # normalize, dedupe, field-precedence merge
-  main.py           # runs every scraper, validates, writes docs/races/*.json
+  merge.py          # normalize, dedupe, field-precedence merge (races only)
+  main.py           # runs every race scraper, validates, writes docs/races/*.json
+  news_main.py      # runs every news scraper, dedupes by URL, writes docs/news/latest.json
 tests/
-  fixtures/         # saved HTML/JSON per source
+  fixtures/         # saved HTML/RSS fixtures per source
   test_*.py
 docs/
   index.html, bot.html
   races/latest.json, races/YYYY-MM-DD.json
+  news/latest.json
+docs_research/
+  RACE_SOURCES_RESEARCH.md
+  NEWS_SOURCES_RESEARCH.md
 .github/workflows/crawl.yml
 ```
 
 ## Automation
 
-`.github/workflows/crawl.yml` runs `python -m pipeline.main` daily at 03:00 Vietnam
-time (`0 20 * * *` UTC) and on manual `workflow_dispatch`, then commits `docs/` under
-a `race-bot` git identity if anything changed. GitHub Pages serves this repo's `main`
-branch, `/docs` folder.
+`.github/workflows/crawl.yml` runs both pipelines (`python -m pipeline.main` then
+`python -m pipeline.news_main`) daily at 03:00 Vietnam time (`0 20 * * *` UTC) and on
+manual `workflow_dispatch`, then commits `docs/` under a `race-bot` git identity if
+anything changed. Either pipeline can fail independently (`continue-on-error`) without
+blocking the other's output from being committed; the job itself still fails (and
+sends the usual GitHub Actions failure email) if either one did. GitHub Pages serves
+this repo's `main` branch, `/docs` folder.

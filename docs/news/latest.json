@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-11T04:26:24Z",
+  "sources": [
+    {
+      "name": "vnexpress",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "name": "tuoitre",
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "name": "vnrun",
+      "ok": true,
+      "count": 10,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "id": "vnexpress-nguoi-phu-nu-dau-tien-chay-160-km-o-nam-cuc-5142970",
+      "title": "Người phụ nữ đầu tiên chạy 160 km ở Nam Cực",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/nguoi-phu-nu-dau-tien-chay-160-km-o-nam-cuc-5142970.html",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "summary": "Stephanie Case vượt qua gió mạnh và cái lạnh tới âm 35 độ C để trở thành người phụ nữ đầu tiên chạy 100 dặm (160,93 km) ở Nam Cực, với thành tích nhanh hơn kỷ lục cũ hơn 5 giờ.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/11/10/vdv-1794297436-7271-1794298028.png?w=900&h=540&q=100&dpr=1&fit=crop&s=6NnfxrNlvZOD7QAWmYKaRw",
+      "category": "event-recap"
+    },
+    {
+      "id": "tuoitre-hoang-nguyen-thanh-vo-dich-giai-marathon-di-san-ha-noi-2026-100261108105511592",
+      "title": "Hoàng Nguyên Thanh vô địch Giải marathon Di sản Hà Nội 2026",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/hoang-nguyen-thanh-vo-dich-giai-marathon-di-san-ha-noi-2026-100261108105511592.htm",
+      "publishedAt": "2026-11-08T04:06:00Z",
+      "summary": "Sáng 8-11, VĐV Hoàng Nguyên Thanh (người tỉnh Đồng Nai) đã vượt qua các đối thủ sừng sỏ trong và ngoài nước để về đích đầu tiên cự ly marathon (42,195km) Giải Standard Chartered Marathon Di sản Hà Nội 2026.",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/11/8/hoang-nguyen-thanh-3-1794109881676328314055-48-271-559-1088-crop-1794111279142696191415.jpg",
+      "category": "event-recap"
+    },
+    {
+      "id": "tuoitre-sao-kpop-vuong-tranh-cai-vi-duoc-day-khi-chay-marathon-100261104125055621",
+      "title": "Sao Kpop vướng tranh cãi vì được đẩy khi chạy marathon",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/sao-kpop-vuong-tranh-cai-vi-duoc-day-khi-chay-marathon-100261104125055621.htm",
+      "publishedAt": "2026-11-05T02:59:00Z",
+      "summary": "Nam ca sĩ nổi tiếng Kpop - Choi Min Ho (nhóm SHINee) gây tranh cãi vì được người khác hỗ trợ bằng cách tạo lực đẩy từ phía sau khi tham dự giải Seoul Marathon 2026.",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/11/4/kpop-marathon-1793771338740518730200-126-0-1726-2560-crop-1793771361689971249598.jpg",
+      "category": "race-news"
+    },
+    {
+      "id": "vnexpress-runner-thue-phu-thuy-cau-thoi-tiet-dep-tai-new-york-marathon-5140901",
+      "title": "Runner thuê 'phù thủy' cầu thời tiết đẹp tại New York Marathon",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/runner-thue-phu-thuy-cau-thoi-tiet-dep-tai-new-york-marathon-5140901.html",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "summary": "Lo ngại trời ấm ảnh hưởng thành tích tại New York City Marathon 2026, hàng chục runner trả tiền cho những người tự xưng là \"phù thủy\" trên Etsy để cầu thời tiết mát mẻ.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/11/05/a-nh-ma-n-hi-nh-lu-1793832572-9572-1793832593.png?w=380&h=228&q=100&dpr=1&fit=crop&s=JMYXSff-BX6NJDmoOxiaLg",
+      "category": "race-news"
+    },
+    {
+      "id": "vnexpress-nhung-diem-moi-cua-galaxy-run-mua-hai-5141029",
+      "title": "Những điểm mới của Galaxy Run mùa hai",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/nhung-diem-moi-cua-galaxy-run-mua-hai-5141029.html",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "summary": "Galaxy Run 2026 bổ sung cự ly 21km, chuyển địa điểm tổ chức, nâng quy mô lên 8.000 runner và đưa thế hệ đồng hồ Galaxy Watch mới vào trải nghiệm chạy bộ.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/11/05/Image-160238076-ExtractWord-0-3280-9912-1793870334.png?w=380&h=228&q=100&dpr=1&fit=crop&s=NP2gza2Hrkmlca3BaV1D4g",
+      "category": "gear"
+    },
+    {
+      "id": "vnexpress-5km-hanoi-midnight-cho-nguoi-lan-dau-chay-dem-5140556",
+      "title": "5km Hanoi Midnight - lựa chọn cho người lần đầu chạy đêm",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/5km-hanoi-midnight-cho-nguoi-lan-dau-chay-dem-5140556.html",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "summary": "Quãng đường vừa sức, thời gian vận động ngắn và giờ xuất phát đặc trưng khiến 5km VnExpress Marathon Hanoi Midnight 2026 phù hợp với người mới.",
+      "imageUrl": "https://i1-vnexpress.vnecdn.net/2026/11/05/590980967-n-1793852676-4146-1793852691.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=FP2RjjIkmiLUQyZ9bLpTSg",
+      "category": "race-news"
+    },
+    {
+      "id": "tuoitre-nu-vdv-khuc-con-cau-24-tuoi-tu-vong-trong-lan-dau-chay-marathon-100261104122237821",
+      "title": "Nữ VĐV khúc côn cầu 24 tuổi tử vong trong lần đầu chạy marathon",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/nu-vdv-khuc-con-cau-24-tuoi-tu-vong-trong-lan-dau-chay-marathon-100261104122237821.htm",
+      "publishedAt": "2026-11-04T05:49:00Z",
+      "summary": "Làng chạy bộ thế giới tiếp tục nhận tin sốc về một ca tử vong, lần này là trên đường chạy New York City Marathon (Mỹ).",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/11/4/rachel-apa-runner-marathon-1793769629016745210541-202-0-577-600-crop-17937696949261310530466.jpeg",
+      "category": "event-recap"
+    },
+    {
+      "id": "tuoitre-ngoi-sao-k-pop-bi-phat-hien-vua-chay-vua-co-nguoi-do-o-giai-marathon-100261104062334469",
+      "title": "Ngôi sao K-Pop bị phát hiện 'vừa chạy vừa có người đỡ' ở giải marathon",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/ngoi-sao-k-pop-bi-phat-hien-vua-chay-vua-co-nguoi-do-o-giai-marathon-100261104062334469.htm",
+      "publishedAt": "2026-11-04T02:18:00Z",
+      "summary": "Nam ca sĩ Choi Minho, thành viên nhóm nhạc nổi tiếng SHINee của Hàn Quốc, phải công khai xin lỗi sau khi đoạn video ghi lại cảnh anh được một người chạy đỡ, đẩy từ phía sau tại giải marathon ở Seoul, gây tranh cãi dữ dội.",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/11/3/edit-choi-minho-k-pop-marathon-1793747602231417144843-34-0-493-734-crop-17937476622092028624229.jpeg",
+      "category": "race-news"
+    },
+    {
+      "id": "vnexpress-lan-song-marathoner-moi-thach-thuc-the-thong-tri-cua-kenya-ethiopia-5139705",
+      "title": "Làn sóng marathoner mới thách thức thế thống trị của Kenya, Ethiopia",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/lan-song-marathoner-moi-thach-thuc-the-thong-tri-cua-kenya-ethiopia-5139705.html",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "summary": "Chiến thắng của Andreas Almgren tại New York City Marathon 2026, cùng sự xuất hiện của hàng loạt chân chạy châu Âu, Mỹ và các quốc gia ít tên tuổi trên podium, cho thấy cuộc đua marathon đỉnh cao đang vào giai đoạn cạnh tranh rộng mở hơn.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/11/02/ap26305693723542-1793597137-1178-1793597852.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=jUtRx5zrjGty9cfmE7sr_g",
+      "category": "race-news"
+    },
+    {
+      "id": "vnexpress-minh-tinh-hollywood-vuot-chuan-boston-khi-chay-marathon-gay-quy-5140500",
+      "title": "Minh tinh Hollywood vượt chuẩn Boston khi chạy marathon gây quỹ",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/minh-tinh-hollywood-vuot-chuan-boston-khi-chay-marathon-gay-quy-5140500.html",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "summary": "Ở tuổi 55, nữ diễn viên từng đoạt Oscar Jennifer Connelly chạy New York City Marathon 2026, góp phần gây quỹ nghiên cứu ung thư và đạt thành tích vượt xa chuẩn major Boston.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/11/04/conelly-1793756617-7320-1793756749.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=qkZx731OSfZ9lXooj-zXQg",
+      "category": "race-news"
+    },
+    {
+      "id": "vnexpress-ca-si-han-quoc-gay-tranh-cai-vi-duoc-day-lung-khi-chay-marathon-5140291",
+      "title": "Ca sĩ Hàn Quốc gây tranh cãi vì được đẩy lưng khi chạy marathon",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/ca-si-han-quoc-gay-tranh-cai-vi-duoc-day-lung-khi-chay-marathon-5140291.html",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "summary": "Thành viên nhóm SHINee, ca sĩ Minho bị đề nghị hủy thành tích vì được người chạy cùng đẩy lưng tại Seoul Marathon 2026, và phải lên tiếng xin lỗi hôm 3/11.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/11/03/vdv-1793694896-9406-1793694912.png?w=380&h=228&q=100&dpr=1&fit=crop&s=c-rgYiiKQ2pzDKpjfTifww",
+      "category": "race-news"
+    },
+    {
+      "id": "tuoitre-hai-runner-trung-quoc-bi-cam-thi-dau-vi-gian-lan-trang-tron-tai-giai-marathon-danh-gia-10026110309543758",
+      "title": "Hai runner Trung Quốc bị cấm thi đấu vì gian lận trắng trợn tại giải marathon danh giá",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/hai-runner-trung-quoc-bi-cam-thi-dau-vi-gian-lan-trang-tron-tai-giai-marathon-danh-gia-10026110309543758.htm",
+      "publishedAt": "2026-11-03T03:09:00Z",
+      "summary": "Hai vận động viên chạy bộ Trung Quốc phải nhận án phạt nặng sau khi tự ý bỏ nhiệm vụ dẫn tốc để thay trang phục ngay giữa cuộc đua tại Thành Đô Marathon 2026.",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/11/3/runner-trung-quoc-2-edit-17936756519661466247083-0-0-1625-2600-crop-17936761148111568026813.jpeg",
+      "category": "gear"
+    },
+    {
+      "id": "vnexpress-hon-loan-vi-tranh-gianh-hai-san-tai-giai-marathon-trung-quoc-5140149",
+      "title": "Hỗn loạn vì tranh giành hải sản tại giải marathon Trung Quốc",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/hon-loan-vi-tranh-gianh-hai-san-tai-giai-marathon-trung-quoc-5140149.html",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "summary": "Hàng nghìn runner đổ về khu phục vụ hải sản sau giải Yantai Marathon 2026, khiến đám đông chen lấn, tranh giành, làm đổ bàn thức ăn, buộc ban tổ chức phải lên tiếng xin lỗi.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/11/03/id104147238-fotojet-1793682387-9914-1793682541.jpg?w=280&h=168&q=100&dpr=1&fit=crop&s=nzyZtEGQRae_yTkIRk_EuA",
+      "category": "race-news"
+    },
+    {
+      "id": "vnexpress-vi-sao-nha-vo-dich-new-york-ra-mat-marathon-tren-duong-chay-kho-5139830",
+      "title": "Vì sao nhà vô địch New York ra mắt marathon trên đường chạy khó?",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/vi-sao-nha-vo-dich-new-york-ra-mat-marathon-tren-duong-chay-kho-5139830.html",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "summary": "Thay vì chọn một lộ trình bằng phẳng để săn thành tích, Andreas Almgren quyết định ra mắt marathon tại New York, nơi những cây cầu, đoạn dốc và cuộc đấu chiến thuật là thách thức cho mọi runner.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/11/02/ap26305632476004-1793615540-9688-1793615760.jpg?w=280&h=168&q=100&dpr=1&fit=crop&s=fNTSNI5Y42YPxz0oyt4PLA",
+      "category": "event-recap"
+    },
+    {
+      "id": "vnexpress-galaxy-run-2026-het-suat-5km-10km-5140201",
+      "title": "Galaxy Run hết suất 5km và 10km sau ba ngày mở cổng",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/galaxy-run-2026-het-suat-5km-10km-5140201.html",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "summary": "Hai cự ly 5km và 10km của Galaxy Run 2026 hết suất đăng ký, trong khi đường chạy 21km cũng đạt gần 60% chỉ tiêu sau ba ngày mở cổng.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/11/03/Screenshot-2026-11-03-141632-1-1837-2234-1793690648.png?w=280&h=168&q=100&dpr=1&fit=crop&s=wzJx1YcUtMDh3lCf7nPCWg",
+      "category": "race-news"
+    },
+    {
+      "id": "vnexpress-tu-benh-nhan-310-kg-den-chinh-phuc-van-ly-truong-thanh-5139318",
+      "title": "Từ bệnh nhân 310 kg đến chinh phục Vạn Lý Trường Thành",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/tu-benh-nhan-310-kg-den-chinh-phuc-van-ly-truong-thanh-5139318.html",
+      "publishedAt": "2026-11-02T00:00:00Z",
+      "summary": "Từng nặng hơn 310 kg, nằm liệt giường gần hai năm, Julio Mamute giảm hơn 120 kg nhờ bơi lội và tập luyện, trước khi hoàn thành cuộc đua 10 km trên Vạn Lý Trường Thành.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/11/01/mamute-1793506843-7013-1793507558.png?w=280&h=168&q=100&dpr=1&fit=crop&s=ULiOJLBukyUueS3-3gw3kQ",
+      "category": "race-news"
+    },
+    {
+      "id": "vnexpress-runner-chau-au-dau-tien-sau-30-nam-vo-dich-new-york-city-marathon-5139489",
+      "title": "Runner châu Âu đầu tiên sau 30 năm vô địch New York City Marathon",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/runner-chau-au-dau-tien-sau-30-nam-vo-dich-new-york-city-marathon-5139489.html",
+      "publishedAt": "2026-11-02T00:00:00Z",
+      "summary": "Andreas Almgren, 31 tuổi người Thụy Điển, về nhất New York City Marathon với thành tích 2 giờ 6 phút 1 giây ngay trong lần đầu thi đấu ở cự ly 42km.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/11/02/ap26305596566296-1793580082-6865-1793580219.jpg?w=280&h=168&q=100&dpr=1&fit=crop&s=urHrqt3_W-JqzJGepry0Bg",
+      "category": "gear"
+    },
+    {
+      "id": "tuoitre-runner-malaysia-tu-vong-o-giai-chay-ca-thu-8-trong-1-thang-100261101201754582",
+      "title": "Runner Malaysia tử vong ở giải chạy, ca thứ 8 trong 1 tháng",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/runner-malaysia-tu-vong-o-giai-chay-ca-thu-8-trong-1-thang-100261101201754582.htm",
+      "publishedAt": "2026-11-01T13:36:00Z",
+      "summary": "Một người đàn ông 42 tuổi tử vong khi tham gia giải chạy Garmin Run tại Malaysia sáng 1-11. Đây là trường hợp thứ tám được báo chí ghi nhận tại các giải chạy toàn cầu kể từ đầu tháng 10.",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/11/1/c52701b1-e8cb-4441-a704-33d3b0a1ea4e-17935383514361220511485-0-154-864-1536-crop-17935383794331327559292.png",
+      "category": "event-recap"
+    },
+    {
+      "id": "vnexpress-hai-pacer-trung-quoc-bi-ky-luat-vi-thay-trang-phuc-tren-duong-dua-5139204",
+      "title": "Hai pacer Trung Quốc bị kỷ luật vì thay trang phục trên đường đua",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/hai-pacer-trung-quoc-bi-ky-luat-vi-thay-trang-phuc-tren-duong-dua-5139204.html",
+      "publishedAt": "2026-11-01T00:00:00Z",
+      "summary": "Hai pacer tại Chengdu Marathon 2026 bị hủy thành tích, cấm dự giải hai năm và tước tư cách dẫn tốc độ, sau khi tự ý thay giày, trang phục của nhà tài trợ ngay trong cuộc đua.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/10/31/e9995-1793448460-6140-1793448469.jpg?w=280&h=168&q=100&dpr=1&fit=crop&s=vsiff4SPK7VdlJ_8RGvDAg",
+      "category": "gear"
+    },
+    {
+      "id": "tuoitre-khoi-dong-giai-marathon-quoc-te-tphcm-techcombank-mua-9-100261031145759664",
+      "title": "Khởi động Giải Marathon Quốc tế TP.HCM Techcombank mùa 9",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/khoi-dong-giai-marathon-quoc-te-tphcm-techcombank-mua-9-100261031145759664.htm",
+      "publishedAt": "2026-10-31T08:13:00Z",
+      "summary": "Giải Marathon Quốc tế TP.HCM Techcombank mùa thứ 9 sẽ diễn ra từ ngày 4 đến 6-12. Giải chạy kỳ vọng thu hút số lượng kỷ lục lên tới hơn 24.000 vận động viên trong và ngoài nước.",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/10/31/1dji202512070432520047dhoaivu-1793432616736833226435.jpg",
+      "category": "event-recap"
+    },
+    {
+      "id": "vnexpress-galaxy-run-tro-lai-tp-hcm-lan-dau-co-cu-ly-21km-5138831",
+      "title": "Galaxy Run trở lại TP HCM, lần đầu có cự ly 21km",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/galaxy-run-tro-lai-tp-hcm-lan-dau-co-cu-ly-21km-5138831.html",
+      "publishedAt": "2026-10-30T00:00:00Z",
+      "summary": "Trong lần thứ hai tổ chức, Galaxy Run dự kiến đón 8.000 VĐV ngày 22/11, mở rộng quy mô khi có thêm cự ly 21km và nhiều hoạt động bên lề, đưa công nghệ chăm sóc sức khỏe vào hành trình chạy bộ.",
+      "imageUrl": "https://i1-vnexpress.vnecdn.net/2026/10/30/Image-ExtractWord-0-Out-2051-1793349699.png?w=280&h=168&q=100&dpr=1&fit=crop&s=-ypn4HyfDj8Z42wxeM11Xg",
+      "category": "training-tips"
+    },
+    {
+      "id": "vnexpress-vnexpress-marathon-hai-phong-lan-dau-co-chay-dong-doi-5138554",
+      "title": "VnExpress Marathon Hải Phòng lần đầu có nội dung đồng đội",
+      "sourceName": "vnexpress",
+      "sourceUrl": "https://vnexpress.net/vnexpress-marathon-hai-phong-lan-dau-co-chay-dong-doi-5138554.html",
+      "publishedAt": "2026-10-30T00:00:00Z",
+      "summary": "Giải marathon ngày 27/12 tại thành phố Cảng bổ sung nội dung đồng đội 15 người ở hai cự ly 21km và 42km, tổng thưởng 72 triệu đồng.",
+      "imageUrl": "https://i1-thethao.vnecdn.net/2026/10/30/601033010-n-1793299372-7285-1793299993.jpg?w=280&h=168&q=100&dpr=1&fit=crop&s=C_tiwDFwzgIK97u7YsS3Ww",
+      "category": "race-news"
+    },
+    {
+      "id": "tuoitre-thuong-ta-quan-doi-tuoi-70-va-tinh-yeu-chay-bo-100261027221153059",
+      "title": "Thượng tá quân đội tuổi 70 và tình yêu chạy bộ",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/thuong-ta-quan-doi-tuoi-70-va-tinh-yeu-chay-bo-100261027221153059.htm",
+      "publishedAt": "2026-10-28T00:49:00Z",
+      "summary": "Ở tuổi 70, ông Bùi Ngọc Hợp (Hà Nội) mới bắt đầu tình yêu chạy bộ. Vậy nhưng sau 5 tháng tập luyện chăm chỉ, ông đã hoàn thành cự ly 21km tại giải chạy địa hình vượt núi khốc liệt bậc nhất Việt Nam ở Sa Pa.",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/10/27/bui-ngoc-hop-chay-21km-vmm3-17931137034091416255285-46-0-470-678-crop-1793113707675718390706.jpeg",
+      "category": "event-recap"
+    },
+    {
+      "id": "tuoitre-van-hoa-cuc-doan-dang-lam-mat-net-dep-chay-bo-100261025235632882",
+      "title": "Văn hóa cực đoan đang làm mất nét đẹp chạy bộ?",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/van-hoa-cuc-doan-dang-lam-mat-net-dep-chay-bo-100261025235632882.htm",
+      "publishedAt": "2026-10-26T04:06:00Z",
+      "summary": "Tinh thần chiến thắng bản thân, vượt qua những giới hạn mà các runner thường đề cao - đôi lúc lại trở nên cực đoan, và làm hủy hoại phần nào nét đẹp của phong trào chạy bộ. Chạy là hình thức tập luyện cơ bản mang đến sức khỏe cho loài người.",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/10/26/chay-bo-edit-17929882064331674560528-236-349-1643-2600-crop-17929883248871518149667.png",
+      "category": "gear"
+    },
+    {
+      "id": "tuoitre-cuong-ep-con-trai-chay-marathon-nguoi-cha-trung-quoc-tra-gia-100261024124339657",
+      "title": "Cưỡng ép con trai chạy marathon, người cha Trung Quốc trả giá",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/cuong-ep-con-trai-chay-marathon-nguoi-cha-trung-quoc-tra-gia-100261024124339657.htm",
+      "publishedAt": "2026-10-25T00:33:00Z",
+      "summary": "Một người đàn ông Trung Quốc bị hủy thành tích và cấm thi đấu ba năm sau khi dùng dây buộc vào bụng con trai 9 tuổi, kéo em chạy cùng trên đường đua marathon Trịnh Châu.",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/10/24/2117c9dc-6f0e-41e9-b5a2-ee998c281a19-179281999634345539788-127-481-539-1139-crop-17928200696931729758356.png",
+      "category": "race-news"
+    },
+    {
+      "id": "vnrun-top-dong-ho-chay-bo-ngon-bo-re-danh-cho-runner-moi-bat-dau",
+      "title": "Top đồng hồ chạy bộ “ngon – bổ – rẻ” dành cho runner mới bắt đầu",
+      "sourceName": "vnrun",
+      "sourceUrl": "https://vnrun.com/top-dong-ho-chay-bo-ngon-bo-re-danh-cho-runner-moi-bat-dau/",
+      "publishedAt": "2026-03-10T18:34:33Z",
+      "summary": "Trong thế giới của những chiếc đồng hồ chạy bộ cao cấp với hàng tá tính năng như bản đồ ngoại tuyến hay phát nhạc trực tuyến, đôi khi chúng ta quên mất mục đích cốt lõi: theo dõi tốc độ, quãng đường và nhịp tim. Với những runner mới làm quen với bộ môn […]",
+      "imageUrl": "https://vnrun.com/wp-content/uploads/2026/03/garmin_forerunner_55_1920-1024x576.jpg",
+      "category": "gear"
+    },
+    {
+      "id": "vnrun-lich-su-thuong-hieu-altra",
+      "title": "Lịch sử thương hiệu Altra",
+      "sourceName": "vnrun",
+      "sourceUrl": "https://vnrun.com/lich-su-thuong-hieu-altra/",
+      "publishedAt": "2026-03-10T18:17:28Z",
+      "summary": "Altra là một thương hiệu giày chạy bộ của Mỹ được thành lập vào năm 2009 bởi Golden Harper và Brian Beckstead, hai người bạn từ thời trung học. Mọi chuyện bắt đầu với Golden Harper, một vận động viên trẻ làm việc tại cửa hàng giày chạy bộ của gia đình. Cả bố và […]",
+      "imageUrl": "https://vnrun.com/wp-content/uploads/2026/03/240913_Banner_1080x888_Altra_s_Natural_Fit_02_EN-2_1080x720_2_-1-1024x683.jpg",
+      "category": "gear"
+    },
+    {
+      "id": "vnrun-giay-chay-bo-li-ning-2026-quai-vat-cong-nghe-va-bai-toan-toi-uu-hieu-suat-cho-runner",
+      "title": "Giày chạy bộ Li-Ning 2026: “Quái vật” công nghệ và bài toán tối ưu hiệu suất cho Runner",
+      "sourceName": "vnrun",
+      "sourceUrl": "https://vnrun.com/giay-chay-bo-li-ning-2026-quai-vat-cong-nghe-va-bai-toan-toi-uu-hieu-suat-cho-runner/",
+      "publishedAt": "2026-03-09T14:35:09Z",
+      "summary": "Bước sang năm 2026, Li-Ning không chỉ đơn thuần là một thương hiệu giày chạy bộ lớn nhất châu Á, mà đã trở thành “gã khổng lồ” về công nghệ vật liệu toàn cầu. Với sự bùng nổ của thế hệ bọt BOOM 2026 và sợi dệt Boom Fiber, dải sản phẩm của nhà “Lân” […]",
+      "imageUrl": "https://vnrun.com/wp-content/uploads/2026/03/z7603925332836_b7af5dddea0dd600a458b331f5a9ec26.jpg",
+      "category": "gear"
+    },
+    {
+      "id": "vnrun-giay-chay-bo-xtep-2026-lua-chon-toi-uu-cho-hieu-suat-va-tui-tien",
+      "title": "Giày chạy bộ Xtep 2026: Lựa chọn tối ưu cho hiệu suất và túi tiền",
+      "sourceName": "vnrun",
+      "sourceUrl": "https://vnrun.com/giay-chay-bo-xtep-2026-lua-chon-toi-uu-cho-hieu-suat-va-tui-tien/",
+      "publishedAt": "2026-03-05T13:53:45Z",
+      "summary": "Nếu vài năm trước, Xtep còn là cái tên xa lạ thì năm 2026, thương hiệu này đã trở thành nỗi khiếp sợ của các ông lớn phương Tây trên bục podium. Với triết lý tập trung tuyệt đối vào hiệu suất và sự thấu hiểu bàn chân người Châu Á, Xtep đang mang đến […]",
+      "imageUrl": "https://vnrun.com/wp-content/uploads/2026/03/757.jpg",
+      "category": "gear"
+    },
+    {
+      "id": "vnrun-top-giay-chay-bo-adidas-tot-nhat-2026-dau-la-vu-khi-but-pha-pr-cua-ban",
+      "title": "Top giày chạy bộ adidas tốt nhất 2026: Đâu là “vũ khí” bứt phá PR của bạn?",
+      "sourceName": "vnrun",
+      "sourceUrl": "https://vnrun.com/top-giay-chay-bo-adidas-tot-nhat-2026-dau-la-vu-khi-but-pha-pr-cua-ban/",
+      "publishedAt": "2026-03-05T13:34:45Z",
+      "summary": "Năm 2026, adidas tiếp tục khẳng định vị thế với triết lý: Giày chạy không chỉ là đệm êm, mà phải là công cụ hoàn trả năng lượng tối ưu. Dù bạn là runner mới bắt đầu hay một “Sub 3 marathoner”, adidas luôn có một lựa chọn tương xứng với nỗ lực của bạn. […]",
+      "imageUrl": "https://vnrun.com/wp-content/uploads/2026/03/z7590639581565_beec8f80913010d531cbd8d7dbe84726.jpg",
+      "category": "gear"
+    },
+    {
+      "id": "vnrun-7997-2",
+      "title": "Từ Fresh Foam đến FuelCell: Giải mã các dòng giày chạy bộ của New Balance",
+      "sourceName": "vnrun",
+      "sourceUrl": "https://vnrun.com/7997-2/",
+      "publishedAt": "2026-03-05T13:18:12Z",
+      "summary": "New Balance không chạy đua theo những thiết kế quá hầm hố, họ tập trung vào trải nghiệm thực tế của runner: sự thoải mái ngay từ lần xỏ giày đầu tiên. Cho dù bạn có bàn chân rộng hay cần một đôi siêu giày để đua Sub 3, New Balance luôn có câu trả […]",
+      "imageUrl": "https://vnrun.com/wp-content/uploads/2026/03/Giay-Chay-Bo-Nam-New-Balance-Fresh-Foam-X-1080v14-Sage-3-1024x1024.jpg",
+      "category": "gear"
+    },
+    {
+      "id": "vnrun-chon-giay-nike-chuan-chuyen-gia-nam-2026-tu-pegasus-den-sieu-giay-alphafly",
+      "title": "Chọn giày Nike chuẩn chuyên gia năm 2026: Từ Pegasus đến “siêu giày” Alphafly.",
+      "sourceName": "vnrun",
+      "sourceUrl": "https://vnrun.com/chon-giay-nike-chuan-chuyen-gia-nam-2026-tu-pegasus-den-sieu-giay-alphafly/",
+      "publishedAt": "2026-03-05T12:58:19Z",
+      "summary": "Dù bạn đang chuẩn bị cho bài chạy 5km đầu tiên hay đang hướng tới mục tiêu Sub 3 Marathon, Nike luôn có một “vũ khí” phù hợp. Bí quyết nằm ở việc hiểu rõ các dòng đệm (cushioning) và mục đích sử dụng của từng đôi giày. 1. Nhóm Chạy Hàng Ngày & Độ […]",
+      "imageUrl": "https://vnrun.com/wp-content/uploads/2026/03/z7590514477751_b6f8f3d58ad8a1d9eac22edf0b085ff7-1024x1024.jpg",
+      "category": "gear"
+    },
+    {
+      "id": "vnrun-tu-clifton-den-speedgoat-giai-ma-suc-manh-cua-ga-khong-lo-hoka",
+      "title": "Từ Clifton đến Speedgoat: Giải mã sức mạnh của “gã khổng lồ” HOKA.",
+      "sourceName": "vnrun",
+      "sourceUrl": "https://vnrun.com/tu-clifton-den-speedgoat-giai-ma-suc-manh-cua-ga-khong-lo-hoka/",
+      "publishedAt": "2026-03-05T12:40:27Z",
+      "summary": "Hoka đã thay đổi hoàn toàn định kiến về những đôi giày đế dày là nặng nề. Với triết lý “nhẹ như bay” và lớp đệm bảo vệ khớp tối đa, Hoka trở thành lựa chọn hàng đầu cho cả runner mới tập lẫn những “quái kiệt” Ultra Trail. Dưới đây là danh sách những […]",
+      "imageUrl": "https://vnrun.com/wp-content/uploads/2026/03/1162032-bksv-1_d7606dec34514043b148b7713692117a_master.jpg",
+      "category": "gear"
+    },
+    {
+      "id": "vnrun-chon-giay-asics-sao-cho-chuan-nam-2026-cam-nang-chi-tiet-cho-moi-runner",
+      "title": "Chọn giày Asics sao cho chuẩn năm 2026 ? Cẩm nang chi tiết cho mọi Runner.",
+      "sourceName": "vnrun",
+      "sourceUrl": "https://vnrun.com/chon-giay-asics-sao-cho-chuan-nam-2026-cam-nang-chi-tiet-cho-moi-runner/",
+      "publishedAt": "2026-03-05T12:23:45Z",
+      "summary": "Asics không chỉ là một thương hiệu lâu đời, mà còn là biểu tượng của sự bền bỉ và công nghệ cơ khí Nhật Bản. Từ dòng Gel huyền thoại đến những siêu phẩm đế Carbon hiện đại, Asics luôn có một đôi giày phù hợp cho mọi trình độ. Dưới đây là những gương […]",
+      "imageUrl": "https://vnrun.com/wp-content/uploads/2026/03/1_3e7aa66caf1e40e0a2f044d17d9d5bd6_master.jpg",
+      "category": "gear"
+    },
+    {
+      "id": "vnrun-dinh-duong-sau-chay-bi-kip-toi-uu-hoa-su-phuc-hoi-tu-chuyen-gia",
+      "title": "Dinh dưỡng sau chạy: Bí kíp tối ưu hóa sự phục hồi từ chuyên gia.",
+      "sourceName": "vnrun",
+      "sourceUrl": "https://vnrun.com/dinh-duong-sau-chay-bi-kip-toi-uu-hoa-su-phuc-hoi-tu-chuyen-gia/",
+      "publishedAt": "2026-03-05T11:55:12Z",
+      "summary": "Tập luyện vất vả chỉ là 50% chặng đường. 50% còn lại nằm ở cách bạn nạp năng lượng sau khi dừng đồng hồ. Nếu bỏ qua dinh dưỡng sau chạy, bạn đang tự lãng phí công sức của chính mình. Dưới đây là bộ quy tắc giúp bạn tối ưu hóa quá trình phục […]",
+      "imageUrl": null,
+      "category": "gear"
+    }
+  ]
+}
