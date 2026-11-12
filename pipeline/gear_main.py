@@ -25,7 +25,7 @@ from pydantic import ValidationError
 
 from scrapers import coolmate_gear, lining_gear, puma_gear, salomon_gear
 from scrapers.base import PoliteClient, now_iso
-from scrapers.gear_base import GearItem
+from scrapers.gear_base import GearItem, fill_missing_gender_from_text
 
 SCHEMA_VERSION = 1
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -110,6 +110,11 @@ def main() -> int:
         raw_items, source_reports = run_scrapers(client, previous)
 
     deduped = dedupe_by_url(raw_items)
+    # Last-resort gender: every source-provided signal (explicit field/tag,
+    # per-gender listing membership - see each scraper and gear_base.py) has
+    # already had its chance by this point; this only ever fills an item
+    # that's still null, from its own name/title keywords.
+    deduped = fill_missing_gender_from_text(deduped)
     deduped.sort(key=lambda i: (i.category, i.brand, i.name))
 
     new_count = len(deduped)

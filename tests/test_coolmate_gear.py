@@ -117,6 +117,45 @@ def test_scrape_coolmate_gear_enriches_item_with_pdp_detail():
     assert item.detailFetchedAt is not None
 
 
+def _coolmate_product(product_id: str, title: str, href: str) -> dict:
+    return {
+        "id": product_id,
+        "title": title,
+        "href": href,
+        "default_thumbnail": f"/image/{product_id}.jpg",
+        "regular_price": 199000,
+        "mapped_variants": {},
+    }
+
+
+def test_scrape_coolmate_gear_tags_gender_from_per_gender_listing():
+    """`quan-ao-chay-bo-nu` is this storefront's own explicitly-gendered
+    collection (see module docstring and
+    docs_research/GEAR_SOURCES_RESEARCH.md): a product listed there should
+    be tagged "women" straight from the listing, with no PDP detail fetch
+    needed - but the general `quan-ao-chay-bo` collection isn't itself a
+    gender signal, so a product only found there stays untagged by listing
+    alone.
+    """
+    general_url = f"{coolmate_gear.BASE_URL}/collection/quan-ao-chay-bo"
+    women_url = f"{coolmate_gear.BASE_URL}/collection/quan-ao-chay-bo-nu"
+
+    general_product = _coolmate_product("id-general", "General Tee", "/product/general-tee")
+    women_product = _coolmate_product("id-women", "Women Tee", "/product/women-tee")
+
+    pages = {
+        general_url: _listing_html_for_product(general_product),
+        women_url: _listing_html_for_product(women_product),
+    }
+    client = FakeClient(pages, default="<html></html>")
+
+    items = coolmate_gear.scrape(client)
+    by_id = {i.id: i for i in items}
+
+    assert by_id[coolmate_gear.make_gear_id("coolmate", "id-general")].gender is None
+    assert by_id[coolmate_gear.make_gear_id("coolmate", "id-women")].gender == "women"
+
+
 def test_scrape_coolmate_gear_reuses_fresh_cached_detail_without_refetching():
     handle, _ = coolmate_gear.COLLECTIONS[0]
     listing_product = {

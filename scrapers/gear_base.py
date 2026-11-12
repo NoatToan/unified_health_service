@@ -122,8 +122,15 @@ class GearItem(BaseModel):
     productUrl: str
     sizes: list[GearSize] = Field(default_factory=list)
     inStock: bool | None = None
-    # "men" | "women" | "unisex" | "kids" - only ever set from an explicit
-    # source field/label, never guessed from the name.
+    # "men" | "women" | "unisex" | "kids" | null. Resolved in priority order:
+    # (1) an explicit source field/tag (normalize_gender/
+    # gender_from_shopify_tags, from each scraper's PDP detail fetch), (2)
+    # per-gender listing membership for sources whose own collections are
+    # explicitly gendered (resolve_listing_gender, applied by
+    # lining_gear.py/coolmate_gear.py before detail enrichment runs), (3)
+    # a name/title keyword fallback (gender_from_text, applied once
+    # centrally in pipeline/gear_main.py) - never a blind guess beyond
+    # those three signals; null when none of them found anything.
     gender: str | None = None
     sku: str | None = None
     # Factual specs (weight, drop/offset, material, technology, ...) taken
@@ -176,6 +183,100 @@ def normalize_gender(raw: str | None) -> str | None:
         return None
     lowered = unidecode(raw).strip().lower()
     return _GENDER_MAP.get(lowered)
+
+
+def resolve_listing_gender(genders: set[str] | None) -> str | None:
+    """Collapse the set of gender tags a product was seen under across a
+    source's own per-gender *listing* pages (e.g. Li-Ning's
+    `giay-chay-bo-nam-2`/`giay-chay-bo-nu-2`, Coolmate's
+    `quan-ao-chay-bo-nu`) into a single `GearItem.gender` value: the one tag
+    if there's only one, `"unisex"` if the product was genuinely seen under
+    more than one distinct gender's listing (e.g. both the men's and
+    women's collection), or `None` if it wasn't seen under any gendered
+    listing at all. Never guesses beyond what the source's own listing
+    structure actually showed.
+    """
+    if not genders:
+        return None
+    if len(genders) == 1:
+        return next(iter(genders))
+    return "unisex"
+
+
+# --------------------------------------------------------------------------- #
+# Keyword fallback (name/title only) - the last resort when a source has no
+# explicit gender field/tag/listing at all (see normalize_gender,
+# gender_from_shopify_tags, resolve_listing_gender above, which are always
+# preferred and checked first). Diacritics-insensitive, whole-word matching
+# only, so this never fires on a gender word that's merely a substring of a
+# different word (e.g. "nam" inside "Việt Nam"/"Vietnam", "nu" inside
+# "nude") - see `gender_from_text`'s docstring for the exact false-positive
+# cases this was built to avoid.
+# --------------------------------------------------------------------------- #
+
+# "Việt Nam"/"Vietnam" is stripped before scanning so its own "Nam" is never
+# mistaken for the men's keyword - this is the one false positive the task
+# brief explicitly calls out ("'nam' inside other words").
+_VIET_NAM_RE = re.compile(r"\bviet\s*nam\b")
+_WORD_RE = re.compile(r"[a-z0-9]+")
+_KIDS_PHRASE_RE = re.compile(r"\btre\s+em\b")  # "trẻ em", diacritics stripped
+
+_MEN_WORDS = {"men", "mens", "nam"}
+_WOMEN_WORDS = {"women", "womens", "wmns", "nu"}
+_UNISEX_WORDS = {"unisex"}
+_KIDS_WORDS = {"kids", "kid", "junior"}
+
+
+def gender_from_text(text: str | None) -> str | None:
+    """Best-effort `men`/`women`/`unisex`/`kids` guess from a product's own
+    name/title - VN ("nam", "nữ", "trẻ em") and EN ("men's"/"mens", "women's"
+    /"womens"/"wmns", "unisex", "kids"/"junior") keywords, diacritics-
+    insensitive, matched as whole words only (never a substring match, so
+    "nu" never matches inside "nude", "nam" never matches inside "Vietnam"/
+    "Việt Nam" - that phrase is stripped out first). A name that mentions
+    both a men's and a women's keyword (e.g. "Women's & Men's Running Tee")
+    resolves to `"unisex"` rather than arbitrarily picking one side. Returns
+    `None` - never a guess - when nothing recognizable is present. This is
+    only ever a last resort: callers should always try a source's own
+    explicit gender field/tag/listing first.
+    """
+    if not text:
+        return None
+    normalized = _VIET_NAM_RE.sub(" ", unidecode(text).lower())
+    words = set(_WORD_RE.findall(normalized))
+
+    has_unisex = bool(words & _UNISEX_WORDS)
+    has_kids = bool(words & _KIDS_WORDS) or _KIDS_PHRASE_RE.search(normalized) is not None
+    has_men = bool(words & _MEN_WORDS)
+    has_women = bool(words & _WOMEN_WORDS)
+
+    if has_unisex or (has_men and has_women):
+        return "unisex"
+    if has_kids:
+        return "kids"
+    if has_men:
+        return "men"
+    if has_women:
+        return "women"
+    return None
+
+
+def fill_missing_gender_from_text(items: list[GearItem]) -> list[GearItem]:
+    """Apply `gender_from_text` to every item whose `gender` is still `None`
+    after every source-provided signal (explicit field/tag, per-gender
+    listing membership) has already had its chance - the pipeline-wide last
+    resort for rule 2 of the gender feature (see
+    docs_research/GEAR_SOURCES_RESEARCH.md). Items that already have a
+    gender are returned unchanged.
+    """
+    result: list[GearItem] = []
+    for item in items:
+        if item.gender is None:
+            guessed = gender_from_text(item.name)
+            if guessed:
+                item = item.model_copy(update={"gender": guessed})
+        result.append(item)
+    return result
 
 
 # --------------------------------------------------------------------------- #
@@ -424,8 +525,15 @@ def apply_cached_detail(item: GearItem, previous_raw: dict) -> GearItem:
     """
     data = item.model_dump()
     for field in DETAIL_FIELDS:
-        if field in previous_raw:
-            data[field] = previous_raw[field]
+        if field not in previous_raw:
+            continue
+        if field == "gender" and not previous_raw.get("gender") and data.get("gender"):
+            # The cached detail fetch never found a gender tag, but this
+            # item already carries one from its source's own per-gender
+            # listing (resolve_listing_gender) - keep that rather than
+            # clobbering it with the cache's null.
+            continue
+        data[field] = previous_raw[field]
     return GearItem.model_validate(data)
 
 
@@ -465,6 +573,12 @@ def enrich_with_detail(
                 )
                 detail = None
             if detail:
+                if not detail.get("gender") and item.gender:
+                    # The PDP fetch didn't find a gender tag, but this item
+                    # already carries one from its source's own per-gender
+                    # listing (resolve_listing_gender) - don't clobber it
+                    # with the fetch's null.
+                    detail = {k: v for k, v in detail.items() if k != "gender"}
                 item = item.model_copy(update=detail)
         enriched.append(item)
     return enriched

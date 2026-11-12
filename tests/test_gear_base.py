@@ -9,14 +9,18 @@ from scrapers.gear_base import (
     common_variant_sku_prefix,
     cut_before_care_section,
     drop_boilerplate_specs,
+    enrich_with_detail,
     extract_bullet_facts,
     extract_code_from_title,
     extract_description_candidate,
     extract_line_specs,
     extract_table_pairs,
+    fill_missing_gender_from_text,
     gender_from_shopify_tags,
+    gender_from_text,
     normalize_gender,
     parse_shopify_decimal_price,
+    resolve_listing_gender,
     should_reuse_cached_detail,
     split_label_value,
     strip_html_text,
@@ -188,3 +192,141 @@ def test_apply_cached_detail_overlays_only_detail_fields():
     assert merged.specs == {"material": "Mesh"}
     assert merged.features == ["Breathable"]
     assert merged.detailFetchedAt == "2026-11-05T00:00:00Z"
+
+
+def test_apply_cached_detail_keeps_listing_gender_when_cache_has_none():
+    """A per-gender *listing* tag (gear_base.resolve_listing_gender, applied
+    by lining_gear.py/coolmate_gear.py before enrichment) must survive a
+    cache replay whose own detail fetch never found a gender tag - the
+    cache's null must not clobber it.
+    """
+    item = GearItem(
+        id="x-1",
+        name="Fresh Name",
+        brand="Brand",
+        category="shoes",
+        sourceName="x",
+        priceVnd=100,
+        productUrl="https://example.com/p",
+        crawledAt="2026-11-12T00:00:00Z",
+        gender="women",
+    )
+    previous_raw = {
+        "description": "Cached description.",
+        "gender": None,
+        "detailFetchedAt": "2026-11-05T00:00:00Z",
+    }
+
+    merged = apply_cached_detail(item, previous_raw)
+
+    assert merged.gender == "women"
+    assert merged.description == "Cached description."
+
+
+def test_enrich_with_detail_keeps_listing_gender_when_fetch_has_none():
+    """Same guard as above, for a fresh (non-cached) detail fetch: a PDP
+    that genuinely has no gender tag must not erase a gender this item
+    already carries from its source's own per-gender listing.
+    """
+    item = GearItem(
+        id="x-1",
+        name="Fresh Name",
+        brand="Brand",
+        category="shoes",
+        sourceName="x",
+        productUrl="https://example.com/p",
+        crawledAt="2026-11-12T00:00:00Z",
+        gender="men",
+    )
+
+    def fetch_detail(_client, _item):
+        return {"description": "Real PDP description.", "gender": None}
+
+    enriched = enrich_with_detail(
+        client=None,
+        items=[item],
+        previous_by_url=None,
+        fetch_detail=fetch_detail,
+        source_name="x",
+    )
+
+    assert enriched[0].gender == "men"
+    assert enriched[0].description == "Real PDP description."
+
+
+def test_resolve_listing_gender_resolves_single_tag_and_unions_to_unisex():
+    assert resolve_listing_gender(None) is None
+    assert resolve_listing_gender(set()) is None
+    assert resolve_listing_gender({"men"}) == "men"
+    assert resolve_listing_gender({"women"}) == "women"
+    assert resolve_listing_gender({"men", "women"}) == "unisex"
+
+
+def test_gender_from_text_matches_whole_word_keywords_en_and_vn():
+    assert gender_from_text("Running Shoes Men") == "men"
+    assert gender_from_text("Men's Running Tee") == "men"
+    assert gender_from_text("Mens Training Shorts") == "men"
+    assert gender_from_text("Giày chạy bộ Nam") == "men"
+    assert gender_from_text("Running Shoes Women") == "women"
+    assert gender_from_text("Women's Running Tee") == "women"
+    assert gender_from_text("Womens Training Shorts") == "women"
+    assert gender_from_text("Nike Wmns Running Shoes") == "women"
+    assert gender_from_text("Giày chạy bộ Nữ") == "women"
+    assert gender_from_text("Mũ Thể Thao Unisex") == "unisex"
+    assert gender_from_text("Women's & Men's Running Tee") == "unisex"
+    assert gender_from_text("Kids Running Shoes") == "kids"
+    assert gender_from_text("Giày chạy bộ trẻ em") == "kids"
+    assert gender_from_text("Junior Training Shorts") == "kids"
+
+
+def test_gender_from_text_avoids_substring_false_positives():
+    # The task brief's own called-out case: "nam" must not fire on the
+    # country name "Việt Nam"/"Vietnam".
+    assert gender_from_text("Áo chạy bộ Việt Nam 2026") is None
+    assert gender_from_text("Running Jacket Vietnam Edition") is None
+    # "nu" (from "nữ") must not substring-match inside an unrelated word.
+    assert gender_from_text("Áo khoác màu Nude") is None
+
+
+def test_gender_from_text_returns_none_without_a_keyword_or_input():
+    assert gender_from_text("Night Runner V3 Running Shoes") is None
+    assert gender_from_text(None) is None
+    assert gender_from_text("") is None
+
+
+def test_fill_missing_gender_from_text_only_fills_null_items():
+    already_tagged = GearItem(
+        id="x-1",
+        name="Running Shoes Women",
+        brand="B",
+        category="shoes",
+        sourceName="x",
+        productUrl="https://example.com/1",
+        crawledAt="2026-11-12T00:00:00Z",
+        gender="men",  # some explicit source signal disagreeing with the
+        # name - must be left alone, keyword fallback is last resort only.
+    )
+    untagged = GearItem(
+        id="x-2",
+        name="Running Shoes Women",
+        brand="B",
+        category="shoes",
+        sourceName="x",
+        productUrl="https://example.com/2",
+        crawledAt="2026-11-12T00:00:00Z",
+    )
+    unknown = GearItem(
+        id="x-3",
+        name="Night Runner V3",
+        brand="B",
+        category="shoes",
+        sourceName="x",
+        productUrl="https://example.com/3",
+        crawledAt="2026-11-12T00:00:00Z",
+    )
+
+    result = fill_missing_gender_from_text([already_tagged, untagged, unknown])
+
+    assert result[0].gender == "men"
+    assert result[1].gender == "women"
+    assert result[2].gender is None

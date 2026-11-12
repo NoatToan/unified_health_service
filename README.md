@@ -295,6 +295,23 @@ One gear item:
   `sku`, `specs`, `features`, `detailFetchedAt`) come from one extra fetch of each item's own
   product page. They're null/empty when the source doesn't publish them. Details are cached for 7
   days via the previous `latest.json`, with at most 120 fresh product-page fetches per source per run.
+- `gender`: `men | women | unisex | kids | null`, resolved in a fixed, additive priority order so the
+  app can filter Nam/Nữ (schema stays optional, `schemaVersion` unchanged):
+  1. **Source-provided**, preferred whenever a storefront exposes it: Puma's PDP `c_gender`;
+     Salomon/Li-Ning's spec-table "Giới tính" row or `GT_Nam`/`GT_Nữ`-style Shopify/Haravan tag
+     (`scrapers.gear_base.gender_from_shopify_tags`); Coolmate's PDP `gender_type`.
+  2. **Per-gender listing membership**, for the two sources whose own collection structure is
+     explicitly gendered (Li-Ning's `giay-chay-bo-nam-2`/`giay-chay-bo-nu-2`, Coolmate's
+     `quan-ao-chay-bo-nu`): a product seen only under one such listing is tagged that gender; one
+     seen under *both* a men's and a women's listing resolves to `unisex`
+     (`scrapers.gear_base.resolve_listing_gender`) rather than picking one arbitrarily. This never
+     gets clobbered back to null by a later PDP fetch that simply doesn't carry its own gender field.
+  3. **Name/title keyword fallback** (`scrapers.gear_base.gender_from_text`, applied once centrally
+     in `pipeline/gear_main.py` to whatever is still `null` after 1-2): VN/EN keywords, diacritics-
+     insensitive, whole-word only - `women's`/`womens`/`wmns`/`nữ`, `men's`/`mens`/`nam`, `unisex`,
+     `kids`/`trẻ em`/`junior`. A name matching both a men's and a women's keyword (e.g. "Women's &
+     Men's...") resolves to `unisex`; "nam" never fires on the substring inside "Việt Nam"/"Vietnam".
+  4. Otherwise `null` - never guessed blindly.
 - **Dedup is by exact `productUrl` match** (`pipeline/gear_main.py:dedupe_by_url`).
 - No dated snapshots (unlike `races/YYYY-MM-DD.json`) - a `latest.json`-only catalog, same
   reasoning as the news pipeline.

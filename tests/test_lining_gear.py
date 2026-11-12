@@ -98,6 +98,53 @@ def test_scrape_lining_gear_enriches_item_with_pdp_detail():
     assert item.detailFetchedAt is not None
 
 
+def _lining_product(handle: str, title: str) -> dict:
+    return {
+        "title": title,
+        "handle": handle,
+        "images": [{"src": f"https://cdn.hstatic.net/{handle}.jpg"}],
+        "variants": [{"price": "1000000.00"}],
+        "product_type": "Giày chạy bộ",
+    }
+
+
+def test_scrape_lining_gear_tags_gender_from_per_gender_listings():
+    """`giay-chay-bo-nam-2`/`giay-chay-bo-nu-2` are the storefront's own
+    explicitly-gendered collections (see module docstring and
+    docs_research/GEAR_SOURCES_RESEARCH.md): a product only ever seen under
+    one of them should be tagged that gender straight from the listing
+    (no PDP detail fetch needed), and a product seen under *both* should
+    resolve to "unisex" (gear_base.resolve_listing_gender) - never picked
+    arbitrarily.
+    """
+    nam_handle = "giay-chay-bo-nam-2"
+    nu_handle = "giay-chay-bo-nu-2"
+    nam_url = (
+        f"{lining_gear.BASE_URL}/collections/{nam_handle}/products.json"
+        f"?limit={lining_gear.PRODUCTS_PER_PAGE}"
+    )
+    nu_url = (
+        f"{lining_gear.BASE_URL}/collections/{nu_handle}/products.json"
+        f"?limit={lining_gear.PRODUCTS_PER_PAGE}"
+    )
+    product_a = _lining_product("shoe-a", "Shoe A")
+    product_b = _lining_product("shoe-b", "Shoe B")
+    product_c = _lining_product("shoe-c", "Shoe C")
+
+    pages = {
+        nam_url: json.dumps({"products": [product_a, product_c]}),
+        nu_url: json.dumps({"products": [product_b, product_c]}),
+    }
+    client = FakeClient(pages, default='{"products": []}')
+
+    items = lining_gear.scrape(client)
+    by_handle = {i.productUrl.rsplit("/", 1)[-1]: i for i in items}
+
+    assert by_handle["shoe-a"].gender == "men"
+    assert by_handle["shoe-b"].gender == "women"
+    assert by_handle["shoe-c"].gender == "unisex"
+
+
 def test_scrape_lining_gear_reuses_fresh_cached_detail_without_refetching():
     handle, _ = lining_gear.COLLECTIONS[0]
     listing_url = (

@@ -73,6 +73,7 @@ from scrapers.gear_base import (
     enrich_with_detail,
     make_gear_id,
     normalize_gender,
+    resolve_listing_gender,
 )
 from unidecode import unidecode
 
@@ -90,6 +91,18 @@ COLLECTIONS: list[tuple[str, str]] = [
     ("phu-kien-chay-bo", "accessories"),
 ]
 
+# Collection handle -> gender, for the one handle here that's explicitly
+# gendered by the storefront itself ("quần áo chạy bộ nữ" = women's running
+# apparel). `quan-ao-chay-bo` is this brand's general/default running
+# apparel listing - not confirmed to be men-exclusive (Coolmate is a
+# menswear-first brand, but that's a house-brand characterization, not a
+# per-collection gender statement the storefront itself makes) - so it
+# carries no gender tag of its own, same spirit as normalize_gender's
+# "never guess" rule. `phu-kien-chay-bo` (accessories) isn't gendered either.
+GENDER_BY_HANDLE: dict[str, str] = {
+    "quan-ao-chay-bo-nu": "women",
+}
+
 _CHUNK_RE = re.compile(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', re.DOTALL)
 _PRODUCTS_ARRAY_RE = re.compile(r'"products":\[\{')
 
@@ -98,17 +111,32 @@ def scrape(
     client: PoliteClient, previous_by_url: dict[str, dict] | None = None
 ) -> list[GearItem]:
     items: list[GearItem] = []
+    item_ids: list[str] = []
     seen_ids: set[str] = set()
+    genders_by_id: dict[str, set[str]] = {}
+
     for handle, category in COLLECTIONS:
+        gender_tag = GENDER_BY_HANDLE.get(handle)
         resp = client.get(f"{BASE_URL}/collection/{handle}")
         for product in _extract_products(resp.text):
             product_id = product.get("id")
-            if not product_id or product_id in seen_ids:
+            if not product_id:
+                continue
+            if gender_tag:
+                genders_by_id.setdefault(product_id, set()).add(gender_tag)
+            if product_id in seen_ids:
                 continue
             item = _parse_product(product, category)
             if item is not None:
                 items.append(item)
+                item_ids.append(product_id)
                 seen_ids.add(product_id)
+
+    for index, product_id in enumerate(item_ids):
+        resolved = resolve_listing_gender(genders_by_id.get(product_id))
+        if resolved:
+            items[index] = items[index].model_copy(update={"gender": resolved})
+
     return enrich_with_detail(client, items, previous_by_url, _fetch_detail, SOURCE_NAME)
 
 

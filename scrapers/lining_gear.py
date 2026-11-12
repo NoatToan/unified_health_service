@@ -44,6 +44,7 @@ from scrapers.gear_base import (
     enrich_with_detail,
     make_gear_id,
     parse_shopify_product_detail,
+    resolve_listing_gender,
 )
 
 SOURCE_NAME = "lining"
@@ -62,6 +63,17 @@ COLLECTIONS: list[tuple[str, str]] = [
     ("running-series-2026", "shoes"),
 ]
 
+# Collections whose handle itself is an explicit gender signal ("giày chạy
+# bộ nam"/"giày chạy bộ nữ" - confirmed real, non-empty collections, see
+# module docstring). `giay-chay-bo-2`/`running-series-2026` are the general
+# listings and carry no gender signal of their own. A product seen under
+# both the men's and women's handle resolves to "unisex"
+# (gear_base.resolve_listing_gender) rather than picking one arbitrarily.
+GENDER_BY_HANDLE: dict[str, str] = {
+    "giay-chay-bo-nam-2": "men",
+    "giay-chay-bo-nu-2": "women",
+}
+
 PRODUCTS_PER_PAGE = 250
 
 
@@ -69,15 +81,29 @@ def scrape(
     client: PoliteClient, previous_by_url: dict[str, dict] | None = None
 ) -> list[GearItem]:
     items: list[GearItem] = []
+    item_handles: list[str] = []
     seen_handles: set[str] = set()
+    genders_by_handle: dict[str, set[str]] = {}
+
     for handle, category in COLLECTIONS:
+        gender_tag = GENDER_BY_HANDLE.get(handle)
         for product in _fetch_collection_products(client, handle):
-            if product["handle"] in seen_handles:
+            product_handle = product["handle"]
+            if gender_tag:
+                genders_by_handle.setdefault(product_handle, set()).add(gender_tag)
+            if product_handle in seen_handles:
                 continue  # same product listed in more than one collection
             item = _parse_product(product, category)
             if item is not None:
                 items.append(item)
-                seen_handles.add(product["handle"])
+                item_handles.append(product_handle)
+                seen_handles.add(product_handle)
+
+    for index, product_handle in enumerate(item_handles):
+        resolved = resolve_listing_gender(genders_by_handle.get(product_handle))
+        if resolved:
+            items[index] = items[index].model_copy(update={"gender": resolved})
+
     return enrich_with_detail(client, items, previous_by_url, _fetch_detail, SOURCE_NAME)
 
 

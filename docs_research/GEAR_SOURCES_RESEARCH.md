@@ -484,6 +484,73 @@ What each source does **not** expose, confirmed live (left null/empty rather tha
   covers fabric/technology/fit/use, not physical measurements); `sku` has no direct field, only the
   derived common-prefix (see table above).
 
+## 9. 2026-11-12 (round 2) `gender` field (men/women/unisex/kids/null)
+
+The brief asked for an optional per-item `gender` so the app can filter Nam/Nữ. §8 already landed
+one real source-provided signal per source (`c_gender`/the "Giới tính" spec-table row/a `GT_Nam`/
+`GT_Nữ` Shopify tag/`gender_type`), but that still left real items null whenever a product's own PDP
+genuinely doesn't carry a gender field or tag (confirmed live - see the per-source null examples
+below). This round adds two more layers **on top of** that existing signal, same "same project
+policy" guardrails (robots.txt respected, `PoliteClient`, no anti-bot bypass, no fabricated data) and
+same additive/optional schema (`schemaVersion` unchanged) - never replacing a source-provided value,
+only filling what was genuinely still `null`. Fixed priority order, most-trusted first
+(`scrapers.gear_base`'s docstring on `GearItem.gender` has the same list):
+
+1. **Source-provided field/tag** (§8, unchanged) - Puma's `c_gender`, Salomon/Li-Ning's spec-table
+   "Giới tính" row or `GT_Nam`/`GT_Nữ` tag, Coolmate's `gender_type`.
+2. **Per-gender listing membership** (new) - for the two sources whose own collection *structure*,
+   not just the PDP, is explicitly gendered:
+   - **Li-Ning**: `giay-chay-bo-nam-2` (confirmed real, non-empty, "giày chạy bộ **nam**" = men's
+     running shoes) and `giay-chay-bo-nu-2` ("... **nữ**" = women's) - both already crawled by
+     `lining_gear.py` for product coverage, just not previously used as a gender signal.
+   - **Coolmate**: `quan-ao-chay-bo-nu` ("quần áo chạy bộ **nữ**" = women's running apparel) -
+     already crawled for product coverage, same story. Its sibling `quan-ao-chay-bo` is the
+     storefront's *general* running-apparel listing, not a men's-only one by any signal the
+     storefront itself states (Coolmate being characterized as a menswear-first brand in `README.md`/
+     the module docstring is a house-brand description, not a per-collection gender statement the
+     storefront makes) - so, per the "never guess" rule, that collection is deliberately **not**
+     treated as a men's signal. Salomon/Puma have no per-gender collection at all (confirmed in §1 -
+     Salomon's four collections are `road-running-1`/`trail-running`/`ao-quan`/`phu-kien`, none
+     gendered; Puma's listing hits carry no gender field, only its PDP does), so this layer is a
+     no-op for those two sources.
+   - `scrapers.gear_base.resolve_listing_gender(genders: set[str]) -> str | None` collapses the set
+     of gender tags a product was seen under, across *every* collection a scraper crawls (tracked in
+     a two-pass `scrape()`: first gather every collection's products and which gender tag, if any,
+     its own collection carries, then resolve each distinct product once all collections have been
+     scanned) - one tag if there's only one, `"unisex"` if the same product genuinely appeared under
+     both a men's and a women's listing, `null` if it wasn't seen under any gendered listing. A
+     listing-derived gender is never later clobbered back to `null` by a PDP fetch (cached or fresh)
+     that simply doesn't carry its own gender field - `apply_cached_detail`/`enrich_with_detail` both
+     only overwrite `gender` when the detail fetch's own value is non-null (regression-tested in
+     `tests/test_gear_base.py`).
+3. **Name/title keyword fallback** (new, last resort) - `scrapers.gear_base.gender_from_text`,
+   applied once centrally in `pipeline/gear_main.py` (`fill_missing_gender_from_text`, right after
+   dedup) to whatever is still `null` after layers 1-2. Matches, diacritics-insensitive and
+   whole-word only (never a substring match): `women's`/`womens`/`wmns`/`women`/`nữ` → `women`;
+   `men's`/`mens`/`men`/`nam` → `men`; `unisex` → `unisex`; `kids`/`kid`/`junior`/`trẻ em` → `kids`.
+   A name matching both a men's and a women's keyword (e.g. "Women's & Men's Running Tee") resolves
+   to `unisex` rather than picking a side arbitrarily. The one false positive the brief explicitly
+   called out - `"nam"` as a substring of the country name - is handled by stripping
+   `"việt nam"`/`"vietnam"` out of the text *before* scanning for keywords, so a product named e.g.
+   "Áo chạy bộ Việt Nam 2026" correctly resolves to `null`, not `"men"`. Verified live: before this
+   fallback, items like "VELOCITY 7-inch Running Shorts Men", "Deviate NITRO™ 3 Ekiden Running Shoes
+   Women", and four Li-Ning "Giày chạy bộ trẻ em YKFW002-*V" kids' shoes were sitting at `gender:
+   null` purely because their own PDP had no gender field/tag that round - this layer now recovers
+   exactly those from the name itself. Accessories with no gender wording at all (backpacks, water
+   bottles, socks, belts - genuinely gender-neutral gear) correctly stay `null`, not guessed.
+4. Otherwise `null` - never guessed blindly, same as every other nullable field in this schema.
+
+**Before this round** (source-provided field/tag only, from the §7 run-2 numbers): gender fill rate
+was puma 97.5%, salomon 87.4%, lining 96.4%, coolmate 100% - already high, but with real,
+explainable gaps (Puma: a couple of items whose PDP genuinely has no `c_gender`; Salomon: ~14 items,
+mostly gender-neutral accessories *and* a few real misses like "Mũ Thể Thao Unisex..." that said
+"Unisex" plainly in the name but had no spec-table/tag row for it). Layers 2-3 close the two kinds of
+remaining gap: layer 2 for Li-Ning/Coolmate products whose PDP detail fetch missed the window (cold
+cache, budget-exhausted, or simply didn't carry the field) but whose *listing* already proves the
+gender; layer 3 for the plain "says it in the name" cases across every source. Genuinely
+gender-neutral items (most accessories) are expected to stay `null` regardless - that's the schema
+working as intended, not a coverage gap.
+
 ## Sources checked
 
 - https://vn.puma.com/robots.txt, https://vn.puma.com/sitemap_index.xml
