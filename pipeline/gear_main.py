@@ -7,11 +7,9 @@ never fails the whole run), de-duplicates by `productUrl`, and writes
 
 This is a metadata + link-out catalog, not a store: every item keeps
 `productUrl` as the only way to actually buy it. See
-docs_research/GEAR_SOURCES_RESEARCH.md for the full source research, the
-schema rationale, and - importantly - the note that `scrapers/puma_gear.py`'s
-selectors are unverified against live HTML and need a human (or a session
-with working shell access) to run this once and fix any mismatches before
-`docs/gear/latest.json`'s contents are trusted.
+docs_research/GEAR_SOURCES_RESEARCH.md for the full source research and the
+schema rationale, including which sources were checked and held back
+(Decathlon, Nike, Adidas, Asics, ...) and why.
 
 Safety rule, same spirit as the other two pipelines: if every source fails
 (zero items total) while a previous run had items, don't overwrite
@@ -25,7 +23,7 @@ from pathlib import Path
 
 from pydantic import ValidationError
 
-from scrapers import puma_gear, salomon_gear
+from scrapers import coolmate_gear, lining_gear, puma_gear, salomon_gear
 from scrapers.base import PoliteClient, now_iso
 from scrapers.gear_base import GearItem
 
@@ -38,6 +36,8 @@ LATEST_PATH = GEAR_DIR / "latest.json"
 SCRAPERS = [
     ("puma", puma_gear.scrape),
     ("salomon", salomon_gear.scrape),
+    ("lining", lining_gear.scrape),
+    ("coolmate", coolmate_gear.scrape),
 ]
 
 
@@ -52,16 +52,25 @@ def load_previous() -> dict | None:
 
 def run_scrapers(client: PoliteClient, previous: dict | None) -> tuple[list[GearItem], list[dict]]:
     previous_by_source: dict[str, list[dict]] = {}
+    previous_by_url: dict[str, dict] = {}
     if previous:
         for raw in previous.get("items", []):
             previous_by_source.setdefault(raw.get("sourceName", ""), []).append(raw)
+            product_url = raw.get("productUrl")
+            if product_url:
+                previous_by_url[product_url] = raw
 
     all_items: list[GearItem] = []
     source_reports: list[dict] = []
 
     for name, fn in SCRAPERS:
         try:
-            items = fn(client)
+            # `previous_by_url` lets each scraper's detail-enrichment step
+            # (scrapers.gear_base.enrich_with_detail) reuse a still-fresh
+            # cached detail instead of spending its PDP-fetch budget on a
+            # product whose detail hasn't gone stale - see
+            # MAX_DETAIL_FETCHES_PER_SOURCE/DETAIL_CACHE_MAX_AGE_DAYS.
+            items = fn(client, previous_by_url)
             if not items:
                 raise ValueError("scraper returned zero items")
             all_items.extend(items)

@@ -40,13 +40,14 @@
       way to read the full article.</li>
     <li>Also fetches a small, fixed set of running-brand storefronts' public category
       listing pages once a day (currently: PUMA Vietnam's running shoes/apparel/accessories
-      sections and Salomon Vietnam's running shoes/apparel/accessories collections) — name,
-      brand, category, price (if publicly listed), a short factual description written in
-      this project's own words, image URL(s), available color variants where the source
-      exposes them, and the brand's own product page link. This is a reference catalog,
-      never a store: it never reproduces marketing copy beyond basic facts, never touches a
-      cart/checkout/payment endpoint, and every item always links back to the brand's own
-      product page as the only way to actually buy it.</li>
+      sections, Salomon Vietnam's running shoes/apparel/accessories collections, Li-Ning
+      Vietnam's running shoe collections, and Coolmate's running apparel/accessories
+      collections) — name, brand, category, price (if publicly listed), image URL(s), available color
+      variants, and the brand's own product page link. It also fetches each product's own public
+      page (at most once a week per product) to read a short description, sizes and stock,
+      gender, product code, and the factual specs that page publishes. This
+      is a reference catalog, never a store: it never touches a cart/checkout/payment endpoint, and every item always
+      links back to the brand's own product page as the only way to actually buy it.</li>
     <li>Sends one request at a time per site, with a multi-second delay between requests,
       and retries at most once on server errors.</li>
     <li>Extracts only factual race data: name, date, location, distances, price, and a

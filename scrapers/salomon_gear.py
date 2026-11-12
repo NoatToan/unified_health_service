@@ -21,11 +21,28 @@ report that product's own listed colors, never invent one.
 `/admin`, `/cart(s)`, `/orders`, `/checkout(s)`, `/account`, `/search`,
 `/discount/*`, and literal `+`/`%2B` in `/collections/*`/`/blogs/*` - none of
 which this touches).
+
+**2026-11-12 detail enrichment**: `/products/<handle>.json` (confirmed live,
+same platform, allowed by robots.txt the same way `/collections/*/products.json`
+already is) returns the *same* product one extra level deeper - its full
+`body_html` (a real spec table, e.g. "Thông tin chi tiết: Trọng lượng / Độ
+dốc / Mã SKU / Giới tính / ..."), `options`/`variants` with per-size
+`available`, and `compare_at_price`. `scrapers.gear_base.parse_shopify_product_detail`
+does the actual parsing (shared with `lining_gear.py` - same platform,
+identical shape) into `description`/`specs`/`features`/`sizes`/`inStock`/
+`gender`/`sku`/`originalPriceVnd`/`images`; `enrich_with_detail` caps the
+extra requests at `MAX_DETAIL_FETCHES_PER_SOURCE` and reuses a previous
+run's detail when it's still fresh.
 """
 from __future__ import annotations
 
 from scrapers.base import PoliteClient, now_iso
-from scrapers.gear_base import GearItem, make_gear_id
+from scrapers.gear_base import (
+    GearItem,
+    enrich_with_detail,
+    make_gear_id,
+    parse_shopify_product_detail,
+)
 
 SOURCE_NAME = "salomon"
 BASE_URL = "https://vn.salomon.com"
@@ -47,7 +64,9 @@ COLLECTIONS: list[tuple[str, str]] = [
 PRODUCTS_PER_PAGE = 50
 
 
-def scrape(client: PoliteClient) -> list[GearItem]:
+def scrape(
+    client: PoliteClient, previous_by_url: dict[str, dict] | None = None
+) -> list[GearItem]:
     items: list[GearItem] = []
     seen_handles: set[str] = set()
     for handle, category in COLLECTIONS:
@@ -58,7 +77,21 @@ def scrape(client: PoliteClient) -> list[GearItem]:
             if item is not None:
                 items.append(item)
                 seen_handles.add(product["handle"])
-    return items
+    return enrich_with_detail(client, items, previous_by_url, _fetch_detail, SOURCE_NAME)
+
+
+def _fetch_detail(client: PoliteClient, item: GearItem) -> dict | None:
+    """Fetch `item.productUrl`'s own `.json` detail endpoint (same handle,
+    one path segment deeper: `/products/<handle>.json` instead of
+    `/collections/<handle>/products.json`) and parse it with the shared
+    Shopify/Haravan detail parser.
+    """
+    resp = client.get(f"{item.productUrl}.json")
+    data = resp.json()
+    product = data.get("product")
+    if not product:
+        return None
+    return parse_shopify_product_detail(product)
 
 
 def _fetch_collection_products(client: PoliteClient, handle: str) -> list[dict]:
@@ -84,9 +117,6 @@ def _parse_product(product: dict, category: str) -> GearItem | None:
     variants = product.get("variants") or []
     price_vnd = _parse_price(variants[0].get("price")) if variants else None
 
-    product_type = (product.get("product_type") or "").strip()
-    description = f"{BRAND} {product_type}." if product_type else None
-
     return GearItem(
         id=make_gear_id(SOURCE_NAME, handle),
         name=title,
@@ -94,7 +124,9 @@ def _parse_product(product: dict, category: str) -> GearItem | None:
         category=category,
         sourceName=SOURCE_NAME,
         priceVnd=price_vnd,
-        description=description,
+        description=None,  # filled by detail enrichment - see module
+        # docstring's "2026-11-12 detail enrichment"; never the old
+        # "<Brand> <product_type>." placeholder.
         imageUrl=image_url,
         productUrl=product_url,
         variants=[],

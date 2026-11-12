@@ -226,6 +226,88 @@ Sources (see `docs_research/NEWS_SOURCES_RESEARCH.md` for the full writeup):
 | [Tuổi Trẻ Online "marathon" tag](https://tuoitre.vn/marathon.html) | HTML scrape | Race recaps/results, runner stories |
 | [VNRUN](https://vnrun.com/feed/) | RSS feed | Gear reviews, training-tip articles |
 
+## Gear catalog (runner gear reference)
+
+A third, independent pipeline crawls a small, fixed set of running-brand storefronts' public
+category listing pages and publishes a reference catalog of running shoes, apparel, and
+accessories:
+
+```
+https://noattoan.github.io/unified_health_service/gear/latest.json
+```
+
+This is a **metadata + link-out catalog, never a store**: every item keeps `productUrl` as the
+only way to actually buy it, all detail (description, specs, sizes, stock, gallery) comes from the
+vendor's own product page and is never fabricated, and nothing here ever touches a cart/checkout/payment endpoint or
+collects user data. See `docs_research/GEAR_SOURCES_RESEARCH.md` for the full source research,
+schema rationale, and which sources were checked and held back (Decathlon, Nike, Adidas, Asics,
+Hoka, Brooks) and why.
+
+Top level of `gear/latest.json`:
+
+```json
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-12T12:36:34Z",
+  "sources": [
+    { "name": "puma", "ok": true, "count": 204, "error": null }
+  ],
+  "items": [ /* GearItem objects: shoes, then apparel, then accessories per source */ ]
+}
+```
+
+One gear item:
+
+```json
+{
+  "id": "puma-312587",
+  "name": "Darter Pro 2 Running Shoes Unisex",
+  "brand": "Puma",
+  "category": "shoes",
+  "sourceName": "puma",
+  "priceVnd": 1360000,
+  "originalPriceVnd": 1700000,
+  "description": "Lightweight, responsive, and built to move, Darter Pro shoes give you the essentials...",
+  "imageUrl": "https://images.puma.com/...",
+  "images": ["https://images.puma.com/...", "https://images.puma.com/..."],
+  "productUrl": "https://vn.puma.com/vn/en/pd/darter-pro-2-running-shoes-unisex/312587.html?color=16",
+  "variants": [
+    { "color": "PUMA White-Ultra Red-Silver Mist-Flat Dark Gray", "imageUrl": "https://images.puma.com/...", "productUrl": "https://vn.puma.com/...", "priceVnd": null, "images": [], "sizes": [] }
+  ],
+  "sizes": [ { "label": "40", "available": false }, { "label": "41", "available": true } ],
+  "inStock": true,
+  "gender": "unisex",
+  "sku": "312587",
+  "specs": { "Heel-to-toe drop": "6mm", "Cushioning": "Medium", "Pronation": "Neutral", "material": "Textile" },
+  "features": ["The upper of the shoes is made with at least 30% recycled materials."],
+  "detailFetchedAt": "2026-11-12T13:10:55Z",
+  "crawledAt": "2026-11-12T05:09:53Z"
+}
+```
+
+- `category`: `shoes | apparel | accessories`, assigned explicitly per listing URL a scraper
+  targets - not a keyword guess, since every source already publishes clean, separate listing
+  pages per category.
+- `variants`: real per-color data where (and only where) a source genuinely exposes it - never
+  fabricated. Most sources only sell one color per product page, so `variants` is correctly
+  empty for most items.
+- Detail fields (`description`, `images`, `originalPriceVnd`, `sizes`, `inStock`, `gender`,
+  `sku`, `specs`, `features`, `detailFetchedAt`) come from one extra fetch of each item's own
+  product page. They're null/empty when the source doesn't publish them. Details are cached for 7
+  days via the previous `latest.json`, with at most 120 fresh product-page fetches per source per run.
+- **Dedup is by exact `productUrl` match** (`pipeline/gear_main.py:dedupe_by_url`).
+- No dated snapshots (unlike `races/YYYY-MM-DD.json`) - a `latest.json`-only catalog, same
+  reasoning as the news pipeline.
+
+Sources (see `docs_research/GEAR_SOURCES_RESEARCH.md` for the full writeup):
+
+| Source | Platform | What it contributes |
+|---|---|---|
+| [PUMA Vietnam](https://vn.puma.com/vn/en/sports/running/running-shoes) | Salesforce Commerce Cloud (PWA Kit) | Running shoes, apparel, accessories; real multi-color `variants` |
+| [Salomon Vietnam](https://vn.salomon.com/collections/road-running-1) | Shopify (Haravan-backed reseller) | Trail/road running shoes, apparel, accessories |
+| [Li-Ning Vietnam](https://lining.com.vn/collections/giay-chay-bo-2) | Haravan | Running shoes (apparel/accessories collections exist but are currently empty) |
+| [Coolmate](https://www.coolmate.me/collection/quan-ao-chay-bo) | Custom Next.js storefront | Running apparel and accessories (no running shoes sold) |
+
 ## Running locally
 
 Requires Python 3.12+.
@@ -239,6 +321,9 @@ python -m pipeline.main
 
 # News/knowledge-content pipeline (separate, independent of the races one above):
 python -m pipeline.news_main
+
+# Gear reference catalog (separate, independent of the two pipelines above):
+python -m pipeline.gear_main
 ```
 
 `pipeline.main` fetches all race sources live, merges/dedupes, validates with pydantic,
@@ -250,6 +335,10 @@ non-zero instead (a safety net against publishing a broken crawl).
 `pipeline.news_main` fetches all news sources live, de-dupes by URL, sorts newest
 first, and writes `docs/news/latest.json`. Same safety-net philosophy: if every news
 source fails in the same run, it refuses to overwrite `latest.json` with an empty feed.
+
+`pipeline.gear_main` fetches all gear sources live, de-dupes by `productUrl`, and writes
+`docs/gear/latest.json`. Same safety-net philosophy: if every gear source fails in the
+same run, it refuses to overwrite `latest.json` with an empty catalog.
 
 Run the test suite (uses saved HTML/RSS fixtures in `tests/fixtures/`, no network needed):
 
@@ -270,29 +359,38 @@ scrapers/
   vnexpress_news.py      # HTML scrape
   tuoitre_news.py        # HTML scrape
   vnrun_news.py           # RSS feed (feedparser)
+  gear_base.py            # GearItem/GearVariant models, slugify/make_gear_id()
+  puma_gear.py            # embedded `mobify-data` JSON, paginated
+  salomon_gear.py         # Shopify /collections/<handle>/products.json
+  lining_gear.py          # Haravan /collections/<handle>/products.json
+  coolmate_gear.py        # embedded Next.js RSC `self.__next_f.push(...)` chunks
 pipeline/
   merge.py          # normalize, dedupe, field-precedence merge (races only)
   main.py           # runs every race scraper, validates, writes docs/races/*.json
   news_main.py      # runs every news scraper, dedupes by URL, writes docs/news/latest.json
+  gear_main.py      # runs every gear scraper, dedupes by productUrl, writes docs/gear/latest.json
 tests/
-  fixtures/         # saved HTML/RSS fixtures per source
+  fixtures/         # saved HTML/RSS/JSON fixtures per source
   test_*.py
 docs/
   index.html, bot.html
   races/latest.json, races/YYYY-MM-DD.json
   news/latest.json
+  gear/latest.json
 docs_research/
   RACE_SOURCES_RESEARCH.md
   NEWS_SOURCES_RESEARCH.md
+  GEAR_SOURCES_RESEARCH.md
 .github/workflows/crawl.yml
 ```
 
 ## Automation
 
-`.github/workflows/crawl.yml` runs both pipelines (`python -m pipeline.main` then
-`python -m pipeline.news_main`) daily at 03:00 Vietnam time (`0 20 * * *` UTC) and on
-manual `workflow_dispatch`, then commits `docs/` under a `race-bot` git identity if
-anything changed. Either pipeline can fail independently (`continue-on-error`) without
-blocking the other's output from being committed; the job itself still fails (and
-sends the usual GitHub Actions failure email) if either one did. GitHub Pages serves
-this repo's `main` branch, `/docs` folder.
+`.github/workflows/crawl.yml` runs all three pipelines (`python -m pipeline.main`, then
+`python -m pipeline.news_main`, then `python -m pipeline.gear_main`) daily at 03:00
+Vietnam time (`0 20 * * *` UTC) and on manual `workflow_dispatch`, then commits `docs/`
+under a `race-bot` git identity if anything changed. Any one pipeline can fail
+independently (`continue-on-error`) without blocking the others' output from being
+committed; the job itself still fails (and sends the usual GitHub Actions failure
+email) if any of them did. GitHub Pages serves this repo's `main` branch, `/docs`
+folder.
