@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T04:26:24Z",
+  "generatedAt": "2026-11-12T01:47:30Z",
   "sources": [
     {
       "name": "vnexpress",
-      "ok": true,
+      "ok": false,
       "count": 15,
-      "error": null
+      "error": "Client error '404 Not Found' for url 'https://vnexpress.net/the-thao/marathon/tin-tuc'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "name": "tuoitre",

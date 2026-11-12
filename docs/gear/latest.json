@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T05:14:27Z",
+  "generatedAt": "2026-11-12T01:47:47Z",
   "sources": [
     {
       "name": "puma",
@@ -24,8 +24,8 @@
       "sourceName": "puma",
       "priceVnd": 550000,
       "description": "Puma running accessories.",
-      "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026168/01/fnd/VNM/fmt/png",
-      "productUrl": "https://vn.puma.com/vn/en/pd/essentials-running-5-panel-cap/026168.html?color=01",
+      "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026168/12/fnd/VNM/fmt/png",
+      "productUrl": "https://vn.puma.com/vn/en/pd/essentials-running-5-panel-cap/026168.html?color=12",
       "variants": [
         {
           "color": "Speed Blue",
@@ -53,7 +53,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/essentials-running-5-panel-cap/026168.html?color=12"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:37Z"
     },
     {
       "id": "puma-026998",
@@ -63,8 +63,8 @@
       "sourceName": "puma",
       "priceVnd": 650000,
       "description": "Puma running accessories.",
-      "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026998/05/fnd/VNM/fmt/png",
-      "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-baseball-cap/026998.html?color=05",
+      "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026998/06/fnd/VNM/fmt/png",
+      "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-baseball-cap/026998.html?color=06",
       "variants": [
         {
           "color": "Sandstone",
@@ -92,7 +92,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-baseball-cap/026998.html?color=02"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:37Z"
     },
     {
       "id": "puma-026997",
@@ -121,7 +121,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-visor/026997.html?color=01"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:37Z"
     },
     {
       "id": "puma-092404",
@@ -150,7 +150,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-waist-bag/092404.html?color=01"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:37Z"
     },
     {
       "id": "puma-091611",
@@ -163,7 +163,7 @@
       "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/091611/01/fnd/VNM/fmt/png",
       "productUrl": "https://vn.puma.com/vn/en/pd/puma-x-hyrox-46l-training-backpack/091611.html?color=01",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:37Z"
     },
     {
       "id": "puma-938929",
@@ -192,7 +192,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/quarter-running-socks-unisex-2-pack/938929.html?color=01"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:37Z"
     },
     {
       "id": "puma-027361",
@@ -206,17 +206,17 @@
       "productUrl": "https://vn.puma.com/vn/en/pd/run-culture-collective-short-visor-cap/027361.html?color=01",
       "variants": [
         {
-          "color": "Chai Latte",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/027361/02/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/run-culture-collective-short-visor-cap/027361.html?color=02"
-        },
-        {
           "color": "Inky Depths",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/027361/01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/run-culture-collective-short-visor-cap/027361.html?color=01"
+        },
+        {
+          "color": "Chai Latte",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/027361/02/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/run-culture-collective-short-visor-cap/027361.html?color=02"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:37Z"
     },
     {
       "id": "puma-026169",
@@ -260,7 +260,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/running-baseball-cap/026169.html?color=06"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:37Z"
     },
     {
       "id": "puma-938930",
@@ -284,7 +284,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/sneaker-running-socks-unisex-2-pack/938930.html?color=02"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:37Z"
     },
     {
       "id": "salomon-balo-hiking-salomon-cross-12-black-lc2185700",
@@ -297,7 +297,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/balo-hiking-salomon-cross-12-black-lc2185700__1__91b519b837d54719abcd95505ab47cee.png",
       "productUrl": "https://vn.salomon.com/products/balo-hiking-salomon-cross-12-black-lc2185700",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-balo-hiking-salomon-cross-12-black-white-lc2185900",
@@ -310,7 +310,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/balo-hiking-salomon-cross-12-black-lc2185900__1__8fbadbf6350848e781ad21b68eda4154.png",
       "productUrl": "https://vn.salomon.com/products/balo-hiking-salomon-cross-12-black-white-lc2185900",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-balo-hiking-salomon-xt-15-black-lc2857900",
@@ -323,7 +323,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/balo-hiking-salomon-xt-15-black-lc2857900__1__4a3e6f584186445aa45080e5367f7eea.png",
       "productUrl": "https://vn.salomon.com/products/balo-hiking-salomon-xt-15-black-lc2857900",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-balo-leo-nui-salomon-aerotrek-30-black-lc2535500",
@@ -336,7 +336,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/balo-leo-nui-salomon-aerotrek-30-black-lc2535500__1__9a237a5c5ec541ef96f2405a450becd4.png",
       "productUrl": "https://vn.salomon.com/products/balo-leo-nui-salomon-aerotrek-30-black-lc2535500",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-binh-chua-nuoc-salomon-soft-reservoir-1-5l-lc1916200-clear-blue",
@@ -349,7 +349,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc1916200_0_gho_softreservoir1.5l-clearblue_80c74469d34a4011a04712c7199fedae.png",
       "productUrl": "https://vn.salomon.com/products/binh-chua-nuoc-salomon-soft-reservoir-1-5l-lc1916200-clear-blue",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-binh-nuoc-cam-tay-salomon-active-handheld-500ml-lc1928600",
@@ -362,7 +362,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/binh-nuoc-cam-tay-salomon-active-handheld-500ml-lc1928600__1__0e64ea393cbf4b5494cc8da1f7279b8a.png",
       "productUrl": "https://vn.salomon.com/products/binh-nuoc-cam-tay-salomon-active-handheld-500ml-lc1928600",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-binh-nuoc-mem-salomon-soft-flask-250ml-8oz-28-clear-blue-lc1986400",
@@ -375,7 +375,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/binh-nuoc-mem-salomon-soft-flask-250ml-8oz-28-clear-blue-lc1986400__1__b70f0a9c229b4eb0b05b62d81122ba20.png",
       "productUrl": "https://vn.salomon.com/products/binh-nuoc-mem-salomon-soft-flask-250ml-8oz-28-clear-blue-lc1986400",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-binh-nuoc-mem-salomon-soft-reservoir-2l-clear-blue-lc1916300",
@@ -388,7 +388,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/binh-nuoc-mem-salomon-soft-reservoir-2l-clear-blue-lc1916300__1__fb7a7337edde4cdb85808eab7b8809f3.png",
       "productUrl": "https://vn.salomon.com/products/binh-nuoc-mem-salomon-soft-reservoir-2l-clear-blue-lc1916300",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-bo-co-giay-salomon-trail-gaiters-low-black-l32916600",
@@ -401,7 +401,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/bo-co-giay-salomon-trail-gaiters-low-black-l32916600__1__2e0828d66e8c495eb71dc21a4b1f11f0.png",
       "productUrl": "https://vn.salomon.com/products/bo-co-giay-salomon-trail-gaiters-low-black-l32916600",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-coc-nuoc-mem-salomon-soft-cup-speed-150ml-5oz-clear-blue-lc1917600",
@@ -414,7 +414,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/coc-nuoc-mem-salomon-soft-cup-speed-150ml-5oz-clear-blue-lc1917600__1__14683ee2c2c64d1c88d61d2c7a719df6.png",
       "productUrl": "https://vn.salomon.com/products/coc-nuoc-mem-salomon-soft-cup-speed-150ml-5oz-clear-blue-lc1917600",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-mu-the-thao-salomon-cross-visor-lc2021400-deep-black",
@@ -427,7 +427,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2021400-03_1_1_2ed9b3eaa047455fb82b00566ee209d7.jpg",
       "productUrl": "https://vn.salomon.com/products/mu-the-thao-salomon-cross-visor-lc2021400-deep-black",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-logo-5-panel-deep-black-lc2681800",
@@ -440,7 +440,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/mu-the-thao-unisex-salomon-logo-5-panel-deep-black-lc2681800__2__2add70eb0b6644b9bcd96d7f7268c094.png",
       "productUrl": "https://vn.salomon.com/products/mu-the-thao-unisex-salomon-logo-5-panel-deep-black-lc2681800",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-logo-flat-cap-deep-black-lc2682900",
@@ -453,7 +453,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/mu-the-thao-unisex-salomon-logo-flat-cap-deep-black-lc2682900__2__3c6ade46d5ff423c8ce588e9294f6553.png",
       "productUrl": "https://vn.salomon.com/products/mu-the-thao-unisex-salomon-logo-flat-cap-deep-black-lc2682900",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-logo-flat-cap-whisper-white-lc2836900",
@@ -466,7 +466,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/mu-the-thao-unisex-salomon-logo-flat-cap-whisper-white-lc2836900__2__f1b2dec129b14613a280471e34155052.png",
       "productUrl": "https://vn.salomon.com/products/mu-the-thao-unisex-salomon-logo-flat-cap-whisper-white-lc2836900",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-sense-aero-cap-burnt-umber-lc3057600",
@@ -479,7 +479,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/mu-the-thao-unisex-salomon-sense-aero-cap-burnt-umber-lc3057600__1__8cbee28324b147fb8488199b79205379.png",
       "productUrl": "https://vn.salomon.com/products/mu-the-thao-unisex-salomon-sense-aero-cap-burnt-umber-lc3057600",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-sense-aero-cap-clematis-blue-lc3057500",
@@ -492,7 +492,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/mu-the-thao-unisex-salomon-sense-aero-cap-clematis-blue-lc3057500__2__902e3ea4e57e4d22965b0193de98051d.png",
       "productUrl": "https://vn.salomon.com/products/mu-the-thao-unisex-salomon-sense-aero-cap-clematis-blue-lc3057500",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-sense-aero-cap-coffee-bean-lc2631700",
@@ -505,7 +505,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/mu-the-thao-unisex-salomon-sense-aero-cap-coffee-bean-lc2631700__1__5f0c6003aba54481b7712ffd85c433a9.png",
       "productUrl": "https://vn.salomon.com/products/mu-the-thao-unisex-salomon-sense-aero-cap-coffee-bean-lc2631700",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-sense-aero-cap-icy-pink-lc3057800",
@@ -518,7 +518,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/mu-the-thao-unisex-salomon-sense-aero-cap-icy-pink-lc3057800__1__97ca764bcb3c4679b95c4d40e30a85c7.png",
       "productUrl": "https://vn.salomon.com/products/mu-the-thao-unisex-salomon-sense-aero-cap-icy-pink-lc3057800",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-sense-aero-cap-whisper-white-lc2764000",
@@ -531,7 +531,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/mu-the-thao-unisex-salomon-sense-aero-cap-whisper-white-lc2764000__2__6e2b5310594d45549b8cb01070c389e2.png",
       "productUrl": "https://vn.salomon.com/products/mu-the-thao-unisex-salomon-sense-aero-cap-whisper-white-lc2764000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-nap-mem-salomon-soft-valve-cover-lc2019900-clear-alloy",
@@ -544,7 +544,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2019900_0_gho_softvalvecover-clear-alloy_5fe3550264c44945a076c431c7a814dd.png",
       "productUrl": "https://vn.salomon.com/products/nap-mem-salomon-soft-valve-cover-lc2019900-clear-alloy",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-cao-co-salomon-everyday-crew-3-pack-unisex-lc2086200",
@@ -557,7 +557,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-cao-co-salomon-everyday-crew-3-pack-unisex-lc2086200__1__2c52afacf4f84d439ac7b55e319f22ce.png",
       "productUrl": "https://vn.salomon.com/products/tat-cao-co-salomon-everyday-crew-3-pack-unisex-lc2086200",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-cao-co-salomon-unisex-s-speedcross-crew-socks-black-magnet-lc2164800",
@@ -570,7 +570,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/o-co-salomon-unisex-s-speedcross-crew-socks-black-magnet-lc2164800__1__916bdfcf8f734382a8a99bedc89df130.png",
       "productUrl": "https://vn.salomon.com/products/tat-cao-co-salomon-unisex-s-speedcross-crew-socks-black-magnet-lc2164800",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-salomon-out-alps-crew-2-pack-socks-lc2261400",
@@ -583,7 +583,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/tat-salomon-out-alps-crew-2-pack-socks-lc2261400__1__8c2bf93d04ab4268b0c18b0e2420fbfb.png",
       "productUrl": "https://vn.salomon.com/products/tat-salomon-out-alps-crew-2-pack-socks-lc2261400",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-salomon-x-ultra-access-quarter-2-pack-lc2082900",
@@ -596,7 +596,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-salomon-x-ultra-access-quarter-2-pack-lc2082900__1__6c12e50a18144e17baa54adb67e65468.png",
       "productUrl": "https://vn.salomon.com/products/tat-salomon-x-ultra-access-quarter-2-pack-lc2082900",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-aero-ankle-black-castelrock-lc2624600",
@@ -609,7 +609,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-the-thao-salomon-aero-ankle-black-castelrock-lc2624600__1__9fc5adef2b7147d8bc6d45cd9a2c21e1.png",
       "productUrl": "https://vn.salomon.com/products/tat-the-thao-salomon-aero-ankle-black-castelrock-lc2624600",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-evasion-ankle-2-pack-black-black-lc2087500",
@@ -622,7 +622,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-the-thao-salomon-evasion-ankle-2-pack-black-black-lc2087500__1__c52c005faa2343b7b6da8be4debd1dd1.png",
       "productUrl": "https://vn.salomon.com/products/tat-the-thao-salomon-evasion-ankle-2-pack-black-black-lc2087500",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-evasion-ankle-2-pack-light-grey-heather-medium-lc1983400",
@@ -635,7 +635,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/ao-wilson-evasion-ankle-2-pack-light-grey-heather-medium-lc1983400__1__881d3874b50a44db99b2ccd02ed46d52.png",
       "productUrl": "https://vn.salomon.com/products/tat-the-thao-salomon-evasion-ankle-2-pack-light-grey-heather-medium-lc1983400",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-evasion-crew-2-pack-light-grey-heather-medium-lc2087400",
@@ -648,7 +648,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/ao-salomon-evasion-crew-2-pack-light-grey-heather-medium-lc2087400__1__dbbd102b02cd45038a7d271f77554f99.png",
       "productUrl": "https://vn.salomon.com/products/tat-the-thao-salomon-evasion-crew-2-pack-light-grey-heather-medium-lc2087400",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-everyday-ankle-3-pack-black-black-lc2086600",
@@ -661,7 +661,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-the-thao-salomon-everyday-ankle-3-pack-black-black-lc2086600__1__363cf352512043a3858b661228ddee51.png",
       "productUrl": "https://vn.salomon.com/products/tat-the-thao-salomon-everyday-ankle-3-pack-black-black-lc2086600",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-everyday-ankle-3-pack-white-white-lc2086500",
@@ -674,7 +674,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-the-thao-salomon-everyday-ankle-3-pack-white-white-lc2086500__1__26b90e337f4a42dbb40130ebfde4c2d9.png",
       "productUrl": "https://vn.salomon.com/products/tat-the-thao-salomon-everyday-ankle-3-pack-white-white-lc2086500",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-everyday-low-3-pack-black-black-lc2087000",
@@ -687,7 +687,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-the-thao-salomon-everyday-low-3-pack-black-black-lc2087000__1__e5c7c66cd8e7484d997cf0996e5d28a2.png",
       "productUrl": "https://vn.salomon.com/products/tat-the-thao-salomon-everyday-low-3-pack-black-black-lc2087000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-socks-x-ultra-crew-black-kelp-lc2166300",
@@ -700,7 +700,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/lc2166300_12a876416c10436fadf4c1ef88865dbf.jpg",
       "productUrl": "https://vn.salomon.com/products/tat-the-thao-salomon-socks-x-ultra-crew-black-kelp-lc2166300",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-x-everyday-crew-3-pack-socks-black-black-black-lc2086100",
@@ -713,7 +713,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/o-salomon-x-everyday-crew-3-pack-socks-black-black-black-lc2086100__1__937d21273b484aa68862aad7b9deab4a.png",
       "productUrl": "https://vn.salomon.com/products/tat-the-thao-salomon-x-everyday-crew-3-pack-socks-black-black-black-lc2086100",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-x-ultra-access-crew-2-pack-lc2083200",
@@ -726,7 +726,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-the-thao-salomon-x-ultra-access-crew-2-pack-lc2083200__1__3d6e6e6aacac4fbca75af974584e6a4c.png",
       "productUrl": "https://vn.salomon.com/products/tat-the-thao-salomon-x-ultra-access-crew-2-pack-lc2083200",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-the-thao-wilson-unisex-aero-ankle-2-pack-white-black-lc2627000",
@@ -739,7 +739,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-the-thao-wilson-unisex-aero-ankle-2-pack-white-black-lc2627000__1__5571a02f86a146faaf8fa379f0568ca8.png",
       "productUrl": "https://vn.salomon.com/products/tat-the-thao-wilson-unisex-aero-ankle-2-pack-white-black-lc2627000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-aero-crew-socks-black-castlerock-lc2626500",
@@ -752,7 +752,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-unisex-salomon-aero-crew-socks-black-castlerock-lc2626500__1__9ab455de8aea4d25bbc14c646dc7bd82.png",
       "productUrl": "https://vn.salomon.com/products/tat-unisex-salomon-aero-crew-socks-black-castlerock-lc2626500",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-aero-crew-socks-dynasty-green-waterfall-lc2723800",
@@ -765,7 +765,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/t-unisex-salomon-aero-crew-socks-dynasty-green-waterfall-lc2723800__1__4ec53e31fa7546a19437b24a2f71f4d9.png",
       "productUrl": "https://vn.salomon.com/products/tat-unisex-salomon-aero-crew-socks-dynasty-green-waterfall-lc2723800",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-aero-crew-socks-white-lc2626800",
@@ -778,7 +778,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-unisex-salomon-aero-crew-socks-white-lc2626800__1__12ffbf1688e64f69885a6427ad353543.png",
       "productUrl": "https://vn.salomon.com/products/tat-unisex-salomon-aero-crew-socks-white-lc2626800",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-grvl-crew-deep-blue-haute-red-lc2723700",
@@ -791,7 +791,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-unisex-salomon-grvl-crew-deep-blue-haute-red-lc2723700__1__e691587484dd45dfb7455cb97fd1b5fd.png",
       "productUrl": "https://vn.salomon.com/products/tat-unisex-salomon-grvl-crew-deep-blue-haute-red-lc2723700",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-s-lab-glide-crew-vanilla-ice-sa-pompeian-red-lc2625400",
@@ -804,7 +804,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/sex-salomon-s-lab-glide-crew-vanilla-ice-sa-pompeian-red-lc2625400__1__2bb8d68eb1b54548aecc4fb667323feb.png",
       "productUrl": "https://vn.salomon.com/products/tat-unisex-salomon-s-lab-glide-crew-vanilla-ice-sa-pompeian-red-lc2625400",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-speedcross-socks-ankle-black-magnet-lc2165100",
@@ -817,7 +817,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-unisex-salomon-speedcross-socks-ankle-black-magnet-lc2165100__1__c1f10d54f266425298eb1733b3fbda79.png",
       "productUrl": "https://vn.salomon.com/products/tat-unisex-salomon-speedcross-socks-ankle-black-magnet-lc2165100",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-speedcross-socks-ankle-poseidon-tourmaline-lc2626100",
@@ -830,7 +830,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/nisex-salomon-speedcross-socks-ankle-poseidon-tourmaline-lc2626100__1__4665dcb5b42e448ea020a927d0ac8ff5.png",
       "productUrl": "https://vn.salomon.com/products/tat-unisex-salomon-speedcross-socks-ankle-poseidon-tourmaline-lc2626100",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-speedcross-socks-crew-poseidon-tourmaline-lc2626000",
@@ -843,7 +843,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/unisex-salomon-speedcross-socks-crew-poseidon-tourmaline-lc2626000__1__3d0965aee69e4c188cd21189e59c1092.png",
       "productUrl": "https://vn.salomon.com/products/tat-unisex-salomon-speedcross-socks-crew-poseidon-tourmaline-lc2626000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-x-ultra-access-crew-2-pack-bleached-lc2256800",
@@ -856,7 +856,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/tat-unisex-salomon-x-ultra-access-crew-2-pack-bleached-lc2256800__1__2335f83773094d20833746d6075ac302.png",
       "productUrl": "https://vn.salomon.com/products/tat-unisex-salomon-x-ultra-access-crew-2-pack-bleached-lc2256800",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-dai-chay-bo-salomon-active-belt-3d-bolt-lc2179000",
@@ -869,7 +869,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/dai-chay-bo-salomon-active-belt-3d-bolt-lc2179000__1__6db54aa160cd49d88305a0a0c79c3fec.png",
       "productUrl": "https://vn.salomon.com/products/dai-chay-bo-salomon-active-belt-3d-bolt-lc2179000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-dai-chay-bo-salomon-pulse-belt-black-lc2180300",
@@ -882,7 +882,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/dai-chay-bo-salomon-pulse-belt-black-lc2180300__1__85c25d8b942940f6bec6d74c1728e370.png",
       "productUrl": "https://vn.salomon.com/products/dai-chay-bo-salomon-pulse-belt-black-lc2180300",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-dai-chay-bo-salomon-pulse-sling-belt-black-lc2710400",
@@ -895,7 +895,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/dai-chay-bo-salomon-pulse-sling-belt-black-lc2710400__4__9b5a3c1721d64ddbaf8edc5a8a26e8f1.png",
       "productUrl": "https://vn.salomon.com/products/dai-chay-bo-salomon-pulse-sling-belt-black-lc2710400",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-dai-chay-bo-salomon-pulse-sling-belt-lily-pad-laurel-wreath-lc2710900",
@@ -908,7 +908,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/-chay-bo-salomon-pulse-sling-belt-lily-pad-laurel-wreath-lc2710900__1__fd4a32e202f44093a261e313d157a29c.png",
       "productUrl": "https://vn.salomon.com/products/dai-chay-bo-salomon-pulse-sling-belt-lily-pad-laurel-wreath-lc2710900",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-dai-chay-bo-salomon-trail-blazer-belt-lc2856200",
@@ -921,7 +921,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/dai-chay-bo-salomon-trail-blazer-belt-lc2856200__1__e441d2729b174efab64b6f6320257e6a.png",
       "productUrl": "https://vn.salomon.com/products/dai-chay-bo-salomon-trail-blazer-belt-lc2856200",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "salomon-ong-uong-nuoc-salomon-soft-reservoir-tube-lc1917100-clear-blue",
@@ -934,7 +934,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc1917100_0_gho_softreservoirtube-clearblue_0befa8760d4648b3877d8f7f97918deb.png",
       "productUrl": "https://vn.salomon.com/products/ong-uong-nuoc-salomon-soft-reservoir-tube-lc1917100-clear-blue",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:27Z"
+      "crawledAt": "2026-11-12T01:47:47Z"
     },
     {
       "id": "puma-524953",
@@ -948,9 +948,9 @@
       "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=24",
       "variants": [
         {
-          "color": "Glowing Red",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/23/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=23"
+          "color": "Sage Frost",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/46/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=46"
         },
         {
           "color": "Pure Pink",
@@ -958,34 +958,14 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=95"
         },
         {
-          "color": "Ruby Noir",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/24/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=24"
-        },
-        {
           "color": "Fresh Water",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/93/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=93"
         },
         {
-          "color": "Sage Frost",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/46/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=46"
-        },
-        {
-          "color": "PUMA Black",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/01/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=01"
-        },
-        {
-          "color": "Inky Depths",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/98/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=98"
-        },
-        {
-          "color": "Créme De Mint",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/29/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=29"
+          "color": "Wild Berry",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/89/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=89"
         },
         {
           "color": "Lemon Sherbert",
@@ -993,12 +973,32 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=99"
         },
         {
-          "color": "Wild Berry",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/89/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=89"
+          "color": "Ruby Noir",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/24/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=24"
+        },
+        {
+          "color": "Créme De Mint",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/29/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=29"
+        },
+        {
+          "color": "Inky Depths",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/98/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=98"
+        },
+        {
+          "color": "Glowing Red",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/23/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=23"
+        },
+        {
+          "color": "PUMA Black",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/01/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=01"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:15Z"
+      "crawledAt": "2026-11-12T01:47:33Z"
     },
     {
       "id": "puma-528988",
@@ -1027,7 +1027,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/brightstride-cloudspun-running-tee-women/528988.html?color=46"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:15Z"
+      "crawledAt": "2026-11-12T01:47:33Z"
     },
     {
       "id": "puma-528564",
@@ -1061,7 +1061,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/lightspeed-ultraweave-graphic-running-singlet-men/528564.html?color=48"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:15Z"
+      "crawledAt": "2026-11-12T01:47:33Z"
     },
     {
       "id": "puma-526652",
@@ -1075,9 +1075,9 @@
       "productUrl": "https://vn.puma.com/vn/en/pd/run-cloudspun-tee-women/526652.html?color=24",
       "variants": [
         {
-          "color": "PUMA Black",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526652/01/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/run-cloudspun-tee-women/526652.html?color=01"
+          "color": "Light Lavender",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526652/46/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/run-cloudspun-tee-women/526652.html?color=46"
         },
         {
           "color": "Ruby Noir",
@@ -1085,12 +1085,12 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/run-cloudspun-tee-women/526652.html?color=24"
         },
         {
-          "color": "Light Lavender",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526652/46/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/run-cloudspun-tee-women/526652.html?color=46"
+          "color": "PUMA Black",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526652/01/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/run-cloudspun-tee-women/526652.html?color=01"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:15Z"
+      "crawledAt": "2026-11-12T01:47:33Z"
     },
     {
       "id": "puma-526610",
@@ -1107,11 +1107,6 @@
           "color": "Dusky Gray-PUMA Black",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526610/99/mod01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/velocity-5-inch-running-shorts-men/526610.html?color=99"
-        },
-        {
-          "color": "PUMA Black-Sunny Lime",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526610/55/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-5-inch-running-shorts-men/526610.html?color=55"
         },
         {
           "color": "PUMA Black-Ultra Red",
@@ -1132,9 +1127,14 @@
           "color": "Persian Blue",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526610/73/mod01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/velocity-5-inch-running-shorts-men/526610.html?color=73"
+        },
+        {
+          "color": "PUMA Black-Sunny Lime",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526610/55/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-5-inch-running-shorts-men/526610.html?color=55"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:15Z"
+      "crawledAt": "2026-11-12T01:47:33Z"
     },
     {
       "id": "puma-526608",
@@ -1163,7 +1163,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/velocity-7-inch-running-shorts-men/526608.html?color=01"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:15Z"
+      "crawledAt": "2026-11-12T01:47:33Z"
     },
     {
       "id": "puma-526600",
@@ -1237,7 +1237,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-men/526600.html?color=18"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:15Z"
+      "crawledAt": "2026-11-12T01:47:33Z"
     },
     {
       "id": "puma-526578",
@@ -1251,6 +1251,41 @@
       "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=24",
       "variants": [
         {
+          "color": "Gold Moon",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/35/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=35"
+        },
+        {
+          "color": "PUMA Black",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/01/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=01"
+        },
+        {
+          "color": "Inky Depths",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/94/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=94"
+        },
+        {
+          "color": "Wild Berry",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/89/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=89"
+        },
+        {
+          "color": "Ultra Red",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/95/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=95"
+        },
+        {
+          "color": "Light Lavender",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/96/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=96"
+        },
+        {
+          "color": "Sunny Lime",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/55/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=55"
+        },
+        {
           "color": "Sage Frost",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/99/mod01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=99"
@@ -1261,47 +1296,12 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=47"
         },
         {
-          "color": "Wild Berry",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/89/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=89"
-        },
-        {
           "color": "Ruby Noir",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/24/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=24"
-        },
-        {
-          "color": "Ultra Red",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/95/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=95"
-        },
-        {
-          "color": "Inky Depths",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/94/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=94"
-        },
-        {
-          "color": "Light Lavender",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/96/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=96"
-        },
-        {
-          "color": "PUMA Black",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/01/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=01"
-        },
-        {
-          "color": "Sunny Lime",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/55/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=55"
-        },
-        {
-          "color": "Gold Moon",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/35/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=35"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:15Z"
+      "crawledAt": "2026-11-12T01:47:33Z"
     },
     {
       "id": "puma-526607",
@@ -1330,7 +1330,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/velocity-woven-running-jacket-men/526607.html?color=35"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:15Z"
+      "crawledAt": "2026-11-12T01:47:33Z"
     },
     {
       "id": "salomon-quan-dai-the-thao-nam-salomon-outerpath-utility-lc2340200-rainy-day",
@@ -1343,7 +1343,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2340200_0_mod_outerpathutilitypants_rainyday_outdoor_w.png.high-res_aa588e6ae68d4b7bac2259b5dbc927b5.jpeg",
       "productUrl": "https://vn.salomon.com/products/quan-dai-the-thao-nam-salomon-outerpath-utility-lc2340200-rainy-day",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-dai-the-thao-nu-salomon-wayfarer-2-0-deep-black-lc2750500",
@@ -1356,7 +1356,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/quan-dai-the-thao-nu-salomon-wayfarer-2-0-deep-black-lc2750500__5__f32cf96e1a464bb89f847796a9ed350c.png",
       "productUrl": "https://vn.salomon.com/products/quan-dai-the-thao-nu-salomon-wayfarer-2-0-deep-black-lc2750500",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-chay-bo-nam-salomon-sense-aero-stow-5-burnt-umber-lc2931600",
@@ -1369,7 +1369,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/quan-short-chay-bo-nam-salomon-sense-aero-stow-5-burnt-umber-lc2931600_d73e94e9fc4e4a1db03017287a40e0e6.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-chay-bo-nam-salomon-sense-aero-stow-5-burnt-umber-lc2931600",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-shakeout-core-5-black-lc2450400",
@@ -1382,7 +1382,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/quan-short-the-thao-nam-wilson-shakeout-core-5-black-lc2450400__1__0794aaeb8caf4bb2868015e79f0b7cb1.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-the-thao-nam-salomon-shakeout-core-5-black-lc2450400",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nu-salomon-shakeout-core-4-deep-black-lc2451300",
@@ -1395,7 +1395,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/uan-short-the-thao-nu-salomon-shakeout-core-4-deep-black-lc2451300__3__79693696584a4a25b9b9032220351aa0.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-the-thao-nu-salomon-shakeout-core-4-deep-black-lc2451300",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-l-techy-classic-navy-lc2921000",
@@ -1408,7 +1408,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/quan-short-the-thao-nam-salomon-l-techy-classic-navy-lc2921000__1__876b09a65dc04006953f1f2cdbe52363.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-the-thao-nam-salomon-l-techy-classic-navy-lc2921000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-l-techy-deep-black-lc2920400",
@@ -1421,7 +1421,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/quan-short-the-thao-nam-salomon-l-techy-deep-black-lc2920400__1__457b238c21d64ffd97e8798f5b6c7a60.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-the-thao-nam-salomon-l-techy-deep-black-lc2920400",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-the-thao-salomon-sense-aero-5-lc2275000-cherry-tomato",
@@ -1434,7 +1434,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2275000_0_mod_senseaero5shorts_cherrytomato_run_m_2cf15b24ffbd45b7b17dee92430927c2.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-the-thao-salomon-sense-aero-5-lc2275000-cherry-tomato",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-black-lc2746900",
@@ -1447,7 +1447,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-black-lc2746900__1__4a554afec3394c209379ed96795e5e96.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-black-lc2746900",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-deep-black-lc2747200",
@@ -1460,7 +1460,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/-short-the-thao-nam-salomon-wayfarer-ease-2-0-deep-black-lc2747200__1__37dd47491fc84c2dbebfdd2a94117464.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-deep-black-lc2747200",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-grape-leaf-lc2869500",
@@ -1473,7 +1473,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/-short-the-thao-nam-salomon-wayfarer-ease-2-0-grape-leaf-lc2869500__1__0c10584effe64f709f0d76724113c190.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-grape-leaf-lc2869500",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-iron-lc2747000",
@@ -1486,7 +1486,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-iron-lc2747000__1__297ec792f767450abaa1bbae413305ca.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-iron-lc2747000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nu-salomon-core-2in1-short-4-deep-black-lc2452300",
@@ -1499,7 +1499,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/n-short-the-thao-nu-salomon-core-2in1-short-4-deep-black-lc2452300__1__89575bb3a54849ce857a9be5a78c2536.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-the-thao-nu-salomon-core-2in1-short-4-deep-black-lc2452300",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-the-thao-salomon-sense-aero-5-lc2319800-misty-blue",
@@ -1512,7 +1512,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2319800_0_mod_senseaero5shorts_mistyblue_run_w_044fef363d504821875c5e9079b51e1b.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-the-thao-salomon-sense-aero-5-lc2319800-misty-blue",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nu-salomon-wayfarer-ease-2-0-iron-lc2749900",
@@ -1525,7 +1525,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/quan-short-the-thao-nu-salomon-wayfarer-ease-2-0-iron-lc2749900__1__c0c3c2281a834e42b5f07e2f7cb2be33.png",
       "productUrl": "https://vn.salomon.com/products/quan-short-the-thao-nu-salomon-wayfarer-ease-2-0-iron-lc2749900",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-khoac-chong-nang-nam-salomon-men-l-anti-uv-wind-jacket-deep-black-lc2888600",
@@ -1538,7 +1538,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/ng_n_ng_nam_salomon_men_l_anti_uv_wind_jacket_deep_black_lc2888600__1__8f79cfce486f457690396d39c0071223.png",
       "productUrl": "https://vn.salomon.com/products/ao-khoac-chong-nang-nam-salomon-men-l-anti-uv-wind-jacket-deep-black-lc2888600",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-khoac-nam-the-thao-salomon-outquest-2-5l-castor-gray-lc2963000",
@@ -1551,7 +1551,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/ao-khoac-nam-the-thao-salomon-outquest-2-5l-castor-gray-lc2963000__1__9ba6ebbd3be6456e960febce831980fa.png",
       "productUrl": "https://vn.salomon.com/products/ao-khoac-nam-the-thao-salomon-outquest-2-5l-castor-gray-lc2963000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-khoac-nam-the-thao-salomon-outquest-2-5l-jacket-deep-black-lc2962800",
@@ -1564,7 +1564,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/oac-nam-the-thao-salomon-outquest-2-5l-jacket-deep-black-lc2962800__1__1db74e0cbc404269bd13d125430a5ace.png",
       "productUrl": "https://vn.salomon.com/products/ao-khoac-nam-the-thao-salomon-outquest-2-5l-jacket-deep-black-lc2962800",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-khoac-nam-the-thao-salomon-outquest-2-5l-jacket-silver-cloud-lc2963100",
@@ -1577,7 +1577,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/c-nam-the-thao-salomon-outquest-2-5l-jacket-silver-cloud-lc2963100__1__73d542ac04d141e6819d98d44e923864.png",
       "productUrl": "https://vn.salomon.com/products/ao-khoac-nam-the-thao-salomon-outquest-2-5l-jacket-silver-cloud-lc2963100",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-khoac-nu-chong-tham-salomon-bonatti-pro-ice-pink-lc2933300",
@@ -1590,7 +1590,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/ao-khoac-nu-chong-tham-salomon-bonatti-pro-ice-pink-lc2933300__1__a46f063704664f969d6c457715f4cdb3.png",
       "productUrl": "https://vn.salomon.com/products/ao-khoac-nu-chong-tham-salomon-bonatti-pro-ice-pink-lc2933300",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-khoac-nu-the-thao-salomon-outquest-2-5l-jacket-deep-black-lc2963300",
@@ -1603,7 +1603,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/hoac-nu-the-thao-salomon-outquest-2-5l-jacket-deep-black-lc2963300__2__f8e819f591d74af6b4cb72d61ba41d84.png",
       "productUrl": "https://vn.salomon.com/products/ao-khoac-nu-the-thao-salomon-outquest-2-5l-jacket-deep-black-lc2963300",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-khoac-the-thao-nam-salomon-bonatti-trail-chromatic-lc2422900-deep-black",
@@ -1616,7 +1616,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2422900_0_mod_bonattitrailchromaticjkt_deepblack_run_m_4aea8d5d06f443e2b2f0f9b795d6f546.png",
       "productUrl": "https://vn.salomon.com/products/ao-khoac-the-thao-nam-salomon-bonatti-trail-chromatic-lc2422900-deep-black",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-khoac-the-thao-nam-salomon-bonatti-trail-lc2271700-cherry-tomato",
@@ -1629,7 +1629,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2271700_0_mod_bonattitrailjkt_cherrytomato_run_m.png.high-res_4febd1dbeabc4b18a87512085ca4734a.jpeg",
       "productUrl": "https://vn.salomon.com/products/ao-khoac-the-thao-nam-salomon-bonatti-trail-lc2271700-cherry-tomato",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-nhan-ban-tu-ao-khoac-the-thao-nam-salomon-bonatti-trail-lc2271800-shitake",
@@ -1642,7 +1642,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2271800_0_mod_bonattitrailjkt_shitake_run_m.png.high-res_e9e20d61e22645a3b5f60d16f45eeed5.jpeg",
       "productUrl": "https://vn.salomon.com/products/nhan-ban-tu-ao-khoac-the-thao-nam-salomon-bonatti-trail-lc2271800-shitake",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-khoac-the-thao-nam-salomon-outerpath-2-5l-jacket-m-lc2314200-white-pepper-rai",
@@ -1655,7 +1655,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2314200_0_mod_outerpath25lwpjkt_whitepepper_outdoor_m_620709f099b74824b4f9526927849466.png",
       "productUrl": "https://vn.salomon.com/products/ao-khoac-the-thao-nam-salomon-outerpath-2-5l-jacket-m-lc2314200-white-pepper-rai",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-khoac-the-thao-nam-salomon-outerpath-pro-2-5l-jkt-m-lc2309700-midnight-navy",
@@ -1668,7 +1668,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2309700_0_mod_outerpathwpprojkt_midnightnavy_outdoor_m_788b611aa3bd42928a772690c181b56d.png",
       "productUrl": "https://vn.salomon.com/products/ao-khoac-the-thao-nam-salomon-outerpath-pro-2-5l-jkt-m-lc2309700-midnight-navy",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-khoac-the-thao-nu-salomon-bonatti-trail-lc2278000-misty-blue",
@@ -1681,7 +1681,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/2278000_0_mod_bonattitrailjkt_mistyblue_run_w.png.cq5dam.web.1200.1200_1c6d81c47a04490a9160806e50409e57.jpeg",
       "productUrl": "https://vn.salomon.com/products/ao-khoac-the-thao-nu-salomon-bonatti-trail-lc2278000-misty-blue",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-thun-nam-salomon-men-s-globe-graphic-ss-tee-white-lc2249100",
@@ -1694,7 +1694,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/380_f71d5dd19c3e4fdd875e652b6907f263.png",
       "productUrl": "https://vn.salomon.com/products/ao-thun-nam-salomon-men-s-globe-graphic-ss-tee-white-lc2249100",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-thun-nu-the-thao-salomon-s-lab-speed-singlet-lilac-ash-lc2946900",
@@ -1707,7 +1707,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/o-thun-nu-the-thao-salomon-s-lab-speed-singlet-lilac-ash-lc2946900__1__85509fa792a447dc8091bec5052b7340.png",
       "productUrl": "https://vn.salomon.com/products/ao-thun-nu-the-thao-salomon-s-lab-speed-singlet-lilac-ash-lc2946900",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-thun-nu-the-thao-salomon-s-lab-speed-tee-lilac-ash-lc2946800",
@@ -1720,7 +1720,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/ao-thun-nu-the-thao-salomon-s-lab-speed-tee-lilac-ash-lc2946800__1__3f9a93e666a445bdbd9bbd834762f756.png",
       "productUrl": "https://vn.salomon.com/products/ao-thun-nu-the-thao-salomon-s-lab-speed-tee-lilac-ash-lc2946800",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-the-thao-salomon-outline-ss-tee-m-lc2277800-rum-raisin",
@@ -1733,7 +1733,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2277800_0_mod_outlinesstee_rumraisin_outdoor_m_d2bd1b087d4d4550bede9effebf35ef4.png",
       "productUrl": "https://vn.salomon.com/products/ao-the-thao-salomon-outline-ss-tee-m-lc2277800-rum-raisin",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-the-thao-nam-salomon-sense-aero-hybrid-lc2290600-deep-black",
@@ -1746,7 +1746,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2290600_0_mod_senseaerohybridhzhoodie_deepblack_run_m_177cd623e5784fc49aa50ca0fe4f4125.png",
       "productUrl": "https://vn.salomon.com/products/ao-the-thao-nam-salomon-sense-aero-hybrid-lc2290600-deep-black",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-the-thao-nam-salomon-trackline-tee-wrought-iron-lc2954300",
@@ -1759,7 +1759,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/ao-the-thao-nam-salomon-trackline-tee-wrought-iron-lc2954300__1__79894dcd88874b1c90eaacdf64854380.png",
       "productUrl": "https://vn.salomon.com/products/ao-the-thao-nam-salomon-trackline-tee-wrought-iron-lc2954300",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-the-thao-nu-salomon-outline-ss-tee-w-lc2306500-rum-raisin",
@@ -1772,7 +1772,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2306500_0_mod_outlinesstee_rumraisin_hike_w_d6212142d6fd415585241f90b52fc3a7.png",
       "productUrl": "https://vn.salomon.com/products/ao-the-thao-nu-salomon-outline-ss-tee-w-lc2306500-rum-raisin",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-the-thao-nu-salomon-outline-ss-tee-w-lc2306600-misty-blue",
@@ -1785,7 +1785,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lc2306600_0_mod_outlinesstee_mistyblue_hike_w_1f92f84a9cec4db4968f31f42c58679c.png",
       "productUrl": "https://vn.salomon.com/products/ao-the-thao-nu-salomon-outline-ss-tee-w-lc2306600-misty-blue",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-the-thao-nu-salomon-shakeout-core-graphic-whisper-white-pink-frosting-icy-pink-lc3040700",
@@ -1798,7 +1798,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/akeout-core-graphic-whisper-white-pink-frosting-icy-pink-lc3040700__1__2d1681024a7b42468e198dc59a944a99.png",
       "productUrl": "https://vn.salomon.com/products/ao-the-thao-nu-salomon-shakeout-core-graphic-whisper-white-pink-frosting-icy-pink-lc3040700",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-the-thao-nu-salomon-shakeout-core-short-sleeve-tee-women-s-butterfly-lc2840800",
@@ -1811,7 +1811,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/salomon-shakeout-core-short-sleeve-tee-women-s-butterfly-lc2840800__1__c1afd4e9a3c14058959002551eb03296.png",
       "productUrl": "https://vn.salomon.com/products/ao-the-thao-nu-salomon-shakeout-core-short-sleeve-tee-women-s-butterfly-lc2840800",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-the-thao-nu-salomon-techy-ss-tee-dawn-pink-lc2919000",
@@ -1824,7 +1824,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/ao-the-thao-nu-salomon-techy-ss-tee-dawn-pink-lc2919000_45d8e78eb09f4acb9efa55587619f681.png",
       "productUrl": "https://vn.salomon.com/products/ao-the-thao-nu-salomon-techy-ss-tee-dawn-pink-lc2919000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "salomon-ao-the-thao-nu-salomon-trackline-tee-wrought-iron-lc302000",
@@ -1837,7 +1837,7 @@
       "imageUrl": "https://cdn.hstatic.net/products/200000931659/ao-the-thao-nu-salomon-trackline-tee-wrought-iron-lc302000__1__b18b8dd901ec4139b1edf708e881ff4a.png",
       "productUrl": "https://vn.salomon.com/products/ao-the-thao-nu-salomon-trackline-tee-wrought-iron-lc302000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:26Z"
+      "crawledAt": "2026-11-12T01:47:44Z"
     },
     {
       "id": "puma-313904",
@@ -1847,28 +1847,13 @@
       "sourceName": "puma",
       "priceVnd": 3750000,
       "description": "Puma running shoes.",
-      "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/30/sv01/fnd/VNM/fmt/png",
-      "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=30",
+      "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/31/sv01/fnd/VNM/fmt/png",
+      "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=31",
       "variants": [
         {
-          "color": "PUMA Black-Flat Dark Gray",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/02/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=02"
-        },
-        {
-          "color": "PUMA White-PUMA Black",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/31/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=31"
-        },
-        {
-          "color": "Ultra Red-Red Rhythm",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/10/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=10"
-        },
-        {
-          "color": "PUMA White-Ultra Red-PUMA Silver",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/06/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=06"
+          "color": "Moss Veil-PUMA Black",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/23/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=23"
         },
         {
           "color": "PUMA Black-PUMA White",
@@ -1876,19 +1861,34 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=05"
         },
         {
-          "color": "Alpine Snow-Warm White",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/03/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=03"
-        },
-        {
-          "color": "Moss Veil-PUMA Black",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/23/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=23"
-        },
-        {
           "color": "PUMA Black-Flat Dark Gray-PUMA Silver",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/16/sv01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=16"
+        },
+        {
+          "color": "Soft Clay-Court Gray",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/30/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=30"
+        },
+        {
+          "color": "PUMA White-Ultra Red-PUMA Silver",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/06/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=06"
+        },
+        {
+          "color": "PUMA Black-Flat Dark Gray",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/02/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=02"
+        },
+        {
+          "color": "Ultra Red-Red Rhythm",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/10/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=10"
+        },
+        {
+          "color": "Alpine Snow-Warm White",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/03/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=03"
         },
         {
           "color": "Sunny Lime-PUMA Black",
@@ -1896,12 +1896,12 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=13"
         },
         {
-          "color": "Soft Clay-Court Gray",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/30/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=30"
+          "color": "PUMA White-PUMA Black",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/31/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=31"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:14Z"
+      "crawledAt": "2026-11-12T01:47:32Z"
     },
     {
       "id": "puma-313905",
@@ -1915,14 +1915,9 @@
       "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=24",
       "variants": [
         {
-          "color": "Sage Glow-PUMA White",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313905/10/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=10"
-        },
-        {
-          "color": "PUMA Black-Puma Silver",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313905/02/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=02"
+          "color": "Soft Clay-Peach Pink",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313905/24/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=24"
         },
         {
           "color": "PUMA White-Ultra Red",
@@ -1930,9 +1925,14 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=05"
         },
         {
-          "color": "Alpine Snow-Warm White",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313905/03/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=03"
+          "color": "PUMA Black-Puma Silver",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313905/02/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=02"
+        },
+        {
+          "color": "Sage Glow-PUMA White",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313905/10/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=10"
         },
         {
           "color": "Misty Pink",
@@ -1940,22 +1940,22 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=09"
         },
         {
-          "color": "Sunny Lime-Light Lime",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313905/11/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=11"
-        },
-        {
-          "color": "Soft Clay-Peach Pink",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313905/24/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=24"
+          "color": "Alpine Snow-Warm White",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313905/03/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=03"
         },
         {
           "color": "Light Lavender-Inky Depths",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313905/07/sv01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=07"
+        },
+        {
+          "color": "Sunny Lime-Light Lime",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313905/11/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-women/313905.html?color=11"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:14Z"
+      "crawledAt": "2026-11-12T01:47:32Z"
     },
     {
       "id": "puma-314984",
@@ -1968,7 +1968,7 @@
       "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/314984/04/sv01/fnd/VNM/fmt/png",
       "productUrl": "https://vn.puma.com/vn/en/pd/fast-rb-nitrotm-elite-2-running-shoes-men/314984.html?color=04",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:14Z"
+      "crawledAt": "2026-11-12T01:47:32Z"
     },
     {
       "id": "puma-314985",
@@ -1981,7 +1981,7 @@
       "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/314985/04/sv01/fnd/VNM/fmt/png",
       "productUrl": "https://vn.puma.com/vn/en/pd/fast-rb-nitrotm-elite-2-running-shoes-women/314985.html?color=04",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:14Z"
+      "crawledAt": "2026-11-12T01:47:32Z"
     },
     {
       "id": "puma-313497",
@@ -2015,7 +2015,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/maxstride-lite-running-shoes-unisex/313497.html?color=03"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:14Z"
+      "crawledAt": "2026-11-12T01:47:32Z"
     },
     {
       "id": "puma-313498",
@@ -2064,7 +2064,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/scend-pro-3-running-shoes-unisex/313498.html?color=13"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:14Z"
+      "crawledAt": "2026-11-12T01:47:32Z"
     },
     {
       "id": "puma-311722",
@@ -2093,7 +2093,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/softride-exo-sneakers-unisex/311722.html?color=01"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:14Z"
+      "crawledAt": "2026-11-12T01:47:32Z"
     },
     {
       "id": "puma-309834",
@@ -2122,7 +2122,7 @@
           "productUrl": "https://vn.puma.com/vn/en/pd/softride-remi-slip-on-knit-womens-running-shoe/309834.html?color=10"
         }
       ],
-      "crawledAt": "2026-11-11T05:14:14Z"
+      "crawledAt": "2026-11-12T01:47:32Z"
     },
     {
       "id": "salomon-giay-chay-bo-nam-salomon-drx-bliss-l47200500",
@@ -2135,7 +2135,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/giay-chay-bo-nam-salomon-drx-bliss-l47200500__1__7e177413dedd4bb2b507eb1fea304bef.png",
       "productUrl": "https://vn.salomon.com/products/giay-chay-bo-nam-salomon-drx-bliss-l47200500",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:39Z"
     },
     {
       "id": "salomon-giay-chay-bo-salomon-ultra-glide-2-vanilla-ice-sulphur-spring-orchid-petal-l47465100",
@@ -2148,7 +2148,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/on-ultra-glide-2-vanilla-ice-sulphur-spring-orchid-petal-l47465100__2__0813f6d0099746cf946403531db3767c.png",
       "productUrl": "https://vn.salomon.com/products/giay-chay-bo-salomon-ultra-glide-2-vanilla-ice-sulphur-spring-orchid-petal-l47465100",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:39Z"
     },
     {
       "id": "salomon-giay-chay-bo-dia-hinh-nu-salomon-sense-ride-5-l47314100",
@@ -2161,7 +2161,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/giay-chay-bo-dia-hinh-nu-salomon-sense-ride-5-l47314100__8__f9bf2cfe359141c58dc66c0f81ae651a.png",
       "productUrl": "https://vn.salomon.com/products/giay-chay-bo-dia-hinh-nu-salomon-sense-ride-5-l47314100",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-chay-the-thao-nam-salomon-alphacross-5-l47313300-grey",
@@ -2174,7 +2174,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/giay-chay-the-thao-nam-salomon-alphacross-5-l47313300-grey__1__81f9d699729f4b0f8caaee9356dc36ce.png",
       "productUrl": "https://vn.salomon.com/products/giay-chay-the-thao-nam-salomon-alphacross-5-l47313300-grey",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-chay-bo-nam-salomon-ultra-glide-2-l47464500-vanilla-ice-sulphur-spring-dragon-fire",
@@ -2187,7 +2187,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/lomon-ultra-glide-l47464500-vanilla-ice-sulphur-spring-dragon-fire__1__ff1752e772244ca3ab1bdf21da015373.png",
       "productUrl": "https://vn.salomon.com/products/giay-chay-bo-nam-salomon-ultra-glide-2-l47464500-vanilla-ice-sulphur-spring-dragon-fire",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:39Z"
     },
     {
       "id": "salomon-giay-road-running-salomon-nu-aero-glide-2-l47426800",
@@ -2200,7 +2200,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/giay-road-running-salomon-nu-aero-glide-2-l47426800__1__76bb953c595f4a0cbada600db6b0b7c7.png",
       "productUrl": "https://vn.salomon.com/products/giay-road-running-salomon-nu-aero-glide-2-l47426800",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:39Z"
     },
     {
       "id": "salomon-giay-the-thao-chay-bo-nam-salomon-thundercross-l47464200",
@@ -2213,7 +2213,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/giay-the-thao-chay-bo-nam-salomon-thundercross-l47464200__1__cc2d04aa1879417e8030e6fd1bdca2c1.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-chay-bo-nam-salomon-thundercross-l47464200",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-the-thao-chay-bo-salomon-s-lab-spectur-l47376000-white-fiery-red-black",
@@ -2226,7 +2226,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/the-thao-chay-bo-salomon-s-lab-spectur-l47376000-white-fiery-red-black_3ec02e9186c84278ac34ffcc63ddd46a.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-chay-bo-salomon-s-lab-spectur-l47376000-white-fiery-red-black",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:39Z"
     },
     {
       "id": "salomon-giay-the-thao-nu-salomon-ultra-glide-2-l47600400-white-sonic-green-tomato-red",
@@ -2239,7 +2239,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/l47600400_0_gho_ultraglide2wwhite_electricgreen_cherrytomato_d97e3a9958be4ac4b945bcd125faf493.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-nu-salomon-ultra-glide-2-l47600400-white-sonic-green-tomato-red",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:39Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-nam-salomon-elixer-activ-gtx-l47456200",
@@ -2252,7 +2252,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/giay-the-thao-trail-running-nam-salomon-elixer-activ-gtx-l47456200__1__263e09067a4942ac888a8633ee1b1ffa.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-trail-running-nam-salomon-elixer-activ-gtx-l47456200",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-salomon-nam-genesis-3-l47762800",
@@ -2265,7 +2265,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/giay-the-thao-trail-running-salomon-nam-genesis-3-l47762800__1__585bc0fa059c4d09bd14fa55131b6682.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-trail-running-salomon-nam-genesis-3-l47762800",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-nam-salomon-shoes-xa-pro-3d-v9-black-buttercup-lapis-blue-l47119000",
@@ -2278,7 +2278,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/am-salomon-shoes-xa-pro-3d-v9-black-buttercup-lapis-blue-l47119000__1__a8a0d052d0ec4990a5fc304b60d1152d.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-trail-running-nam-salomon-shoes-xa-pro-3d-v9-black-buttercup-lapis-blue-l47119000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-nu-salomon-shoes-ultra-flow-black-tyello-rose-v-l47450900",
@@ -2291,7 +2291,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/-running-nu-salomon-shoes-ultra-flow-black-tyello-rose-v-l47450900__1__c1929e3c3d834e50b204e63167d8226b.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-trail-running-nu-salomon-shoes-ultra-flow-black-tyello-rose-v-l47450900",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-nam-salomon-ultra-glides-3-l47722600",
@@ -2304,7 +2304,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/giay-the-thao-trail-running-nam-salomon-ultra-glides-3-l47722600__1__87aa6fb5579449b1bffb821379f270ca.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-trail-running-nam-salomon-ultra-glides-3-l47722600",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-salomon-nam-xa-pro-3d-v9-wide-l47273100",
@@ -2317,7 +2317,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/iay-the-thao-trail-running-salomon-nam-xa-pro-3d-v9-wide-l47273100__1__057546d707c046849c72c5783c72661e.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-trail-running-salomon-nam-xa-pro-3d-v9-wide-l47273100",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-salomon-nu-ultra-glides-3-l47743200",
@@ -2330,7 +2330,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/giay-the-thao-trail-running-salomon-nu-ultra-glides-3-l47743200__1__abad8bd7b63b4e478ffcaa1533557197.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-trail-running-salomon-nu-ultra-glides-3-l47743200",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-salomon-nu-ultra-glides-3-l47744000",
@@ -2343,7 +2343,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/giay-the-thao-trail-running-salomon-nu-ultra-glides-3-l47744000__1__26797842cd2d40c0ad9f89f0fff241a4.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-trail-running-salomon-nu-ultra-glides-3-l47744000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-the-thao-chay-trail-running-unisex-salomon-s-lab-genesis-l47722600",
@@ -2356,7 +2356,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/the-thao-chay-trail-running-unisex-salomon-s-lab-genesis-l47722600__1__04b902a35ecc42d4925eb9785f180bdb.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-chay-trail-running-unisex-salomon-s-lab-genesis-l47722600",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-the-thao-dia-hinh-nam-salomon-ultra-glide-2-l47386200-black-flint-stone-green-gecko",
@@ -2369,7 +2369,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/-nam-salomon-ultra-glide-2-l47386200-black-flint-stone-green-gecko__1__a75ad393f96a4cf09a8a4a415e82fad2.png",
       "productUrl": "https://vn.salomon.com/products/giay-the-thao-dia-hinh-nam-salomon-ultra-glide-2-l47386200-black-flint-stone-green-gecko",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:18Z"
+      "crawledAt": "2026-11-12T01:47:39Z"
     },
     {
       "id": "salomon-giay-trail-running-nam-salomon-shoes-ultra-black-sulphur-spring-l47462500",
@@ -2382,7 +2382,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/ail-running-nam-salomon-shoes-ultra-black-sulphur-spring-l47462500__1__a1ee1c4912514db69ef5cb5df890c766.png",
       "productUrl": "https://vn.salomon.com/products/giay-trail-running-nam-salomon-shoes-ultra-black-sulphur-spring-l47462500",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-trail-running-nam-salomon-speedcross-6-wide-black-phantom-l41744000",
@@ -2395,7 +2395,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/rail-running-nam-salomon-speedcross-6-wide-black-phantom-l41744000__1__89f38605eff1490d94554b3c13948a9b.png",
       "productUrl": "https://vn.salomon.com/products/giay-trail-running-nam-salomon-speedcross-6-wide-black-phantom-l41744000",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     },
     {
       "id": "salomon-giay-trail-running-nu-salomon-speedcross-6-gtx-flint-stone-black-heather-l47302300",
@@ -2408,7 +2408,7 @@
       "imageUrl": "https://product.hstatic.net/200000931659/product/ng-nu-salomon-speedcross-6-gtx-flint-stone-black-heather-l47302300__1__29da3a71fe9045edb8455a930f3ecff0.png",
       "productUrl": "https://vn.salomon.com/products/giay-trail-running-nu-salomon-speedcross-6-gtx-flint-stone-black-heather-l47302300",
       "variants": [],
-      "crawledAt": "2026-11-11T05:14:21Z"
+      "crawledAt": "2026-11-12T01:47:41Z"
     }
   ]
 }
