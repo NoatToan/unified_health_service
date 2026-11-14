@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T00:38:28Z",
+  "generatedAt": "2026-11-14T23:36:25Z",
   "sources": [
     {
       "name": "vnexpress",
@@ -16,9 +16,9 @@
     },
     {
       "name": "vnrun",
-      "ok": true,
+      "ok": false,
       "count": 10,
-      "error": null
+      "error": "scraper returned zero items"
     }
   ],
   "items": [
