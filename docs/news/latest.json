@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T23:42:40Z",
+  "generatedAt": "2026-11-17T02:45:21Z",
   "sources": [
     {
       "name": "vnexpress",
@@ -22,6 +22,16 @@
     }
   ],
   "items": [
+    {
+      "id": "tuoitre-chay-bo-nhieu-khien-nam-gioi-giam-ham-muon-tinh-duc-100261115220916422",
+      "title": "Chạy bộ nhiều khiến nam giới giảm ham muốn tình dục?",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/chay-bo-nhieu-khien-nam-gioi-giam-ham-muon-tinh-duc-100261115220916422.htm",
+      "publishedAt": "2026-11-16T00:48:00Z",
+      "summary": "Chạy bộ giúp nâng cao thể lực, nhưng tập sức bền với cường độ cao, kéo dài lại dẫn đến nguy cơ gây giảm ham muốn tình dục ở nam giới?",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/11/15/loveproblemimg2-17947551899272110524308-16-0-384-588-crop-17947552629251497362009.jpg",
+      "category": "race-news"
+    },
     {
       "id": "vnexpress-nguoi-phu-nu-dau-tien-chay-160-km-o-nam-cuc-5142970",
       "title": "Người phụ nữ đầu tiên chạy 160 km ở Nam Cực",
@@ -261,16 +271,6 @@
       "summary": "Tinh thần chiến thắng bản thân, vượt qua những giới hạn mà các runner thường đề cao - đôi lúc lại trở nên cực đoan, và làm hủy hoại phần nào nét đẹp của phong trào chạy bộ. Chạy là hình thức tập luyện cơ bản mang đến sức khỏe cho loài người.",
       "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/10/26/chay-bo-edit-17929882064331674560528-236-349-1643-2600-crop-17929883248871518149667.png",
       "category": "gear"
-    },
-    {
-      "id": "tuoitre-cuong-ep-con-trai-chay-marathon-nguoi-cha-trung-quoc-tra-gia-100261024124339657",
-      "title": "Cưỡng ép con trai chạy marathon, người cha Trung Quốc trả giá",
-      "sourceName": "tuoitre",
-      "sourceUrl": "https://tuoitre.vn/cuong-ep-con-trai-chay-marathon-nguoi-cha-trung-quoc-tra-gia-100261024124339657.htm",
-      "publishedAt": "2026-10-25T00:33:00Z",
-      "summary": "Một người đàn ông Trung Quốc bị hủy thành tích và cấm thi đấu ba năm sau khi dùng dây buộc vào bụng con trai 9 tuổi, kéo em chạy cùng trên đường đua marathon Trịnh Châu.",
-      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/10/24/2117c9dc-6f0e-41e9-b5a2-ee998c281a19-179281999634345539788-127-481-539-1139-crop-17928200696931729758356.png",
-      "category": "race-news"
     },
     {
       "id": "vnrun-top-dong-ho-chay-bo-ngon-bo-re-danh-cho-runner-moi-bat-dau",
