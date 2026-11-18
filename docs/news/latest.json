@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T02:45:21Z",
+  "generatedAt": "2026-11-18T02:01:29Z",
   "sources": [
     {
       "name": "vnexpress",
@@ -22,6 +22,16 @@
     }
   ],
   "items": [
+    {
+      "id": "tuoitre-hanh-dong-dep-tren-duong-chay-marathon-nhung-cai-ket-van-dang-100261117145604481",
+      "title": "Hành động đẹp trên đường chạy marathon nhưng cái kết… vẫn đắng",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/hanh-dong-dep-tren-duong-chay-marathon-nhung-cai-ket-van-dang-100261117145604481.htm",
+      "publishedAt": "2026-11-17T22:59:00Z",
+      "summary": "Tưởng như đã có một cái kết đẹp khi được hai VĐV Brazil dìu về đích lúc kiệt sức, Naum Jepchirchir lại nhận “cú sốc” từ luật thi đấu marathon: bị hủy kết quả và mất luôn tiền thưởng.",
+      "imageUrl": null,
+      "category": "event-recap"
+    },
     {
       "id": "tuoitre-chay-bo-nhieu-khien-nam-gioi-giam-ham-muon-tinh-duc-100261115220916422",
       "title": "Chạy bộ nhiều khiến nam giới giảm ham muốn tình dục?",
@@ -261,16 +271,6 @@
       "summary": "Ở tuổi 70, ông Bùi Ngọc Hợp (Hà Nội) mới bắt đầu tình yêu chạy bộ. Vậy nhưng sau 5 tháng tập luyện chăm chỉ, ông đã hoàn thành cự ly 21km tại giải chạy địa hình vượt núi khốc liệt bậc nhất Việt Nam ở Sa Pa.",
       "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/10/27/bui-ngoc-hop-chay-21km-vmm3-17931137034091416255285-46-0-470-678-crop-1793113707675718390706.jpeg",
       "category": "event-recap"
-    },
-    {
-      "id": "tuoitre-van-hoa-cuc-doan-dang-lam-mat-net-dep-chay-bo-100261025235632882",
-      "title": "Văn hóa cực đoan đang làm mất nét đẹp chạy bộ?",
-      "sourceName": "tuoitre",
-      "sourceUrl": "https://tuoitre.vn/van-hoa-cuc-doan-dang-lam-mat-net-dep-chay-bo-100261025235632882.htm",
-      "publishedAt": "2026-10-26T04:06:00Z",
-      "summary": "Tinh thần chiến thắng bản thân, vượt qua những giới hạn mà các runner thường đề cao - đôi lúc lại trở nên cực đoan, và làm hủy hoại phần nào nét đẹp của phong trào chạy bộ. Chạy là hình thức tập luyện cơ bản mang đến sức khỏe cho loài người.",
-      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/10/26/chay-bo-edit-17929882064331674560528-236-349-1643-2600-crop-17929883248871518149667.png",
-      "category": "gear"
     },
     {
       "id": "vnrun-top-dong-ho-chay-bo-ngon-bo-re-danh-cho-runner-moi-bat-dau",
