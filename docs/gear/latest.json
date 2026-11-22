@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T01:08:12Z",
+  "generatedAt": "2026-11-22T00:04:24Z",
   "sources": [
     {
       "name": "puma",
@@ -1338,25 +1338,9 @@
       ],
       "variants": [
         {
-          "color": "PUMA Black",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026168/01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/essentials-running-5-panel-cap/026168.html?color=01",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
           "color": "Speed Blue",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026168/06/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/essentials-running-5-panel-cap/026168.html?color=06",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "Light Lavender",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026168/13/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/essentials-running-5-panel-cap/026168.html?color=13",
           "priceVnd": null,
           "images": [],
           "sizes": []
@@ -1370,16 +1354,32 @@
           "sizes": []
         },
         {
+          "color": "Light Lavender",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026168/13/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/essentials-running-5-panel-cap/026168.html?color=13",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
           "color": "Mint Melt",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026168/05/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/essentials-running-5-panel-cap/026168.html?color=05",
           "priceVnd": null,
           "images": [],
           "sizes": []
+        },
+        {
+          "color": "PUMA Black",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026168/01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/essentials-running-5-panel-cap/026168.html?color=01",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
         }
       ],
       "detailFetchedAt": "2026-11-17T02:46:57Z",
-      "crawledAt": "2026-11-21T01:04:02Z"
+      "crawledAt": "2026-11-22T00:03:28Z"
     },
     {
       "id": "puma-026998",
@@ -1436,14 +1436,6 @@
       ],
       "variants": [
         {
-          "color": "Inky Depths",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026998/05/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-baseball-cap/026998.html?color=05",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
           "color": "PUMA Black",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026998/01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-baseball-cap/026998.html?color=01",
@@ -1460,6 +1452,14 @@
           "sizes": []
         },
         {
+          "color": "Light Lavender",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026998/06/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-baseball-cap/026998.html?color=06",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
           "color": "PUMA White",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026998/02/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-baseball-cap/026998.html?color=02",
@@ -1468,16 +1468,16 @@
           "sizes": []
         },
         {
-          "color": "Light Lavender",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026998/06/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-baseball-cap/026998.html?color=06",
+          "color": "Inky Depths",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026998/05/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-baseball-cap/026998.html?color=05",
           "priceVnd": null,
           "images": [],
           "sizes": []
         }
       ],
       "detailFetchedAt": "2026-11-17T02:46:55Z",
-      "crawledAt": "2026-11-21T01:04:02Z"
+      "crawledAt": "2026-11-22T00:03:28Z"
     },
     {
       "id": "puma-026997",
@@ -1559,7 +1559,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-18T02:03:09Z",
-      "crawledAt": "2026-11-21T01:04:02Z"
+      "crawledAt": "2026-11-22T00:03:28Z"
     },
     {
       "id": "puma-092404",
@@ -1603,17 +1603,17 @@
       ],
       "variants": [
         {
-          "color": "Puma Black",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/092404/01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-waist-bag/092404.html?color=01",
+          "color": "Zen Blue",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/092404/05/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-waist-bag/092404.html?color=05",
           "priceVnd": null,
           "images": [],
           "sizes": []
         },
         {
-          "color": "Zen Blue",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/092404/05/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-waist-bag/092404.html?color=05",
+          "color": "Puma Black",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/092404/01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/everyday-running-waist-bag/092404.html?color=01",
           "priceVnd": null,
           "images": [],
           "sizes": []
@@ -1628,7 +1628,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:07:01Z",
-      "crawledAt": "2026-11-21T01:04:02Z"
+      "crawledAt": "2026-11-22T00:03:28Z"
     },
     {
       "id": "puma-091611",
@@ -1680,7 +1680,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:07:07Z",
-      "crawledAt": "2026-11-21T01:04:02Z"
+      "crawledAt": "2026-11-22T00:03:28Z"
     },
     {
       "id": "puma-938929",
@@ -1753,7 +1753,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:07:12Z",
-      "crawledAt": "2026-11-21T01:04:02Z"
+      "crawledAt": "2026-11-22T00:03:28Z"
     },
     {
       "id": "puma-027361",
@@ -1812,106 +1812,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:07:05Z",
-      "crawledAt": "2026-11-21T01:04:02Z"
-    },
-    {
-      "id": "puma-026167",
-      "name": "Runner Short Visor 5 Panel Cap",
-      "brand": "Puma",
-      "category": "accessories",
-      "sourceName": "puma",
-      "priceVnd": 325000,
-      "originalPriceVnd": 650000,
-      "description": "Stay cool and focused with this PUMA cap. Featuring breathable microfibre fabric, mesh inserts, and an adjustable closure, it's designed for comfort. Embrace your active lifestyle with this cap.",
-      "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026167/04/fnd/VNM/fmt/png",
-      "images": [
-        "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026167/04/fnd/VNM/fmt/png",
-        "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026167/04/mod01/fnd/VNM/fmt/png",
-        "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026167/04/mod02/fnd/VNM/fmt/png",
-        "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026167/04/bv/fnd/VNM/fmt/png"
-      ],
-      "productUrl": "https://vn.puma.com/vn/en/pd/runner-short-visor-5-panel-cap/026167.html?color=04",
-      "sizes": [
-        {
-          "label": "S",
-          "available": false
-        },
-        {
-          "label": "M",
-          "available": false
-        },
-        {
-          "label": "L",
-          "available": false
-        },
-        {
-          "label": "OSFA",
-          "available": true
-        }
-      ],
-      "inStock": true,
-      "gender": "unisex",
-      "sku": "026167",
-      "specs": {
-        "material": "Polyester",
-        "fabricType": "Woven",
-        "sportType": "Running",
-        "ageGroup": "Adults",
-        "articleType": "5 Panel Caps"
-      },
-      "features": [
-        "Made with at least 50% recycled materials",
-        "5 Panel cap",
-        "Microfibre fabric",
-        "Mesh inserts on side panels",
-        "Piping details",
-        "Bungee cord closure",
-        "Pre-curved visor"
-      ],
-      "variants": [
-        {
-          "color": "Glowing Red",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026167/05/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/runner-short-visor-5-panel-cap/026167.html?color=05",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "PUMA White",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026167/02/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/runner-short-visor-5-panel-cap/026167.html?color=02",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "PUMA Black",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026167/01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/runner-short-visor-5-panel-cap/026167.html?color=01",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "Gold Moon",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026167/06/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/runner-short-visor-5-panel-cap/026167.html?color=06",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "Blue Crystal",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/026167/04/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/runner-short-visor-5-panel-cap/026167.html?color=04",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        }
-      ],
-      "detailFetchedAt": "2026-11-18T02:03:11Z",
-      "crawledAt": "2026-11-21T01:04:05Z"
+      "crawledAt": "2026-11-22T00:03:28Z"
     },
     {
       "id": "puma-026169",
@@ -2016,7 +1917,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:07:03Z",
-      "crawledAt": "2026-11-21T01:04:02Z"
+      "crawledAt": "2026-11-22T00:03:28Z"
     },
     {
       "id": "puma-938900",
@@ -2081,7 +1982,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:07:15Z",
-      "crawledAt": "2026-11-21T01:04:05Z"
+      "crawledAt": "2026-11-22T00:03:30Z"
     },
     {
       "id": "puma-938930",
@@ -2146,7 +2047,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:07:10Z",
-      "crawledAt": "2026-11-21T01:04:02Z"
+      "crawledAt": "2026-11-22T00:03:28Z"
     },
     {
       "id": "salomon-balo-hiking-salomon-cross-12-black-lc2185700",
@@ -2188,7 +2089,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:39Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-balo-hiking-salomon-cross-12-black-white-lc2185900",
@@ -2218,7 +2119,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:41Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-balo-hiking-salomon-xt-15-black-lc2857900",
@@ -2270,7 +2171,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:44Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-balo-leo-nui-salomon-aerotrek-30-black-lc2535500",
@@ -2321,7 +2222,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:46Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-binh-chua-nuoc-salomon-soft-reservoir-1-5l-lc1916200-clear-blue",
@@ -2357,7 +2258,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:49Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-binh-nuoc-cam-tay-salomon-active-handheld-500ml-lc1928600",
@@ -2394,7 +2295,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:51Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-binh-nuoc-mem-salomon-soft-flask-250ml-8oz-28-clear-blue-lc1986400",
@@ -2429,7 +2330,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:54Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-binh-nuoc-mem-salomon-soft-flask-500ml-lc1916000",
@@ -2456,7 +2357,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-18T02:03:22Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-binh-nuoc-mem-salomon-soft-reservoir-2l-clear-blue-lc1916300",
@@ -2501,7 +2402,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:56Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-bo-co-giay-salomon-trail-gaiters-low-black-l32916600",
@@ -2546,7 +2447,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:59Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-coc-nuoc-mem-salomon-soft-cup-speed-150ml-5oz-clear-blue-lc1917600",
@@ -2585,7 +2486,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:01Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-logo-flat-cap-deep-black-lc2682900",
@@ -2627,7 +2528,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:16Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-logo-flat-cap-whisper-white-lc2836900",
@@ -2670,7 +2571,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:19Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-sense-aero-cap-burnt-umber-lc3057600",
@@ -2716,7 +2617,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:21Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-sense-aero-cap-clematis-blue-lc3057500",
@@ -2763,7 +2664,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:24Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-sense-aero-cap-coffee-bean-lc2631700",
@@ -2806,7 +2707,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:28Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-sense-aero-cap-icy-pink-lc3057800",
@@ -2852,7 +2753,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:29Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-mu-the-thao-unisex-salomon-sense-aero-cap-whisper-white-lc2764000",
@@ -2899,7 +2800,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:32Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-nap-mem-salomon-soft-valve-cover-lc2019900-clear-alloy",
@@ -2929,7 +2830,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:34Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-cao-co-salomon-everyday-crew-3-pack-unisex-lc2086200",
@@ -2982,7 +2883,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:39Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-cao-co-salomon-unisex-s-speedcross-crew-socks-black-magnet-lc2164800",
@@ -3030,7 +2931,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:41Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-salomon-out-alps-crew-2-pack-socks-lc2261400",
@@ -3082,7 +2983,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:44Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-salomon-x-ultra-access-quarter-2-pack-lc2082900",
@@ -3138,7 +3039,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:46Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-aero-ankle-black-castelrock-lc2624600",
@@ -3188,7 +3089,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:49Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-evasion-ankle-2-pack-black-black-lc2087500",
@@ -3240,7 +3141,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:51Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-evasion-ankle-2-pack-light-grey-heather-medium-lc1983400",
@@ -3292,7 +3193,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:54Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-evasion-crew-2-pack-light-grey-heather-medium-lc2087400",
@@ -3347,7 +3248,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:56Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-everyday-ankle-3-pack-black-black-lc2086600",
@@ -3402,7 +3303,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:59Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-everyday-ankle-3-pack-white-white-lc2086500",
@@ -3461,7 +3362,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:01Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-everyday-low-3-pack-black-black-lc2087000",
@@ -3520,7 +3421,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:04Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-socks-x-ultra-crew-black-kelp-lc2166300",
@@ -3563,7 +3464,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:06Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-x-everyday-crew-3-pack-socks-black-black-black-lc2086100",
@@ -3618,7 +3519,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:09Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-the-thao-salomon-x-ultra-access-crew-2-pack-lc2083200",
@@ -3670,7 +3571,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:12Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-the-thao-wilson-unisex-aero-ankle-2-pack-white-black-lc2627000",
@@ -3717,7 +3618,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:14Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-aero-crew-socks-black-castlerock-lc2626500",
@@ -3763,7 +3664,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:16Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-aero-crew-socks-dynasty-green-waterfall-lc2723800",
@@ -3809,7 +3710,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:19Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-aero-crew-socks-white-lc2626800",
@@ -3857,7 +3758,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:21Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-grvl-crew-deep-blue-haute-red-lc2723700",
@@ -3906,7 +3807,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:24Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-s-lab-glide-crew-vanilla-ice-sa-pompeian-red-lc2625400",
@@ -3961,7 +3862,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:26Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-speedcross-socks-ankle-black-magnet-lc2165100",
@@ -4016,7 +3917,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:29Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-speedcross-socks-ankle-poseidon-tourmaline-lc2626100",
@@ -4072,7 +3973,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:31Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-speedcross-socks-crew-poseidon-tourmaline-lc2626000",
@@ -4127,7 +4028,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:34Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-x-ultra-access-crew-2-pack-bleached-lc2256800",
@@ -4190,7 +4091,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-19T01:40:20Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-tat-unisex-salomon-x-ultra-access-quarter-2-pack-lc2257000",
@@ -4253,7 +4154,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-19T01:40:23Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-dai-chay-bo-salomon-active-belt-3d-bolt-lc2179000",
@@ -4291,7 +4192,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:04Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-dai-chay-bo-salomon-pulse-belt-black-lc2180300",
@@ -4345,7 +4246,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:06Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-dai-chay-bo-salomon-pulse-sling-belt-black-lc2710400",
@@ -4391,7 +4292,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:09Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-dai-chay-bo-salomon-pulse-sling-belt-lily-pad-laurel-wreath-lc2710900",
@@ -4427,7 +4328,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:11Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-dai-chay-bo-salomon-trail-blazer-belt-lc2856200",
@@ -4476,7 +4377,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:14Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "salomon-ong-uong-nuoc-salomon-soft-reservoir-tube-lc1917100-clear-blue",
@@ -4506,7 +4407,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:47:36Z",
-      "crawledAt": "2026-11-21T01:07:24Z"
+      "crawledAt": "2026-11-22T00:04:08Z"
     },
     {
       "id": "coolmate-6a9948e22b8a48197d1e0c83",
@@ -7365,6 +7266,22 @@
       ],
       "variants": [
         {
+          "color": "PUMA Black",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/01/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=01",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
+          "color": "Pure Pink",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/95/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=95",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
           "color": "Sage Frost",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/46/mod01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=46",
@@ -7381,17 +7298,9 @@
           "sizes": []
         },
         {
-          "color": "Pure Pink",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/95/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=95",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "Glowing Red",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/23/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=23",
+          "color": "Lemon Sherbert",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/99/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=99",
           "priceVnd": null,
           "images": [],
           "sizes": []
@@ -7413,14 +7322,6 @@
           "sizes": []
         },
         {
-          "color": "Inky Depths",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/98/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=98",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
           "color": "Créme De Mint",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/29/mod01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=29",
@@ -7429,24 +7330,24 @@
           "sizes": []
         },
         {
-          "color": "Lemon Sherbert",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/99/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=99",
+          "color": "Glowing Red",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/23/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=23",
           "priceVnd": null,
           "images": [],
           "sizes": []
         },
         {
-          "color": "PUMA Black",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/01/mod01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=01",
+          "color": "Inky Depths",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/524953/98/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/4keeps-run-bra/524953.html?color=98",
           "priceVnd": null,
           "images": [],
           "sizes": []
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:43Z",
-      "crawledAt": "2026-11-21T01:03:42Z"
+      "crawledAt": "2026-11-22T00:03:08Z"
     },
     {
       "id": "puma-528988",
@@ -7551,7 +7452,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:52Z",
-      "crawledAt": "2026-11-21T01:03:42Z"
+      "crawledAt": "2026-11-22T00:03:08Z"
     },
     {
       "id": "puma-529019",
@@ -7634,7 +7535,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:04:46Z",
-      "crawledAt": "2026-11-21T01:03:45Z"
+      "crawledAt": "2026-11-22T00:03:10Z"
     },
     {
       "id": "puma-528984",
@@ -7712,7 +7613,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:04:48Z",
-      "crawledAt": "2026-11-21T01:03:45Z"
+      "crawledAt": "2026-11-22T00:03:10Z"
     },
     {
       "id": "puma-529005",
@@ -7790,7 +7691,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:04:41Z",
-      "crawledAt": "2026-11-21T01:03:45Z"
+      "crawledAt": "2026-11-22T00:03:10Z"
     },
     {
       "id": "puma-529022",
@@ -7867,7 +7768,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:00Z",
-      "crawledAt": "2026-11-21T01:03:45Z"
+      "crawledAt": "2026-11-22T00:03:10Z"
     },
     {
       "id": "puma-526629",
@@ -7976,7 +7877,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:00Z",
-      "crawledAt": "2026-11-21T01:03:48Z"
+      "crawledAt": "2026-11-22T00:03:13Z"
     },
     {
       "id": "puma-519596",
@@ -8048,7 +7949,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:36Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-528551",
@@ -8126,7 +8027,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:04:55Z",
-      "crawledAt": "2026-11-21T01:03:48Z"
+      "crawledAt": "2026-11-22T00:03:10Z"
     },
     {
       "id": "puma-528581",
@@ -8203,7 +8104,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:00Z",
-      "crawledAt": "2026-11-21T01:03:53Z"
+      "crawledAt": "2026-11-22T00:03:18Z"
     },
     {
       "id": "puma-528432",
@@ -8280,7 +8181,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:02Z",
-      "crawledAt": "2026-11-21T01:03:45Z"
+      "crawledAt": "2026-11-22T00:03:10Z"
     },
     {
       "id": "puma-528431",
@@ -8360,7 +8261,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:05:03Z",
-      "crawledAt": "2026-11-21T01:03:48Z"
+      "crawledAt": "2026-11-22T00:03:13Z"
     },
     {
       "id": "puma-528425",
@@ -8455,7 +8356,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:46Z",
-      "crawledAt": "2026-11-21T01:03:51Z"
+      "crawledAt": "2026-11-22T00:03:14Z"
     },
     {
       "id": "puma-524037",
@@ -8523,7 +8424,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:53Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-525871",
@@ -8583,7 +8484,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:11Z",
-      "crawledAt": "2026-11-21T01:03:56Z"
+      "crawledAt": "2026-11-22T00:03:21Z"
     },
     {
       "id": "puma-529132",
@@ -8655,24 +8556,24 @@
       ],
       "variants": [
         {
-          "color": "Light Lavender",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/529132/46/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/greatness-graphic-running-tee-women/529132.html?color=46",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
           "color": "PUMA Black-AH26 Q3",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/529132/51/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/greatness-graphic-running-tee-women/529132.html?color=51",
           "priceVnd": null,
           "images": [],
           "sizes": []
+        },
+        {
+          "color": "Light Lavender",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/529132/46/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/greatness-graphic-running-tee-women/529132.html?color=46",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:23Z",
-      "crawledAt": "2026-11-21T01:03:48Z"
+      "crawledAt": "2026-11-22T00:03:14Z"
     },
     {
       "id": "puma-528428",
@@ -8766,7 +8667,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:04:53Z",
-      "crawledAt": "2026-11-21T01:03:45Z"
+      "crawledAt": "2026-11-22T00:03:10Z"
     },
     {
       "id": "puma-528500",
@@ -8835,7 +8736,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:05:50Z",
-      "crawledAt": "2026-11-21T01:03:51Z"
+      "crawledAt": "2026-11-22T00:03:18Z"
     },
     {
       "id": "puma-529010",
@@ -8915,7 +8816,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:05:36Z",
-      "crawledAt": "2026-11-21T01:03:51Z"
+      "crawledAt": "2026-11-22T00:03:14Z"
     },
     {
       "id": "puma-528572",
@@ -9001,7 +8902,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:04:51Z",
-      "crawledAt": "2026-11-21T01:03:45Z"
+      "crawledAt": "2026-11-22T00:03:10Z"
     },
     {
       "id": "puma-528424",
@@ -9086,7 +8987,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:53Z",
-      "crawledAt": "2026-11-21T01:03:53Z"
+      "crawledAt": "2026-11-22T00:03:18Z"
     },
     {
       "id": "puma-528419",
@@ -9161,7 +9062,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:05:06Z",
-      "crawledAt": "2026-11-21T01:03:48Z"
+      "crawledAt": "2026-11-22T00:03:13Z"
     },
     {
       "id": "puma-528779",
@@ -9248,7 +9149,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:40Z",
-      "crawledAt": "2026-11-21T01:03:51Z"
+      "crawledAt": "2026-11-22T00:03:14Z"
     },
     {
       "id": "puma-528782",
@@ -9336,7 +9237,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:38Z",
-      "crawledAt": "2026-11-21T01:03:51Z"
+      "crawledAt": "2026-11-22T00:03:14Z"
     },
     {
       "id": "puma-528564",
@@ -9436,7 +9337,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:48Z",
-      "crawledAt": "2026-11-21T01:03:42Z"
+      "crawledAt": "2026-11-22T00:03:08Z"
     },
     {
       "id": "puma-528563",
@@ -9521,7 +9422,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:48Z",
-      "crawledAt": "2026-11-21T01:03:51Z"
+      "crawledAt": "2026-11-22T00:03:14Z"
     },
     {
       "id": "puma-528436",
@@ -9615,7 +9516,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:04:39Z",
-      "crawledAt": "2026-11-21T01:03:45Z"
+      "crawledAt": "2026-11-22T00:03:10Z"
     },
     {
       "id": "puma-528434",
@@ -9706,7 +9607,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:43Z",
-      "crawledAt": "2026-11-21T01:03:51Z"
+      "crawledAt": "2026-11-22T00:03:14Z"
     },
     {
       "id": "puma-525857",
@@ -9787,7 +9688,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:33Z",
-      "crawledAt": "2026-11-21T01:03:51Z"
+      "crawledAt": "2026-11-22T00:03:14Z"
     },
     {
       "id": "puma-525781",
@@ -9860,7 +9761,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:43Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-525746",
@@ -9921,7 +9822,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:05:20Z",
-      "crawledAt": "2026-11-21T01:03:48Z"
+      "crawledAt": "2026-11-22T00:03:13Z"
     },
     {
       "id": "puma-526145",
@@ -10001,7 +9902,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:06:48Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-526144",
@@ -10078,7 +9979,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:06:58Z",
-      "crawledAt": "2026-11-21T01:04:01Z"
+      "crawledAt": "2026-11-22T00:03:25Z"
     },
     {
       "id": "puma-526660",
@@ -10174,7 +10075,97 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:06:08Z",
-      "crawledAt": "2026-11-21T01:03:56Z"
+      "crawledAt": "2026-11-22T00:03:21Z"
+    },
+    {
+      "id": "puma-526631",
+      "name": "PUMA RUN Mesh Graphic Tee Men",
+      "brand": "Puma",
+      "category": "apparel",
+      "sourceName": "puma",
+      "priceVnd": 475000,
+      "originalPriceVnd": 950000,
+      "description": "Feel cool and dry with this breathable mesh tee. Featuring dryCELL technology and flatlocked seams for reduced friction, it's perfect for your active lifestyle. This tee combines performance and style for every workout.",
+      "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526631/47/fnd/VNM/fmt/png",
+      "images": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526631/47/fnd/VNM/fmt/png",
+        "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526631/47/bv/fnd/VNM/fmt/png"
+      ],
+      "productUrl": "https://vn.puma.com/vn/en/pd/puma-run-mesh-graphic-tee-men/526631.html?color=47",
+      "sizes": [
+        {
+          "label": "XS",
+          "available": true
+        },
+        {
+          "label": "S",
+          "available": false
+        },
+        {
+          "label": "M",
+          "available": false
+        },
+        {
+          "label": "L",
+          "available": false
+        },
+        {
+          "label": "XL",
+          "available": false
+        },
+        {
+          "label": "XXL",
+          "available": false
+        },
+        {
+          "label": "3XL",
+          "available": false
+        },
+        {
+          "label": "4XL",
+          "available": false
+        }
+      ],
+      "inStock": true,
+      "gender": "men",
+      "sku": "526631",
+      "specs": {
+        "dryCELL": "Performance technology designed to wick moisture from the body and keep you free of sweat during exercise",
+        "material": "Polyester",
+        "fabricType": "Knitted",
+        "sportType": "Running",
+        "ageGroup": "Adults",
+        "articleType": "Tees"
+      },
+      "features": [
+        "Made with at least 90% recycled materials",
+        "Regular fit",
+        "Short sleeves",
+        "Regular length",
+        "Crew neck",
+        "PUMA branding details",
+        "94% Polyester, 6% Elastane"
+      ],
+      "variants": [
+        {
+          "color": "Cool Weather",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526631/47/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/puma-run-mesh-graphic-tee-men/526631.html?color=47",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
+          "color": "Blue Crystal",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526631/46/mod01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/puma-run-mesh-graphic-tee-men/526631.html?color=46",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        }
+      ],
+      "detailFetchedAt": "2026-11-22T00:03:59Z",
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-527520",
@@ -10252,7 +10243,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:06Z",
-      "crawledAt": "2026-11-21T01:03:56Z"
+      "crawledAt": "2026-11-22T00:03:21Z"
     },
     {
       "id": "puma-525747",
@@ -10320,7 +10311,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:05:28Z",
-      "crawledAt": "2026-11-21T01:03:51Z"
+      "crawledAt": "2026-11-22T00:03:14Z"
     },
     {
       "id": "puma-526842",
@@ -10399,7 +10390,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:16Z",
-      "crawledAt": "2026-11-21T01:03:56Z"
+      "crawledAt": "2026-11-22T00:03:21Z"
     },
     {
       "id": "puma-526837",
@@ -10471,7 +10462,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:25Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-526956",
@@ -10544,7 +10535,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:21Z",
-      "crawledAt": "2026-11-21T01:03:56Z"
+      "crawledAt": "2026-11-22T00:03:21Z"
     },
     {
       "id": "puma-526957",
@@ -10616,7 +10607,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:18Z",
-      "crawledAt": "2026-11-21T01:03:56Z"
+      "crawledAt": "2026-11-22T00:03:21Z"
     },
     {
       "id": "puma-526955",
@@ -10692,7 +10683,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:13Z",
-      "crawledAt": "2026-11-21T01:03:56Z"
+      "crawledAt": "2026-11-22T00:03:21Z"
     },
     {
       "id": "puma-526839",
@@ -10764,7 +10755,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:22Z",
-      "crawledAt": "2026-11-21T01:03:56Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-525074",
@@ -10893,7 +10884,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:04:58Z",
-      "crawledAt": "2026-11-21T01:03:48Z"
+      "crawledAt": "2026-11-22T00:03:13Z"
     },
     {
       "id": "puma-526658",
@@ -10974,7 +10965,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:05:30Z",
-      "crawledAt": "2026-11-21T01:03:51Z"
+      "crawledAt": "2026-11-22T00:03:14Z"
     },
     {
       "id": "puma-526652",
@@ -11077,7 +11068,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:40Z",
-      "crawledAt": "2026-11-21T01:03:42Z"
+      "crawledAt": "2026-11-22T00:03:08Z"
     },
     {
       "id": "puma-526146",
@@ -11165,7 +11156,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:06:51Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-525005",
@@ -11258,7 +11249,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:06:38Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-526190",
@@ -11328,7 +11319,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:56Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:25Z"
     },
     {
       "id": "puma-525061",
@@ -11430,7 +11421,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:06:27Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-523149",
@@ -11517,7 +11508,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:06:30Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-523155",
@@ -11609,7 +11600,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:06:33Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-526775",
@@ -11707,7 +11698,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:06:02Z",
-      "crawledAt": "2026-11-21T01:03:56Z"
+      "crawledAt": "2026-11-22T00:03:21Z"
     },
     {
       "id": "puma-528427",
@@ -11786,7 +11777,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:57Z",
-      "crawledAt": "2026-11-21T01:03:53Z"
+      "crawledAt": "2026-11-22T00:03:18Z"
     },
     {
       "id": "puma-525755",
@@ -11854,7 +11845,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:41Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-525743",
@@ -11922,7 +11913,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:06:46Z",
-      "crawledAt": "2026-11-21T01:03:57Z"
+      "crawledAt": "2026-11-22T00:03:23Z"
     },
     {
       "id": "puma-528421",
@@ -12013,7 +12004,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-15T23:44:17Z",
-      "crawledAt": "2026-11-21T01:03:53Z"
+      "crawledAt": "2026-11-22T00:03:18Z"
     },
     {
       "id": "puma-528430",
@@ -12075,7 +12066,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:05:56Z",
-      "crawledAt": "2026-11-21T01:03:53Z"
+      "crawledAt": "2026-11-22T00:03:18Z"
     },
     {
       "id": "puma-526611",
@@ -12193,7 +12184,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:11Z",
-      "crawledAt": "2026-11-21T01:03:48Z"
+      "crawledAt": "2026-11-22T00:03:13Z"
     },
     {
       "id": "puma-526588",
@@ -12287,7 +12278,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:13Z",
-      "crawledAt": "2026-11-21T01:03:48Z"
+      "crawledAt": "2026-11-22T00:03:13Z"
     },
     {
       "id": "puma-526590",
@@ -12377,7 +12368,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:16Z",
-      "crawledAt": "2026-11-21T01:03:48Z"
+      "crawledAt": "2026-11-22T00:03:13Z"
     },
     {
       "id": "puma-526610",
@@ -12493,7 +12484,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:34Z",
-      "crawledAt": "2026-11-21T01:03:42Z"
+      "crawledAt": "2026-11-22T00:03:08Z"
     },
     {
       "id": "puma-526587",
@@ -12601,7 +12592,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:18Z",
-      "crawledAt": "2026-11-21T01:03:48Z"
+      "crawledAt": "2026-11-22T00:03:13Z"
     },
     {
       "id": "puma-526608",
@@ -12702,7 +12693,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:44Z",
-      "crawledAt": "2026-11-21T01:03:42Z"
+      "crawledAt": "2026-11-22T00:03:08Z"
     },
     {
       "id": "puma-526627",
@@ -12779,7 +12770,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:05:07Z",
-      "crawledAt": "2026-11-21T01:03:48Z"
+      "crawledAt": "2026-11-22T00:03:13Z"
     },
     {
       "id": "puma-526595",
@@ -12908,7 +12899,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:57Z",
-      "crawledAt": "2026-11-21T01:03:45Z"
+      "crawledAt": "2026-11-22T00:03:10Z"
     },
     {
       "id": "puma-526574",
@@ -13048,7 +13039,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:55Z",
-      "crawledAt": "2026-11-21T01:03:45Z"
+      "crawledAt": "2026-11-22T00:03:10Z"
     },
     {
       "id": "puma-526600",
@@ -13205,7 +13196,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:36Z",
-      "crawledAt": "2026-11-21T01:03:42Z"
+      "crawledAt": "2026-11-22T00:03:08Z"
     },
     {
       "id": "puma-526578",
@@ -13216,12 +13207,12 @@
       "priceVnd": 650000,
       "originalPriceVnd": null,
       "description": "Feel unstoppable on your daily run with this tee. Featuring ergonomic cut lines for freedom, dryCELL technology to keep you fresh, and flatlocked seams to reduce friction. Designed for those who embrace the joy of movement.",
-      "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/24/fnd/VNM/fmt/png",
+      "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/55/fnd/VNM/fmt/png",
       "images": [
-        "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/24/fnd/VNM/fmt/png",
-        "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/24/bv/fnd/VNM/fmt/png"
+        "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/55/fnd/VNM/fmt/png",
+        "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/526578/55/bv/fnd/VNM/fmt/png"
       ],
-      "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=24",
+      "productUrl": "https://vn.puma.com/vn/en/pd/velocity-running-tee-women/526578.html?color=55",
       "sizes": [
         {
           "label": "XXS",
@@ -13229,7 +13220,7 @@
         },
         {
           "label": "XS",
-          "available": true
+          "available": false
         },
         {
           "label": "S",
@@ -13357,8 +13348,8 @@
           "sizes": []
         }
       ],
-      "detailFetchedAt": "2026-11-21T01:04:35Z",
-      "crawledAt": "2026-11-21T01:03:42Z"
+      "detailFetchedAt": "2026-11-22T00:03:57Z",
+      "crawledAt": "2026-11-22T00:03:08Z"
     },
     {
       "id": "puma-526603",
@@ -13459,7 +13450,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:05:26Z",
-      "crawledAt": "2026-11-21T01:03:51Z"
+      "crawledAt": "2026-11-22T00:03:14Z"
     },
     {
       "id": "puma-526607",
@@ -13564,7 +13555,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:49Z",
-      "crawledAt": "2026-11-21T01:03:42Z"
+      "crawledAt": "2026-11-22T00:03:08Z"
     },
     {
       "id": "puma-526584",
@@ -13658,7 +13649,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:04:42Z",
-      "crawledAt": "2026-11-21T01:03:45Z"
+      "crawledAt": "2026-11-22T00:03:10Z"
     },
     {
       "id": "salomon-quan-dai-the-thao-nam-salomon-outerpath-utility-lc2340200-rainy-day",
@@ -13718,7 +13709,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:01Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-dai-the-thao-nu-salomon-wayfarer-2-0-deep-black-lc2750500",
@@ -13787,7 +13778,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:04Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-chay-bo-nam-salomon-sense-aero-stow-5-burnt-umber-lc2931600",
@@ -13843,7 +13834,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:07Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-shakeout-core-5-black-lc2450400",
@@ -13906,7 +13897,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:16Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nu-salomon-shakeout-core-4-deep-black-lc2451300",
@@ -13965,7 +13956,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:34Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-l-techy-classic-navy-lc2921000",
@@ -14014,7 +14005,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:09Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-l-techy-deep-black-lc2920400",
@@ -14069,7 +14060,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:11Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-the-thao-salomon-sense-aero-5-lc2275000-cherry-tomato",
@@ -14123,7 +14114,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:14Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-black-lc2746900",
@@ -14182,7 +14173,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:19Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-deep-black-lc2747200",
@@ -14232,7 +14223,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:21Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-grape-leaf-lc2869500",
@@ -14281,7 +14272,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:24Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nam-salomon-wayfarer-ease-2-0-iron-lc2747000",
@@ -14330,7 +14321,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:26Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nu-salomon-core-2in1-short-4-deep-black-lc2452300",
@@ -14391,7 +14382,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:29Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-the-thao-salomon-sense-aero-5-lc2319800-misty-blue",
@@ -14443,7 +14434,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:31Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-quan-short-the-thao-nu-salomon-wayfarer-ease-2-0-iron-lc2749900",
@@ -14495,7 +14486,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:46:36Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-khoac-chong-nang-nam-salomon-men-l-anti-uv-wind-jacket-deep-black-lc2888600",
@@ -14550,7 +14541,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:01Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-khoac-nam-the-thao-salomon-outquest-2-5l-castor-gray-lc2963000",
@@ -14604,7 +14595,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:04Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-khoac-nam-the-thao-salomon-outquest-2-5l-jacket-deep-black-lc2962800",
@@ -14658,7 +14649,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:06Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-khoac-nam-the-thao-salomon-outquest-2-5l-jacket-silver-cloud-lc2963100",
@@ -14709,7 +14700,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:09Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-khoac-nu-chong-tham-salomon-bonatti-pro-ice-pink-lc2933300",
@@ -14769,7 +14760,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:11Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-khoac-nu-the-thao-salomon-outquest-2-5l-jacket-deep-black-lc2963300",
@@ -14824,7 +14815,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:15Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-khoac-the-thao-nam-salomon-bonatti-trail-chromatic-lc2422900-deep-black",
@@ -14878,7 +14869,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:16Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-khoac-the-thao-nam-salomon-bonatti-trail-lc2271700-cherry-tomato",
@@ -14936,7 +14927,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:19Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-nhan-ban-tu-ao-khoac-the-thao-nam-salomon-bonatti-trail-lc2271800-shitake",
@@ -14985,7 +14976,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:21Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-khoac-the-thao-nam-salomon-outerpath-2-5l-jacket-m-lc2314200-white-pepper-rai",
@@ -15042,7 +15033,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:24Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-khoac-the-thao-nam-salomon-outerpath-pro-2-5l-jkt-m-lc2309700-midnight-navy",
@@ -15100,7 +15091,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:26Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-khoac-the-thao-nu-salomon-bonatti-trail-lc2278000-misty-blue",
@@ -15157,7 +15148,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:29Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-thun-nam-salomon-men-s-globe-graphic-ss-tee-white-lc2249100",
@@ -15215,7 +15206,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:54Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-thun-nu-the-thao-salomon-s-lab-speed-singlet-lilac-ash-lc2946900",
@@ -15267,7 +15258,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:56Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-thun-nu-the-thao-salomon-s-lab-speed-tee-lilac-ash-lc2946800",
@@ -15317,7 +15308,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:59Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-the-thao-salomon-outline-ss-tee-m-lc2277800-rum-raisin",
@@ -15370,7 +15361,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:31Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-the-thao-nam-salomon-sense-aero-hybrid-lc2290600-deep-black",
@@ -15426,7 +15417,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:34Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-the-thao-nam-salomon-trackline-tee-wrought-iron-lc2954300",
@@ -15479,7 +15470,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:36Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-the-thao-nu-salomon-outline-ss-tee-w-lc2306500-rum-raisin",
@@ -15529,7 +15520,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:39Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-the-thao-nu-salomon-outline-ss-tee-w-lc2306600-misty-blue",
@@ -15578,7 +15569,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:41Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-the-thao-nu-salomon-shakeout-core-graphic-whisper-white-pink-frosting-icy-pink-lc3040700",
@@ -15630,7 +15621,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:45Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-the-thao-nu-salomon-shakeout-core-short-sleeve-tee-women-s-butterfly-lc2840800",
@@ -15675,7 +15666,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:46Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-the-thao-nu-salomon-techy-ss-tee-dawn-pink-lc2919000",
@@ -15725,7 +15716,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:49Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "salomon-ao-the-thao-nu-salomon-trackline-tee-wrought-iron-lc302000",
@@ -15776,7 +15767,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:45:51Z",
-      "crawledAt": "2026-11-21T01:07:21Z"
+      "crawledAt": "2026-11-22T00:04:06Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arpw001-3v",
@@ -15844,7 +15835,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:45Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arbw008-22v",
@@ -15906,7 +15897,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:25Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arbw004-18v",
@@ -15951,7 +15942,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:02Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arbw004-5v",
@@ -16010,7 +16001,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:06Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nam-arpv001-13v",
@@ -16084,7 +16075,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:07:43Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nam-arpv001-1v",
@@ -16157,7 +16148,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:07:50Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nam-arpv001-5v",
@@ -16236,7 +16227,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:07:48Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nu-arpv004-1v",
@@ -16297,7 +16288,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:10Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nu-arpv004-5v",
@@ -16364,7 +16355,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:12Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nu-arpv004-7v",
@@ -16429,7 +16420,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:15Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arpv003-26v",
@@ -16507,7 +16498,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:52Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-pro-nu-arpv006-25v",
@@ -16570,7 +16561,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:25Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arpv006-28v",
@@ -16638,7 +16629,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:27Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arpw001-28v",
@@ -16710,7 +16701,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:50Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arpw001-2v",
@@ -16778,7 +16769,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:47Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arbw007-10v",
@@ -16850,7 +16841,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:15Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arbw007-19v",
@@ -16926,7 +16917,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:20Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arbw007-40v",
@@ -16995,7 +16986,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:12Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arbw007-8v",
@@ -17062,7 +17053,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:07Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arbw007-9v",
@@ -17131,7 +17122,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:10Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arbw008-13v",
@@ -17194,7 +17185,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:27Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-chaoying-nu-arbw004-16v",
@@ -17255,7 +17246,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:12Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-chaoying-nu-arbw008-18v",
@@ -17328,7 +17319,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:08Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arbw008-1v",
@@ -17396,7 +17387,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:57Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arbw008-6v",
@@ -17464,7 +17455,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:01Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arbw003-15v",
@@ -17537,7 +17528,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:10Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nam-arpv001-22v",
@@ -17615,7 +17606,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:50Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nam-arpv013-1v",
@@ -17672,7 +17663,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:32Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nam-arpv013-3v",
@@ -17748,7 +17739,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:47Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nam-arpv013-6v",
@@ -17822,7 +17813,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:30Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nu-arpv004-12v",
@@ -17888,7 +17879,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:07Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nu-arpv014-1v",
@@ -17953,7 +17944,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:17Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-nu-arpv014-3v",
@@ -18018,7 +18009,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:20Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-pro-nam-arpv003-21v",
@@ -18092,7 +18083,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:45Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-pro-nu-arpv006-31v",
@@ -18156,7 +18147,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:30Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-pro-nu-arpv016-4v",
@@ -18223,7 +18214,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:32Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-8-pro-nu-arpv016-7v",
@@ -18290,7 +18281,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:35Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arpw003-6v",
@@ -18370,7 +18361,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:18Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-chitu-9-nam-arpw003-8v",
@@ -18440,7 +18431,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:02Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arpw004-4v",
@@ -18505,7 +18496,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:38Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arpw004-7v",
@@ -18570,7 +18561,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:40Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-feidian-5-nu-armv002-15v",
@@ -18632,7 +18623,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:45Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-armv002-28v",
@@ -18698,7 +18689,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:47Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-armw003-1v",
@@ -18771,7 +18762,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:02Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-armw003-32v",
@@ -18842,7 +18833,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:00Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-armw003-4v",
@@ -18919,7 +18910,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:55Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-armw003-7v",
@@ -18992,7 +18983,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:53Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-armw004-7v",
@@ -19053,7 +19044,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:25Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-feidian-5-challenger-nam-armv001-23v",
@@ -19119,7 +19110,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:35Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-feidian-5-nam-armv001-4v",
@@ -19192,7 +19183,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:07:45Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-feidian-5-nu-armv002-3v",
@@ -19254,7 +19245,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:50Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-feidian-6-challenger-nam-armw003-13v",
@@ -19328,7 +19319,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:10Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-armw004-1v",
@@ -19389,7 +19380,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:35Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-inifinity-5-nam-arhv015-2v",
@@ -19471,7 +19462,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:53:18Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arhw003-10v",
@@ -19547,7 +19538,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:07Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arhw003-13v",
@@ -19619,7 +19610,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:05Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arhw003-16v",
@@ -19700,7 +19691,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:55Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arhw003-17v",
@@ -19778,7 +19769,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:52Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arhw003-1v",
@@ -19852,7 +19843,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:50Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-inifinity-5-nu-arhv016-14v",
@@ -19917,7 +19908,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:52:57Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-inifinity-5-nu-arhv016-1v",
@@ -19981,7 +19972,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:53:02Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-inifinity-5-nu-arhv016-3v",
@@ -20046,7 +20037,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:53:07Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arhw004-12v",
@@ -20111,7 +20102,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:42Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arhw004-13v",
@@ -20172,7 +20163,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:40Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arhw004-2v",
@@ -20237,7 +20228,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:47Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arhw004-6v",
@@ -20299,7 +20290,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:45Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arhw004-7v",
@@ -20364,7 +20355,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:42Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-infinity-5-nam-arhv015-18v",
@@ -20425,7 +20416,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:25Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-infinity-5-nu-arhv016-18v",
@@ -20486,7 +20477,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:53:00Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-infinity-5-nu-arhv016-20v",
@@ -20543,7 +20534,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:53:05Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-infinity-6-nam-arhw017-20v",
@@ -20621,7 +20612,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:05Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-infinity-6-nam-arhw017-2v",
@@ -20695,7 +20686,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:02Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-infinity-6-nam-arhw017-3v",
@@ -20768,7 +20759,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:49:00Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-infinity-6-nam-arhw017-8v",
@@ -20846,7 +20837,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:57Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-infinity-6-nu-arhw018-11v",
@@ -20908,7 +20899,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:55Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-infinity-6-nu-arhw018-6v",
@@ -20970,7 +20961,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:52Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arhw020-1v",
@@ -21034,7 +21025,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:17Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arhw020-4v",
@@ -21097,7 +21088,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:15Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-jinghong-comfy-nu-arhv024-11v",
@@ -21162,7 +21153,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:53:10Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arhv024-6v",
@@ -21212,7 +21203,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:07:53Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arhw008-6v",
@@ -21273,7 +21264,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:20Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nu-arhv024-5v",
@@ -21323,7 +21314,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:07:55Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-super-light-22-nu-arvv002-5v",
@@ -21390,7 +21381,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:08:00Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-superlight-22-nam-arvv001-53v",
@@ -21464,7 +21455,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:55Z",
-      "crawledAt": "2026-11-21T01:07:29Z"
+      "crawledAt": "2026-11-22T00:04:12Z"
     },
     {
       "id": "lining-giay-chay-bo-superlight-22-nu-arvv002-61v",
@@ -21530,7 +21521,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:08:03Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-superlight-22-nu-arvv002-63v",
@@ -21596,7 +21587,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:08:05Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-super-light-21-nu-arvu002-2v",
@@ -21658,7 +21649,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:07:58Z",
-      "crawledAt": "2026-11-21T01:07:31Z"
+      "crawledAt": "2026-11-22T00:04:15Z"
     },
     {
       "id": "lining-giay-chay-bo-super-light-23-nam-arbw017-15v",
@@ -21731,7 +21722,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:47Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-super-light-23-nam-arbw017-17v",
@@ -21804,7 +21795,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:48:45Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arbw017-18v",
@@ -21873,7 +21864,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:00Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arbw017-7v",
@@ -21951,7 +21942,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:57Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-nam-arbw018-10v",
@@ -22012,7 +22003,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:51:05Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-unisex-ykfw080-1v",
@@ -22073,7 +22064,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:07:40Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-unisex-ykfw002-1v",
@@ -22136,7 +22127,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:50:40Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-unisex-ykfw080-3v",
@@ -22200,7 +22191,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:07:38Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "lining-giay-chay-bo-unisex-ykfw080-4v",
@@ -22260,7 +22251,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-21T01:07:35Z",
-      "crawledAt": "2026-11-21T01:07:26Z"
+      "crawledAt": "2026-11-22T00:04:10Z"
     },
     {
       "id": "puma-312587",
@@ -22463,7 +22454,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:55Z",
-      "crawledAt": "2026-11-21T01:03:03Z"
+      "crawledAt": "2026-11-22T00:02:27Z"
     },
     {
       "id": "puma-310152",
@@ -22623,7 +22614,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:11Z",
-      "crawledAt": "2026-11-21T01:03:39Z"
+      "crawledAt": "2026-11-22T00:03:03Z"
     },
     {
       "id": "puma-312339",
@@ -22764,7 +22755,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:42:39Z",
-      "crawledAt": "2026-11-21T01:03:31Z"
+      "crawledAt": "2026-11-22T00:02:55Z"
     },
     {
       "id": "puma-312586",
@@ -22904,7 +22895,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:41:03Z",
-      "crawledAt": "2026-11-21T01:03:16Z"
+      "crawledAt": "2026-11-22T00:02:40Z"
     },
     {
       "id": "puma-312963",
@@ -23043,7 +23034,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:40:07Z",
-      "crawledAt": "2026-11-21T01:03:05Z"
+      "crawledAt": "2026-11-22T00:02:30Z"
     },
     {
       "id": "puma-313422",
@@ -23065,7 +23056,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": null,
-      "crawledAt": "2026-11-21T01:03:24Z"
+      "crawledAt": "2026-11-22T00:02:48Z"
     },
     {
       "id": "puma-313423",
@@ -23087,7 +23078,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": null,
-      "crawledAt": "2026-11-21T01:03:24Z"
+      "crawledAt": "2026-11-22T00:02:48Z"
     },
     {
       "id": "puma-309707",
@@ -23281,7 +23272,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:04:30Z",
-      "crawledAt": "2026-11-21T01:03:24Z"
+      "crawledAt": "2026-11-22T00:02:48Z"
     },
     {
       "id": "puma-310474",
@@ -23390,7 +23381,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:43:20Z",
-      "crawledAt": "2026-11-21T01:03:39Z"
+      "crawledAt": "2026-11-22T00:03:03Z"
     },
     {
       "id": "puma-310195",
@@ -23496,7 +23487,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:43:32Z",
-      "crawledAt": "2026-11-21T01:03:40Z"
+      "crawledAt": "2026-11-22T00:03:05Z"
     },
     {
       "id": "puma-309708",
@@ -23646,7 +23637,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:42:03Z",
-      "crawledAt": "2026-11-21T01:03:24Z"
+      "crawledAt": "2026-11-22T00:02:48Z"
     },
     {
       "id": "puma-310475",
@@ -23743,7 +23734,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:43:18Z",
-      "crawledAt": "2026-11-21T01:03:39Z"
+      "crawledAt": "2026-11-22T00:03:03Z"
     },
     {
       "id": "puma-310196",
@@ -23837,7 +23828,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:43:29Z",
-      "crawledAt": "2026-11-21T01:03:40Z"
+      "crawledAt": "2026-11-22T00:03:05Z"
     },
     {
       "id": "puma-378449",
@@ -23968,7 +23959,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:41:28Z",
-      "crawledAt": "2026-11-21T01:03:21Z"
+      "crawledAt": "2026-11-22T00:02:45Z"
     },
     {
       "id": "puma-378450",
@@ -24062,7 +24053,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:43:22Z",
-      "crawledAt": "2026-11-21T01:03:39Z"
+      "crawledAt": "2026-11-22T00:03:03Z"
     },
     {
       "id": "puma-312123",
@@ -24274,7 +24265,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:16Z",
-      "crawledAt": "2026-11-21T01:02:54Z"
+      "crawledAt": "2026-11-22T00:02:20Z"
     },
     {
       "id": "puma-312903",
@@ -24384,7 +24375,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:33Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-312124",
@@ -24572,7 +24563,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:19Z",
-      "crawledAt": "2026-11-21T01:02:54Z"
+      "crawledAt": "2026-11-22T00:02:20Z"
     },
     {
       "id": "puma-312904",
@@ -24670,7 +24661,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:36Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-312901",
@@ -24778,24 +24769,24 @@
       ],
       "variants": [
         {
-          "color": "PUMA Black-PUMA White-PUMA Silver",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/312901/01/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-nitrotm-4-wide-running-shoes-men/312901.html?color=01",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
           "color": "PUMA Black-Flat Dark Gray",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/312901/02/sv01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/deviate-nitrotm-4-wide-running-shoes-men/312901.html?color=02",
           "priceVnd": null,
           "images": [],
           "sizes": []
+        },
+        {
+          "color": "PUMA Black-PUMA White-PUMA Silver",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/312901/01/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-nitrotm-4-wide-running-shoes-men/312901.html?color=01",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
         }
       ],
       "detailFetchedAt": "2026-11-20T01:41:05Z",
-      "crawledAt": "2026-11-21T01:03:16Z"
+      "crawledAt": "2026-11-22T00:02:40Z"
     },
     {
       "id": "puma-312367",
@@ -24905,7 +24896,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:23Z",
-      "crawledAt": "2026-11-21T01:03:26Z"
+      "crawledAt": "2026-11-22T00:02:50Z"
     },
     {
       "id": "puma-312368",
@@ -25002,7 +24993,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:20Z",
-      "crawledAt": "2026-11-21T01:03:26Z"
+      "crawledAt": "2026-11-22T00:02:50Z"
     },
     {
       "id": "puma-311918",
@@ -25099,7 +25090,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:18Z",
-      "crawledAt": "2026-11-21T01:03:26Z"
+      "crawledAt": "2026-11-22T00:02:50Z"
     },
     {
       "id": "puma-313420",
@@ -25202,7 +25193,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:41:37Z",
-      "crawledAt": "2026-11-21T01:03:24Z"
+      "crawledAt": "2026-11-22T00:02:48Z"
     },
     {
       "id": "puma-313421",
@@ -25297,7 +25288,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:41:36Z",
-      "crawledAt": "2026-11-21T01:03:21Z"
+      "crawledAt": "2026-11-22T00:02:45Z"
     },
     {
       "id": "puma-309809",
@@ -25432,7 +25423,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:42:05Z",
-      "crawledAt": "2026-11-21T01:03:24Z"
+      "crawledAt": "2026-11-22T00:02:48Z"
     },
     {
       "id": "puma-310554",
@@ -25537,7 +25528,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:43:24Z",
-      "crawledAt": "2026-11-21T01:03:39Z"
+      "crawledAt": "2026-11-22T00:03:03Z"
     },
     {
       "id": "puma-309810",
@@ -25664,7 +25655,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:42:08Z",
-      "crawledAt": "2026-11-21T01:03:24Z"
+      "crawledAt": "2026-11-22T00:02:48Z"
     },
     {
       "id": "puma-310198",
@@ -25758,7 +25749,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:43:13Z",
-      "crawledAt": "2026-11-21T01:03:39Z"
+      "crawledAt": "2026-11-22T00:03:03Z"
     },
     {
       "id": "puma-310555",
@@ -25855,7 +25846,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:43:28Z",
-      "crawledAt": "2026-11-21T01:03:39Z"
+      "crawledAt": "2026-11-22T00:03:03Z"
     },
     {
       "id": "puma-312907",
@@ -25960,7 +25951,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:31Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-312908",
@@ -26052,7 +26043,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:28Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-312127",
@@ -26202,7 +26193,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:40Z",
-      "crawledAt": "2026-11-21T01:02:58Z"
+      "crawledAt": "2026-11-22T00:02:23Z"
     },
     {
       "id": "puma-312128",
@@ -26344,7 +26335,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:38Z",
-      "crawledAt": "2026-11-21T01:02:58Z"
+      "crawledAt": "2026-11-22T00:02:23Z"
     },
     {
       "id": "puma-313298",
@@ -26449,7 +26440,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:26Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-313904",
@@ -26561,17 +26552,9 @@
       ],
       "variants": [
         {
-          "color": "PUMA White-Ultra Red-PUMA Silver",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/06/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=06",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "PUMA Black-PUMA White",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/05/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=05",
+          "color": "PUMA Black-Flat Dark Gray-PUMA Silver",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/16/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=16",
           "priceVnd": null,
           "images": [],
           "sizes": []
@@ -26585,6 +26568,14 @@
           "sizes": []
         },
         {
+          "color": "PUMA Black-PUMA White",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/05/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=05",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
           "color": "Ultra Red-Red Rhythm",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/10/sv01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=10",
@@ -26593,9 +26584,9 @@
           "sizes": []
         },
         {
-          "color": "Sunny Lime-PUMA Black",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/13/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=13",
+          "color": "Alpine Snow-Warm White",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/03/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=03",
           "priceVnd": null,
           "images": [],
           "sizes": []
@@ -26609,9 +26600,9 @@
           "sizes": []
         },
         {
-          "color": "Soft Clay-Court Gray",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/30/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=30",
+          "color": "PUMA White-Ultra Red-PUMA Silver",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/06/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=06",
           "priceVnd": null,
           "images": [],
           "sizes": []
@@ -26625,24 +26616,24 @@
           "sizes": []
         },
         {
-          "color": "PUMA Black-Flat Dark Gray-PUMA Silver",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/16/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=16",
+          "color": "Sunny Lime-PUMA Black",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/13/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=13",
           "priceVnd": null,
           "images": [],
           "sizes": []
         },
         {
-          "color": "Alpine Snow-Warm White",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/03/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=03",
+          "color": "Soft Clay-Court Gray",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313904/30/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/deviate-pure-nitrotm-running-shoes-men/313904.html?color=30",
           "priceVnd": null,
           "images": [],
           "sizes": []
         }
       ],
       "detailFetchedAt": "2026-11-21T01:04:07Z",
-      "crawledAt": "2026-11-21T01:02:52Z"
+      "crawledAt": "2026-11-22T00:02:16Z"
     },
     {
       "id": "puma-313905",
@@ -26805,7 +26796,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:38:54Z",
-      "crawledAt": "2026-11-21T01:02:52Z"
+      "crawledAt": "2026-11-22T00:02:16Z"
     },
     {
       "id": "puma-310789",
@@ -26915,30 +26906,6 @@
           "sizes": []
         },
         {
-          "color": "Baltic Sea Blue-Fresh Water-PUMA Silver",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310789/22/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/electrify-nitrotm-4-running-shoes-men/310789.html?color=22",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "PUMA White-Mint Melt-Speed Blue",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310789/11/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/electrify-nitrotm-4-running-shoes-men/310789.html?color=11",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "PUMA Black-PUMA White",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310789/01/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/electrify-nitrotm-4-running-shoes-men/310789.html?color=01",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
           "color": "PUMA Black-Apple Spritz-Lux Lime",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310789/19/sv01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/electrify-nitrotm-4-running-shoes-men/310789.html?color=19",
@@ -26953,10 +26920,34 @@
           "priceVnd": null,
           "images": [],
           "sizes": []
+        },
+        {
+          "color": "PUMA Black-PUMA White",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310789/01/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/electrify-nitrotm-4-running-shoes-men/310789.html?color=01",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
+          "color": "Baltic Sea Blue-Fresh Water-PUMA Silver",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310789/22/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/electrify-nitrotm-4-running-shoes-men/310789.html?color=22",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
+          "color": "PUMA White-Mint Melt-Speed Blue",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310789/11/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/electrify-nitrotm-4-running-shoes-men/310789.html?color=11",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
         }
       ],
       "detailFetchedAt": "2026-11-20T01:40:48Z",
-      "crawledAt": "2026-11-21T01:03:13Z"
+      "crawledAt": "2026-11-22T00:02:38Z"
     },
     {
       "id": "puma-310788",
@@ -27050,14 +27041,6 @@
       ],
       "variants": [
         {
-          "color": "PUMA Black-Yellow Alert",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310788/05/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/electrify-nitrotm-4-running-shoes-women/310788.html?color=05",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
           "color": "Silver Mist-Apple Spritz",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310788/20/sv01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/electrify-nitrotm-4-running-shoes-women/310788.html?color=20",
@@ -27074,6 +27057,14 @@
           "sizes": []
         },
         {
+          "color": "PUMA Black-Yellow Alert",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310788/05/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/electrify-nitrotm-4-running-shoes-women/310788.html?color=05",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
           "color": "Fresh Water-Lemon Crush-PUMA Silver",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310788/22/sv01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/electrify-nitrotm-4-running-shoes-women/310788.html?color=22",
@@ -27083,7 +27074,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:40:51Z",
-      "crawledAt": "2026-11-21T01:03:13Z"
+      "crawledAt": "2026-11-22T00:02:38Z"
     },
     {
       "id": "puma-313488",
@@ -27200,7 +27191,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:28Z",
-      "crawledAt": "2026-11-21T01:02:54Z"
+      "crawledAt": "2026-11-22T00:02:20Z"
     },
     {
       "id": "puma-313701",
@@ -27296,7 +27287,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:39:50Z",
-      "crawledAt": "2026-11-21T01:03:03Z"
+      "crawledAt": "2026-11-22T00:02:27Z"
     },
     {
       "id": "puma-379538",
@@ -27454,7 +27445,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:42:47Z",
-      "crawledAt": "2026-11-21T01:03:33Z"
+      "crawledAt": "2026-11-22T00:02:57Z"
     },
     {
       "id": "puma-310683",
@@ -27557,7 +27548,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:43:00Z",
-      "crawledAt": "2026-11-21T01:03:35Z"
+      "crawledAt": "2026-11-22T00:03:00Z"
     },
     {
       "id": "puma-310684",
@@ -27651,7 +27642,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:57Z",
-      "crawledAt": "2026-11-21T01:03:35Z"
+      "crawledAt": "2026-11-22T00:03:00Z"
     },
     {
       "id": "puma-312060",
@@ -27830,7 +27821,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:31Z",
-      "crawledAt": "2026-11-21T01:02:54Z"
+      "crawledAt": "2026-11-22T00:02:20Z"
     },
     {
       "id": "puma-312061",
@@ -28009,7 +28000,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:36Z",
-      "crawledAt": "2026-11-21T01:02:54Z"
+      "crawledAt": "2026-11-22T00:02:20Z"
     },
     {
       "id": "puma-313616",
@@ -28106,7 +28097,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:23Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-313419",
@@ -28202,7 +28193,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:41:33Z",
-      "crawledAt": "2026-11-21T01:03:21Z"
+      "crawledAt": "2026-11-22T00:02:45Z"
     },
     {
       "id": "puma-314984",
@@ -28299,7 +28290,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:38:57Z",
-      "crawledAt": "2026-11-21T01:02:52Z"
+      "crawledAt": "2026-11-22T00:02:16Z"
     },
     {
       "id": "puma-314985",
@@ -28388,7 +28379,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:38:56Z",
-      "crawledAt": "2026-11-21T01:02:52Z"
+      "crawledAt": "2026-11-22T00:02:16Z"
     },
     {
       "id": "puma-314104",
@@ -28485,8 +28476,8 @@
         "PWRPLATE carbon fibre plate maximises energy transfer and propulsion"
       ],
       "variants": [],
-      "detailFetchedAt": "2026-11-14T23:37:41Z",
-      "crawledAt": "2026-11-21T01:02:52Z"
+      "detailFetchedAt": "2026-11-22T00:03:32Z",
+      "crawledAt": "2026-11-22T00:02:16Z"
     },
     {
       "id": "puma-314105",
@@ -28579,8 +28570,8 @@
         "PWRPLATE carbon fibre plate maximises energy transfer and propulsion"
       ],
       "variants": [],
-      "detailFetchedAt": "2026-11-14T23:37:44Z",
-      "crawledAt": "2026-11-21T01:02:52Z"
+      "detailFetchedAt": "2026-11-22T00:03:34Z",
+      "crawledAt": "2026-11-22T00:02:16Z"
     },
     {
       "id": "puma-379795",
@@ -28674,7 +28665,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:14Z",
-      "crawledAt": "2026-11-21T01:03:26Z"
+      "crawledAt": "2026-11-22T00:02:50Z"
     },
     {
       "id": "puma-311732",
@@ -28796,7 +28787,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:58Z",
-      "crawledAt": "2026-11-21T01:03:13Z"
+      "crawledAt": "2026-11-22T00:02:38Z"
     },
     {
       "id": "puma-310093",
@@ -28916,6 +28907,14 @@
       ],
       "variants": [
         {
+          "color": "Galactic Gray-PUMA Black",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310093/14/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/flexfocus-lite-modern-running-shoes-unisex/310093.html?color=14",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
           "color": "PUMA Black-PUMA White",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310093/01/sv01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/flexfocus-lite-modern-running-shoes-unisex/310093.html?color=01",
@@ -28932,14 +28931,6 @@
           "sizes": []
         },
         {
-          "color": "Galactic Gray-PUMA Black",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310093/14/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/flexfocus-lite-modern-running-shoes-unisex/310093.html?color=14",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
           "color": "PUMA Black-Cool Dark Gray",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/310093/02/sv01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/flexfocus-lite-modern-running-shoes-unisex/310093.html?color=02",
@@ -28949,7 +28940,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:40:06Z",
-      "crawledAt": "2026-11-21T01:03:05Z"
+      "crawledAt": "2026-11-22T00:02:30Z"
     },
     {
       "id": "puma-313499",
@@ -29123,7 +29114,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:40:03Z",
-      "crawledAt": "2026-11-21T01:03:03Z"
+      "crawledAt": "2026-11-22T00:02:27Z"
     },
     {
       "id": "puma-379139",
@@ -29223,7 +29214,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:43:16Z",
-      "crawledAt": "2026-11-21T01:03:39Z"
+      "crawledAt": "2026-11-22T00:03:03Z"
     },
     {
       "id": "puma-310109",
@@ -29415,7 +29406,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:41:11Z",
-      "crawledAt": "2026-11-21T01:03:18Z"
+      "crawledAt": "2026-11-22T00:02:43Z"
     },
     {
       "id": "puma-310471",
@@ -29601,7 +29592,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:40:53Z",
-      "crawledAt": "2026-11-21T01:03:13Z"
+      "crawledAt": "2026-11-22T00:02:38Z"
     },
     {
       "id": "puma-311050",
@@ -29702,7 +29693,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:43:03Z",
-      "crawledAt": "2026-11-21T01:03:35Z"
+      "crawledAt": "2026-11-22T00:03:00Z"
     },
     {
       "id": "puma-312942",
@@ -29840,7 +29831,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:21Z",
-      "crawledAt": "2026-11-21T01:02:54Z"
+      "crawledAt": "2026-11-22T00:02:20Z"
     },
     {
       "id": "puma-312943",
@@ -29972,7 +29963,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:43Z",
-      "crawledAt": "2026-11-21T01:02:58Z"
+      "crawledAt": "2026-11-22T00:02:23Z"
     },
     {
       "id": "puma-312125",
@@ -30143,7 +30134,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:11Z",
-      "crawledAt": "2026-11-21T01:02:54Z"
+      "crawledAt": "2026-11-22T00:02:20Z"
     },
     {
       "id": "puma-312909",
@@ -30248,7 +30239,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:38Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-312126",
@@ -30403,7 +30394,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:14Z",
-      "crawledAt": "2026-11-21T01:02:54Z"
+      "crawledAt": "2026-11-22T00:02:20Z"
     },
     {
       "id": "puma-312910",
@@ -30500,7 +30491,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:41Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-310088",
@@ -30635,7 +30626,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:41:22Z",
-      "crawledAt": "2026-11-21T01:03:21Z"
+      "crawledAt": "2026-11-22T00:02:45Z"
     },
     {
       "id": "puma-310089",
@@ -30762,7 +30753,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:41:26Z",
-      "crawledAt": "2026-11-21T01:03:21Z"
+      "crawledAt": "2026-11-22T00:02:45Z"
     },
     {
       "id": "puma-311046",
@@ -30880,24 +30871,24 @@
       ],
       "variants": [
         {
-          "color": "Vibrant Silver-Apple Spritz",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311046/14/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/magnify-nitrotm-3-running-shoes-men/311046.html?color=14",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
           "color": "PUMA Black-PUMA White",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311046/01/sv01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/magnify-nitrotm-3-running-shoes-men/311046.html?color=01",
           "priceVnd": null,
           "images": [],
           "sizes": []
+        },
+        {
+          "color": "Vibrant Silver-Apple Spritz",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311046/14/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/magnify-nitrotm-3-running-shoes-men/311046.html?color=14",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
         }
       ],
       "detailFetchedAt": "2026-11-20T01:41:08Z",
-      "crawledAt": "2026-11-21T01:03:18Z"
+      "crawledAt": "2026-11-22T00:02:43Z"
     },
     {
       "id": "puma-314049",
@@ -30920,79 +30911,79 @@
       "productUrl": "https://vn.puma.com/vn/en/pd/maxstride-lite-ls-sliptechtm-running-shoes-unisex/314049.html?color=01",
       "sizes": [
         {
-          "label": "4",
+          "label": "35.5",
           "available": true
         },
         {
-          "label": "4.5",
+          "label": "36",
           "available": false
         },
         {
-          "label": "5",
+          "label": "37",
           "available": true
         },
         {
-          "label": "5.5",
+          "label": "37.5",
           "available": true
         },
         {
-          "label": "6",
+          "label": "38",
           "available": true
         },
         {
-          "label": "6.5",
+          "label": "38.5",
           "available": true
         },
         {
-          "label": "7",
+          "label": "39",
           "available": true
         },
         {
-          "label": "7.5",
+          "label": "40",
           "available": false
         },
         {
-          "label": "8",
+          "label": "40.5",
           "available": true
         },
         {
-          "label": "8.5",
+          "label": "41",
           "available": true
         },
         {
-          "label": "9",
+          "label": "42",
           "available": true
         },
         {
-          "label": "9.5",
+          "label": "42.5",
           "available": true
         },
         {
-          "label": "10",
+          "label": "43",
           "available": true
         },
         {
-          "label": "10.5",
+          "label": "44",
           "available": true
         },
         {
-          "label": "11",
+          "label": "44.5",
           "available": true
         },
         {
-          "label": "11.5",
+          "label": "45",
           "available": false
         },
         {
-          "label": "12",
+          "label": "46",
           "available": true
         },
         {
-          "label": "13",
+          "label": "47",
           "available": false
         },
         {
-          "label": "14",
+          "label": "48",
           "available": false
         }
       ],
@@ -31039,8 +31030,8 @@
           "sizes": []
         }
       ],
-      "detailFetchedAt": "2026-11-14T23:37:47Z",
-      "crawledAt": "2026-11-21T01:02:54Z"
+      "detailFetchedAt": "2026-11-22T00:03:37Z",
+      "crawledAt": "2026-11-22T00:02:20Z"
     },
     {
       "id": "puma-313497",
@@ -31198,7 +31189,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:03Z",
-      "crawledAt": "2026-11-21T01:02:52Z"
+      "crawledAt": "2026-11-22T00:02:16Z"
     },
     {
       "id": "puma-313313",
@@ -31328,17 +31319,17 @@
           "sizes": []
         },
         {
-          "color": "PUMA Black-PUMA White",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313313/01/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/maxima-pro-running-shoes-unisex/313313.html?color=01",
+          "color": "PUMA Black",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313313/02/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/maxima-pro-running-shoes-unisex/313313.html?color=02",
           "priceVnd": null,
           "images": [],
           "sizes": []
         },
         {
-          "color": "PUMA Black",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313313/02/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/maxima-pro-running-shoes-unisex/313313.html?color=02",
+          "color": "PUMA Black-PUMA White",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/313313/01/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/maxima-pro-running-shoes-unisex/313313.html?color=01",
           "priceVnd": null,
           "images": [],
           "sizes": []
@@ -31353,7 +31344,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:40:11Z",
-      "crawledAt": "2026-11-21T01:03:08Z"
+      "crawledAt": "2026-11-22T00:02:32Z"
     },
     {
       "id": "puma-310040",
@@ -31497,7 +31488,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:42:34Z",
-      "crawledAt": "2026-11-21T01:03:26Z"
+      "crawledAt": "2026-11-22T00:02:50Z"
     },
     {
       "id": "puma-312293",
@@ -31606,7 +31597,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:42Z",
-      "crawledAt": "2026-11-21T01:03:31Z"
+      "crawledAt": "2026-11-22T00:02:55Z"
     },
     {
       "id": "puma-312294",
@@ -31702,7 +31693,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:45Z",
-      "crawledAt": "2026-11-21T01:03:31Z"
+      "crawledAt": "2026-11-22T00:02:55Z"
     },
     {
       "id": "puma-311413",
@@ -31798,7 +31789,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:50Z",
-      "crawledAt": "2026-11-21T01:03:33Z"
+      "crawledAt": "2026-11-22T00:02:57Z"
     },
     {
       "id": "puma-312906",
@@ -31907,7 +31898,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:41:13Z",
-      "crawledAt": "2026-11-21T01:03:18Z"
+      "crawledAt": "2026-11-22T00:02:43Z"
     },
     {
       "id": "puma-312905",
@@ -32003,7 +31994,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:41:16Z",
-      "crawledAt": "2026-11-21T01:03:18Z"
+      "crawledAt": "2026-11-22T00:02:43Z"
     },
     {
       "id": "puma-312959",
@@ -32110,7 +32101,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:39:48Z",
-      "crawledAt": "2026-11-21T01:03:00Z"
+      "crawledAt": "2026-11-22T00:02:25Z"
     },
     {
       "id": "puma-312960",
@@ -32208,7 +32199,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:41:01Z",
-      "crawledAt": "2026-11-21T01:03:16Z"
+      "crawledAt": "2026-11-22T00:02:40Z"
     },
     {
       "id": "puma-408494",
@@ -32301,7 +32292,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:41:31Z",
-      "crawledAt": "2026-11-21T01:03:21Z"
+      "crawledAt": "2026-11-22T00:02:45Z"
     },
     {
       "id": "puma-311061",
@@ -32391,7 +32382,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:53Z",
-      "crawledAt": "2026-11-21T01:03:33Z"
+      "crawledAt": "2026-11-22T00:02:57Z"
     },
     {
       "id": "puma-312320",
@@ -32511,7 +32502,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:00Z",
-      "crawledAt": "2026-11-21T01:03:24Z"
+      "crawledAt": "2026-11-22T00:02:48Z"
     },
     {
       "id": "puma-312321",
@@ -32607,7 +32598,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:41:57Z",
-      "crawledAt": "2026-11-21T01:03:24Z"
+      "crawledAt": "2026-11-22T00:02:48Z"
     },
     {
       "id": "puma-314306",
@@ -32763,7 +32754,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:46Z",
-      "crawledAt": "2026-11-21T01:02:58Z"
+      "crawledAt": "2026-11-22T00:02:23Z"
     },
     {
       "id": "puma-313496",
@@ -32885,7 +32876,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:12Z",
-      "crawledAt": "2026-11-21T01:03:08Z"
+      "crawledAt": "2026-11-22T00:02:32Z"
     },
     {
       "id": "puma-313736",
@@ -33025,7 +33016,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:57Z",
-      "crawledAt": "2026-11-21T01:03:03Z"
+      "crawledAt": "2026-11-22T00:02:27Z"
     },
     {
       "id": "puma-310778",
@@ -33188,7 +33179,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:04:10Z",
-      "crawledAt": "2026-11-21T01:03:13Z"
+      "crawledAt": "2026-11-22T00:02:38Z"
     },
     {
       "id": "puma-310780",
@@ -33325,7 +33316,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:08Z",
-      "crawledAt": "2026-11-21T01:03:39Z"
+      "crawledAt": "2026-11-22T00:03:03Z"
     },
     {
       "id": "puma-379442",
@@ -33462,7 +33453,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:43:05Z",
-      "crawledAt": "2026-11-21T01:03:39Z"
+      "crawledAt": "2026-11-22T00:03:03Z"
     },
     {
       "id": "puma-379478",
@@ -33618,7 +33609,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:04:33Z",
-      "crawledAt": "2026-11-21T01:03:31Z"
+      "crawledAt": "2026-11-22T00:02:55Z"
     },
     {
       "id": "puma-310496",
@@ -33763,7 +33754,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:40:21Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-311726",
@@ -33911,7 +33902,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-18T02:03:06Z",
-      "crawledAt": "2026-11-21T01:03:33Z"
+      "crawledAt": "2026-11-22T00:02:57Z"
     },
     {
       "id": "puma-312581",
@@ -34058,7 +34049,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-21T01:04:13Z",
-      "crawledAt": "2026-11-21T01:03:18Z"
+      "crawledAt": "2026-11-22T00:02:43Z"
     },
     {
       "id": "puma-311723",
@@ -34229,7 +34220,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-19T01:40:06Z",
-      "crawledAt": "2026-11-21T01:03:31Z"
+      "crawledAt": "2026-11-22T00:02:55Z"
     },
     {
       "id": "puma-311471",
@@ -34337,7 +34328,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:41:19Z",
-      "crawledAt": "2026-11-21T01:03:21Z"
+      "crawledAt": "2026-11-22T00:02:45Z"
     },
     {
       "id": "puma-310160",
@@ -34448,7 +34439,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-19T01:40:09Z",
-      "crawledAt": "2026-11-21T01:03:33Z"
+      "crawledAt": "2026-11-22T00:02:57Z"
     },
     {
       "id": "puma-313498",
@@ -34630,7 +34621,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:01Z",
-      "crawledAt": "2026-11-21T01:02:52Z"
+      "crawledAt": "2026-11-22T00:02:16Z"
     },
     {
       "id": "puma-311730",
@@ -34785,7 +34776,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:32Z",
-      "crawledAt": "2026-11-21T01:02:54Z"
+      "crawledAt": "2026-11-22T00:02:20Z"
     },
     {
       "id": "puma-311731",
@@ -34907,7 +34898,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:16Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-312346",
@@ -35029,7 +35020,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:18Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-310473",
@@ -35137,7 +35128,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:42:38Z",
-      "crawledAt": "2026-11-21T01:03:31Z"
+      "crawledAt": "2026-11-22T00:02:55Z"
     },
     {
       "id": "puma-311722",
@@ -35285,7 +35276,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:07Z",
-      "crawledAt": "2026-11-21T01:02:52Z"
+      "crawledAt": "2026-11-22T00:02:16Z"
     },
     {
       "id": "puma-309834",
@@ -35403,7 +35394,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:06Z",
-      "crawledAt": "2026-11-21T01:02:52Z"
+      "crawledAt": "2026-11-22T00:02:16Z"
     },
     {
       "id": "puma-311208",
@@ -35499,7 +35490,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:41:21Z",
-      "crawledAt": "2026-11-21T01:03:21Z"
+      "crawledAt": "2026-11-22T00:02:45Z"
     },
     {
       "id": "puma-377028",
@@ -35643,7 +35634,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:40:01Z",
-      "crawledAt": "2026-11-21T01:03:03Z"
+      "crawledAt": "2026-11-22T00:02:27Z"
     },
     {
       "id": "puma-377749",
@@ -35794,7 +35785,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:42:55Z",
-      "crawledAt": "2026-11-21T01:03:35Z"
+      "crawledAt": "2026-11-22T00:03:00Z"
     },
     {
       "id": "puma-311913",
@@ -35905,7 +35896,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:25Z",
-      "crawledAt": "2026-11-21T01:03:26Z"
+      "crawledAt": "2026-11-22T00:02:50Z"
     },
     {
       "id": "puma-312913",
@@ -36016,7 +36007,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:43Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-311140",
@@ -36129,6 +36120,38 @@
       ],
       "variants": [
         {
+          "color": "Vibrant Silver-Apple Spritz",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311140/19/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-men/311140.html?color=19",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
+          "color": "Sea Glass-Speed Blue",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311140/06/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-men/311140.html?color=06",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
+          "color": "PUMA Black-PUMA Silver",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311140/01/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-men/311140.html?color=01",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
+          "color": "Speed Blue-Gold Moon",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311140/07/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-men/311140.html?color=07",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
           "color": "Green Terrain-Heat Fire",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311140/10/sv01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-men/311140.html?color=10",
@@ -36145,17 +36168,9 @@
           "sizes": []
         },
         {
-          "color": "Vibrant Silver-Apple Spritz",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311140/19/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-men/311140.html?color=19",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "PUMA Black-PUMA Silver",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311140/01/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-men/311140.html?color=01",
+          "color": "PUMA White-Lux Lime",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311140/15/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-men/311140.html?color=15",
           "priceVnd": null,
           "images": [],
           "sizes": []
@@ -36167,34 +36182,10 @@
           "priceVnd": null,
           "images": [],
           "sizes": []
-        },
-        {
-          "color": "PUMA White-Lux Lime",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311140/15/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-men/311140.html?color=15",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "Sea Glass-Speed Blue",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311140/06/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-men/311140.html?color=06",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "Speed Blue-Gold Moon",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311140/07/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-men/311140.html?color=07",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
         }
       ],
       "detailFetchedAt": "2026-11-20T01:40:56Z",
-      "crawledAt": "2026-11-21T01:03:13Z"
+      "crawledAt": "2026-11-22T00:02:38Z"
     },
     {
       "id": "puma-311141",
@@ -36292,30 +36283,6 @@
       ],
       "variants": [
         {
-          "color": "PUMA Black-PUMA White",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311141/01/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-women/311141.html?color=01",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "Warm White-Gold Moon",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311141/08/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-women/311141.html?color=08",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
-          "color": "PUMA White-Apple Spritz",
-          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311141/12/sv01/fnd/VNM/fmt/png",
-          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-women/311141.html?color=12",
-          "priceVnd": null,
-          "images": [],
-          "sizes": []
-        },
-        {
           "color": "Sage Frost-Green Terrain",
           "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311141/10/sv01/fnd/VNM/fmt/png",
           "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-women/311141.html?color=10",
@@ -36338,10 +36305,34 @@
           "priceVnd": null,
           "images": [],
           "sizes": []
+        },
+        {
+          "color": "PUMA Black-PUMA White",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311141/01/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-women/311141.html?color=01",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
+          "color": "PUMA White-Apple Spritz",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311141/12/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-women/311141.html?color=12",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
+        },
+        {
+          "color": "Warm White-Gold Moon",
+          "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,w_600,b_rgb:FAFAFA/global/311141/08/sv01/fnd/VNM/fmt/png",
+          "productUrl": "https://vn.puma.com/vn/en/pd/velocity-nitrotm-4-running-shoes-women/311141.html?color=08",
+          "priceVnd": null,
+          "images": [],
+          "sizes": []
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:53Z",
-      "crawledAt": "2026-11-21T01:03:03Z"
+      "crawledAt": "2026-11-22T00:02:27Z"
     },
     {
       "id": "puma-312914",
@@ -36436,7 +36427,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:40:46Z",
-      "crawledAt": "2026-11-21T01:03:10Z"
+      "crawledAt": "2026-11-22T00:02:35Z"
     },
     {
       "id": "puma-312944",
@@ -36623,7 +36614,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:25Z",
-      "crawledAt": "2026-11-21T01:02:54Z"
+      "crawledAt": "2026-11-22T00:02:20Z"
     },
     {
       "id": "puma-312945",
@@ -36778,7 +36769,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:39:22Z",
-      "crawledAt": "2026-11-21T01:02:54Z"
+      "crawledAt": "2026-11-22T00:02:20Z"
     },
     {
       "id": "puma-311043",
@@ -36880,7 +36871,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:13Z",
-      "crawledAt": "2026-11-21T01:03:26Z"
+      "crawledAt": "2026-11-22T00:02:50Z"
     },
     {
       "id": "puma-311044",
@@ -36974,7 +36965,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:10Z",
-      "crawledAt": "2026-11-21T01:03:26Z"
+      "crawledAt": "2026-11-22T00:02:50Z"
     },
     {
       "id": "puma-379495",
@@ -37096,7 +37087,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:30Z",
-      "crawledAt": "2026-11-21T01:03:26Z"
+      "crawledAt": "2026-11-22T00:02:50Z"
     },
     {
       "id": "puma-309769",
@@ -37215,7 +37206,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:42:27Z",
-      "crawledAt": "2026-11-21T01:03:26Z"
+      "crawledAt": "2026-11-22T00:02:50Z"
     },
     {
       "id": "puma-310306",
@@ -37323,7 +37314,7 @@
         }
       ],
       "detailFetchedAt": "2026-11-20T01:42:33Z",
-      "crawledAt": "2026-11-21T01:03:26Z"
+      "crawledAt": "2026-11-22T00:02:50Z"
     },
     {
       "id": "salomon-giay-chay-bo-salomon-ultra-glide-2-vanilla-ice-sulphur-spring-orchid-petal-l47465100",
@@ -37405,7 +37396,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:14Z",
-      "crawledAt": "2026-11-21T01:07:16Z"
+      "crawledAt": "2026-11-22T00:04:00Z"
     },
     {
       "id": "salomon-giay-chay-the-thao-nam-salomon-alphacross-5-l47313300-grey",
@@ -37471,7 +37462,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:29Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     },
     {
       "id": "salomon-giay-chay-bo-nam-salomon-ultra-glide-2-l47464500-vanilla-ice-sulphur-spring-dragon-fire",
@@ -37558,7 +37549,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:16Z",
-      "crawledAt": "2026-11-21T01:07:16Z"
+      "crawledAt": "2026-11-22T00:04:00Z"
     },
     {
       "id": "salomon-giay-road-running-salomon-nu-aero-glide-2-l47426800",
@@ -37631,7 +37622,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:19Z",
-      "crawledAt": "2026-11-21T01:07:16Z"
+      "crawledAt": "2026-11-22T00:04:00Z"
     },
     {
       "id": "salomon-giay-the-thao-chay-bo-nam-salomon-thundercross-l47464200",
@@ -37704,7 +37695,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:31Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     },
     {
       "id": "salomon-giay-the-thao-chay-bo-salomon-s-lab-spectur-l47376000-white-fiery-red-black",
@@ -37780,7 +37771,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:21Z",
-      "crawledAt": "2026-11-21T01:07:16Z"
+      "crawledAt": "2026-11-22T00:04:00Z"
     },
     {
       "id": "salomon-giay-the-thao-nu-salomon-ultra-glide-2-l47600400-white-sonic-green-tomato-red",
@@ -37853,7 +37844,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:26Z",
-      "crawledAt": "2026-11-21T01:07:16Z"
+      "crawledAt": "2026-11-22T00:04:00Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-nam-salomon-elixer-activ-gtx-l47456200",
@@ -37924,7 +37915,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:34Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-salomon-nam-genesis-3-l47762800",
@@ -37990,7 +37981,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:36Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-nam-salomon-shoes-xa-pro-3d-v9-black-buttercup-lapis-blue-l47119000",
@@ -38083,7 +38074,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:39Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-nam-salomon-ultra-glides-3-l47722600",
@@ -38159,7 +38150,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:41Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-salomon-nam-xa-pro-3d-v9-wide-l47273100",
@@ -38230,7 +38221,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:44Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-salomon-nu-ultra-glides-3-l47743200",
@@ -38296,7 +38287,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:46Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     },
     {
       "id": "salomon-giay-the-thao-trail-running-salomon-nu-ultra-glides-3-l47744000",
@@ -38364,7 +38355,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:49Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     },
     {
       "id": "salomon-giay-the-thao-chay-trail-running-unisex-salomon-s-lab-genesis-l47722600",
@@ -38416,7 +38407,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:51Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     },
     {
       "id": "salomon-giay-the-thao-dia-hinh-nam-salomon-ultra-glide-2-l47386200-black-flint-stone-green-gecko",
@@ -38498,7 +38489,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:24Z",
-      "crawledAt": "2026-11-21T01:07:16Z"
+      "crawledAt": "2026-11-22T00:04:00Z"
     },
     {
       "id": "salomon-giay-trail-running-nam-salomon-shoes-ultra-black-sulphur-spring-l47462500",
@@ -38574,7 +38565,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:54Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     },
     {
       "id": "salomon-giay-trail-running-nam-salomon-speedcross-6-wide-black-phantom-l41744000",
@@ -38670,7 +38661,7 @@
       ],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:56Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     },
     {
       "id": "salomon-giay-trail-running-nu-salomon-speedcross-6-gtx-flint-stone-black-heather-l47302300",
@@ -38745,7 +38736,7 @@
       "features": [],
       "variants": [],
       "detailFetchedAt": "2026-11-20T01:44:59Z",
-      "crawledAt": "2026-11-21T01:07:19Z"
+      "crawledAt": "2026-11-22T00:04:03Z"
     }
   ]
 }
