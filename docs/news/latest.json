@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T03:19:36Z",
+  "generatedAt": "2026-11-26T02:37:28Z",
   "sources": [
     {
       "name": "vnexpress",
@@ -22,6 +22,16 @@
     }
   ],
   "items": [
+    {
+      "id": "tuoitre-chi-bau-sap-be-chum-van-chay-mot-mach-42km-100261123124108633",
+      "title": "Chị bầu sắp 'bể chum' vẫn chạy một mạch 42km",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/chi-bau-sap-be-chum-van-chay-mot-mach-42km-100261123124108633.htm",
+      "publishedAt": "2026-11-25T11:12:00Z",
+      "summary": "Chị bầu Deirdre Keane vừa cán đích New York City Marathon khi mang thai ở tháng thứ tám. Đây là giải marathon thứ bảy cô hoàn thành trong năm 2026, cũng là chặng cuối để chinh phục cả 7 World Marathon Majors.",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/11/23/ba-bau-1-1795412199646591226230-2-0-734-1171-crop-17954122115081726106617.jpg",
+      "category": "race-news"
+    },
     {
       "id": "tuoitre-hanh-dong-dep-tren-duong-chay-marathon-nhung-cai-ket-van-dang-100261117145604481",
       "title": "Hành động đẹp trên đường chạy marathon nhưng cái kết… vẫn đắng",
@@ -261,16 +271,6 @@
       "summary": "Giải marathon ngày 27/12 tại thành phố Cảng bổ sung nội dung đồng đội 15 người ở hai cự ly 21km và 42km, tổng thưởng 72 triệu đồng.",
       "imageUrl": "https://i1-thethao.vnecdn.net/2026/10/30/601033010-n-1793299372-7285-1793299993.jpg?w=280&h=168&q=100&dpr=1&fit=crop&s=C_tiwDFwzgIK97u7YsS3Ww",
       "category": "race-news"
-    },
-    {
-      "id": "tuoitre-thuong-ta-quan-doi-tuoi-70-va-tinh-yeu-chay-bo-100261027221153059",
-      "title": "Thượng tá quân đội tuổi 70 và tình yêu chạy bộ",
-      "sourceName": "tuoitre",
-      "sourceUrl": "https://tuoitre.vn/thuong-ta-quan-doi-tuoi-70-va-tinh-yeu-chay-bo-100261027221153059.htm",
-      "publishedAt": "2026-10-28T00:49:00Z",
-      "summary": "Ở tuổi 70, ông Bùi Ngọc Hợp (Hà Nội) mới bắt đầu tình yêu chạy bộ. Vậy nhưng sau 5 tháng tập luyện chăm chỉ, ông đã hoàn thành cự ly 21km tại giải chạy địa hình vượt núi khốc liệt bậc nhất Việt Nam ở Sa Pa.",
-      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/10/27/bui-ngoc-hop-chay-21km-vmm3-17931137034091416255285-46-0-470-678-crop-1793113707675718390706.jpeg",
-      "category": "event-recap"
     },
     {
       "id": "vnrun-top-dong-ho-chay-bo-ngon-bo-re-danh-cho-runner-moi-bat-dau",
