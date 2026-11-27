@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T02:37:28Z",
+  "generatedAt": "2026-11-27T02:37:26Z",
   "sources": [
     {
       "name": "vnexpress",
@@ -22,6 +22,16 @@
     }
   ],
   "items": [
+    {
+      "id": "tuoitre-tien-thuong-khung-cho-vdv-pha-ky-luc-quoc-gia-tai-giai-marathon-tphcm-100261126125817813",
+      "title": "Tiền thưởng 'khủng' cho VĐV phá kỷ lục quốc gia tại Giải Marathon TP.HCM",
+      "sourceName": "tuoitre",
+      "sourceUrl": "https://tuoitre.vn/tien-thuong-khung-cho-vdv-pha-ky-luc-quoc-gia-tai-giai-marathon-tphcm-100261126125817813.htm",
+      "publishedAt": "2026-11-26T07:41:00Z",
+      "summary": "Ở mùa giải 2027, Giải Marathon TP.HCM Eximbank chứng kiến nhiều thay đổi lớn, trong đó tiền thưởng cho runner tăng đáng kể.",
+      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/11/26/edit-giai-chay-marathon-tphcm-eximbank-1-17956726249091990907060-0-0-1260-2016-crop-17956726343331395697268-115-141-1161-1815-crop-17956791594701319939524.jpeg",
+      "category": "event-recap"
+    },
     {
       "id": "tuoitre-chi-bau-sap-be-chum-van-chay-mot-mach-42km-100261123124108633",
       "title": "Chị bầu sắp 'bể chum' vẫn chạy một mạch 42km",
@@ -241,16 +251,6 @@
       "summary": "Hai pacer tại Chengdu Marathon 2026 bị hủy thành tích, cấm dự giải hai năm và tước tư cách dẫn tốc độ, sau khi tự ý thay giày, trang phục của nhà tài trợ ngay trong cuộc đua.",
       "imageUrl": "https://i1-thethao.vnecdn.net/2026/10/31/e9995-1793448460-6140-1793448469.jpg?w=280&h=168&q=100&dpr=1&fit=crop&s=vsiff4SPK7VdlJ_8RGvDAg",
       "category": "gear"
-    },
-    {
-      "id": "tuoitre-khoi-dong-giai-marathon-quoc-te-tphcm-techcombank-mua-9-100261031145759664",
-      "title": "Khởi động Giải Marathon Quốc tế TP.HCM Techcombank mùa 9",
-      "sourceName": "tuoitre",
-      "sourceUrl": "https://tuoitre.vn/khoi-dong-giai-marathon-quoc-te-tphcm-techcombank-mua-9-100261031145759664.htm",
-      "publishedAt": "2026-10-31T08:13:00Z",
-      "summary": "Giải Marathon Quốc tế TP.HCM Techcombank mùa thứ 9 sẽ diễn ra từ ngày 4 đến 6-12. Giải chạy kỳ vọng thu hút số lượng kỷ lục lên tới hơn 24.000 vận động viên trong và ngoài nước.",
-      "imageUrl": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2026/10/31/1dji202512070432520047dhoaivu-1793432616736833226435.jpg",
-      "category": "event-recap"
     },
     {
       "id": "vnexpress-galaxy-run-tro-lai-tp-hcm-lan-dau-co-cu-ly-21km-5138831",
